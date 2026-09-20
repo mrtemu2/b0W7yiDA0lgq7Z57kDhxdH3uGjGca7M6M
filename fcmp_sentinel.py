@@ -3,10 +3,13 @@
 fcmp_sentinel.py — watches Monero development for FCMP++ mainnet activation signals.
 
 Severity model:
-  0 = noise (logged, no alert)
-  1 = low  (ntfy only)
-  2 = high (ntfy + email)
+  0 = noise    (logged, no alert)
+  1 = low      (ntfy only)
+  2 = high     (ntfy + email)
   3 = CRITICAL (ntfy urgent + email + Pushover emergency, re-alerts until acknowledged)
+
+All credentials are read from the environment and injected by GitHub Actions.
+No secret is ever hardcoded in this file.
 """
 
 import hashlib
@@ -18,7 +21,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from xml.etree import ElementTree
 
@@ -47,10 +50,13 @@ RAW_FILES = {
     "version":   "https://raw.githubusercontent.com/monero-project/monero/master/src/version.cpp.in",
 }
 
-# ── GitHub API endpoints (milestones, PRs) ──────────────────────────
+# ── GitHub API endpoints (milestones, PRs, official site posts) ─────
 GITHUB_API = {
     "milestones": "https://api.github.com/repos/monero-project/monero/milestones",
     "open-prs":   "https://api.github.com/search/issues?q=repo:monero-project/monero+is:pr+is:open+fcmp++",
+    # latest commit touching the official blog source; catches official prose
+    # (e.g. the unlock-time deprecation post) before it reaches the Atom feed
+    "site-posts": "https://api.github.com/repos/monero-project/monero-site/commits?path=_posts&per_page=1",
 }
 
 # ── Keyword escalation ──────────────────────────────────────────────
@@ -58,36 +64,51 @@ GITHUB_API = {
 CRITICAL_KEYWORDS = [
     r"mainnet activation", r"fork height", r"activation height",
     r"hard fork.*height", r"hf\s*schedul", r"fork.*datetime",
+    r"network upgrade", r"v0\.(19|20)\.\d",
 ]
 HIGH_KEYWORDS = [
-    r"fcmp\+\+", r"fcmpp", r"v0\.19\.", r"v0\.20\.", r"full-chain membership",
-    r"stressnet", r"audit", r"hard fork", r"hardfork",
+    r"fcmp\+\+", r"fcmpp", r"full-chain membership",
+    r"stressnet", r"hard fork", r"hardfork",
+    # NOTE: "audit" and "v0.19./v0.20." were removed from HIGH to reduce noise.
+    # Add them back if you want maximum sensitivity:
+    # r"audit", r"v0\.19\.", r"v0\.20\.",
 ]
 
-# ── Healthchecks grace ──────────────────────────────────────────────
-HTTP_TIMEOUT = 25
-USER_AGENT  = "fcmp-sentinel/1.0 (+https://github.com/)"
+# ── Runtime tunables ────────────────────────────────────────────────
+HTTP_TIMEOUT        = 25
+USER_AGENT          = "fcmp-sentinel/1.0 (+https://github.com/)"
+FEED_IDS_KEPT       = 60      # per feed, how many entry IDs to remember
+ALERTED_KEEP_DAYS   = 45      # prune dedupe keys older than this
 
 # ═══════════════════════════════════════════════════════════════════
 #  Credentials — read from environment, injected by GitHub Actions.
-#  Everything below is a name; values live in repo Settings → Secrets.
+#  Everything below is a NAME; values live in repo Settings → Secrets.
+#  Each line below is a swap point if you ever rename a secret.
 # ═══════════════════════════════════════════════════════════════════
 
-NTFY_TOPIC     = os.environ.get("NTFY_TOPIC", "")        # ◄── from secret
-NTFY_URL = os.environ.get("NTFY_URL") or "https://ntfy.sh"   # ◄── handles empty string
-GH_TOKEN       = os.environ.get("GH_TOKEN", "")          # ◄── from secret
-HC_PING_URL    = os.environ.get("HC_PING_URL", "")       # ◄── from secret
-PUSHOVER_TOKEN = os.environ.get("PUSHOVER_TOKEN", "")    # ◄── from secret
-PUSHOVER_USER  = os.environ.get("PUSHOVER_USER", "")     # ◄── from secret
-SMTP_HOST      = os.environ.get("SMTP_HOST", "")         # ◄── from secret
-SMTP_PORT      = int(os.environ.get("SMTP_PORT", "465"))
-SMTP_USER      = os.environ.get("SMTP_USER", "")         # ◄── from secret
-SMTP_PASS      = os.environ.get("SMTP_PASS", "")         # ◄── from secret
-ALERT_EMAIL    = os.environ.get("ALERT_EMAIL", "")       # ◄── from secret
+NTFY_TOPIC     = os.environ.get("NTFY_TOPIC", "")                       # ◄── secret
+NTFY_URL       = os.environ.get("NTFY_URL") or "https://ntfy.sh"        # ◄── handles empty string
+GH_TOKEN       = os.environ.get("GH_TOKEN", "")                         # ◄── secret
+HC_PING_URL    = os.environ.get("HC_PING_URL", "")                      # ◄── secret
+PUSHOVER_TOKEN = os.environ.get("PUSHOVER_TOKEN", "")                   # ◄── secret
+PUSHOVER_USER  = os.environ.get("PUSHOVER_USER", "")                    # ◄── secret
+SMTP_HOST      = os.environ.get("SMTP_HOST", "")                        # ◄── secret
+SMTP_PORT      = int(os.environ.get("SMTP_PORT") or "465")
+SMTP_USER      = os.environ.get("SMTP_USER", "")                        # ◄── secret
+SMTP_PASS      = os.environ.get("SMTP_PASS", "")                        # ◄── secret
+ALERT_EMAIL    = os.environ.get("ALERT_EMAIL", "")                      # ◄── secret
+
+# Set the SEND_TEST_ALERT secret to "1" to fire one test alert per run.
+# Set it back to empty/delete it when done — no code edits required.
+SEND_TEST_ALERT = os.environ.get("SEND_TEST_ALERT", "").strip().lower() in ("1", "true", "yes", "on")
 
 # ═══════════════════════════════════════════════════════════════════
 #  HTTP helpers
 # ═══════════════════════════════════════════════════════════════════
+
+def log(msg):
+    print(f"[{datetime.now(timezone.utc):%Y-%m-%d %H:%M:%S}Z] {msg}", flush=True)
+
 
 def http_get(url, try_json=False, attempts=3):
     headers = {"User-Agent": USER_AGENT}
@@ -109,11 +130,10 @@ def http_get(url, try_json=False, attempts=3):
             delay *= 2
     return None
 
-def log(msg):
-    print(f"[{datetime.now(timezone.utc):%Y-%m-%d %H:%M:%S}Z] {msg}", flush=True)
 
 def sha256(text):
     return hashlib.sha256(text.encode("utf-8", errors="replace")).hexdigest()
+
 
 # ═══════════════════════════════════════════════════════════════════
 #  State
@@ -127,9 +147,28 @@ def load_state():
             pass
     return {}
 
+
 def save_state(state):
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
     STATE_FILE.write_text(json.dumps(state, indent=2, sort_keys=True))
+
+
+def prune_state(state, days=ALERTED_KEEP_DAYS):
+    """Keep state.json from growing without bound."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    alerted = state.get("alerted", {})
+    keep = {}
+    for k, v in alerted.items():
+        try:
+            if datetime.fromisoformat(v) >= cutoff:
+                keep[k] = v
+        except Exception:
+            keep[k] = v          # unparseable -> keep rather than lose dedupe
+    state["alerted"] = keep
+
+    for name, ids in state.get("feeds", {}).items():
+        state["feeds"][name] = ids[:FEED_IDS_KEPT]
+
 
 # ═══════════════════════════════════════════════════════════════════
 #  Alerts
@@ -137,19 +176,21 @@ def save_state(state):
 
 def notify_ntfy(title, message, severity):
     if not NTFY_TOPIC:
+        log("  ! ntfy skipped: NTFY_TOPIC is empty")
         return
     prio = {0: "2", 1: "3", 2: "4", 3: "5"}[severity]
     tags = {0: "eyes", 1: "mag", 2: "warning", 3: "rotating_light"}[severity]
     try:
         req = urllib.request.Request(
-            f"{NTFY_URL}/{NTFY_TOPIC}", data=message.encode("utf-8"),
+            f"{NTFY_URL.rstrip('/')}/{NTFY_TOPIC}", data=message.encode("utf-8"),
             headers={"Title": title.encode("ascii", "ignore").decode() or "FCMP+ Sentinel",
                      "Priority": prio, "Tags": tags},
             method="POST")
         urllib.request.urlopen(req, timeout=HTTP_TIMEOUT)
-        log("  -> ntfy sent")
+        log(f"  -> ntfy sent ({NTFY_URL.rstrip('/')}/{NTFY_TOPIC})")
     except Exception as e:
         log(f"  ! ntfy failed: {e}")
+
 
 def notify_email(title, message, severity):
     if severity < 2 or not (SMTP_HOST and SMTP_USER and SMTP_PASS and ALERT_EMAIL):
@@ -165,6 +206,7 @@ def notify_email(title, message, severity):
         log("  ! apprise not installed; skipping email")
     except Exception as e:
         log(f"  ! email failed: {e}")
+
 
 def notify_pushover(title, message, severity):
     if severity < 3 or not (PUSHOVER_TOKEN and PUSHOVER_USER):
@@ -185,6 +227,7 @@ def notify_pushover(title, message, severity):
     except Exception as e:
         log(f"  ! pushover failed: {e}")
 
+
 def alert(title, message, severity, source_key, state):
     """Fire all channels and record the alert in state for dedupe."""
     if severity >= 1:
@@ -198,8 +241,10 @@ def alert(title, message, severity, source_key, state):
         datetime.now(timezone.utc).isoformat()
     return True
 
+
 def already_alerted(state, key):
     return key in state.get("alerted", {})
+
 
 # ═══════════════════════════════════════════════════════════════════
 #  Severity scoring
@@ -213,6 +258,7 @@ def score_text(text, base=0):
     if any(re.search(k, low) for k in CRITICAL_KEYWORDS):
         s = max(s, 3)
     return s
+
 
 # ═══════════════════════════════════════════════════════════════════
 #  Checks
@@ -258,18 +304,18 @@ def check_feeds(state):
             log(f"  {name}: baseline ({len(entries)} entries recorded)")
         else:
             for e in new:
-                blob = f"{e['title']}"
-                sev = score_text(blob, base=1)
+                sev = score_text(e["title"], base=1)
                 key = f"feed:{name}:{e['id']}"
                 if sev >= 1 and not already_alerted(state, key):
                     alert(f"[{name}] {e['title']}",
                           f"{e['title']}\n{e['link']}\n\nSource feed: {name}",
                           sev, key, state)
 
-        seen[name] = [e["id"] for e in entries[:60]]
+        seen[name] = [e["id"] for e in entries[:FEED_IDS_KEPT]]
+
 
 def check_raw_files(state):
-    """Hash-diff raw source files. hardforks.cpp change = CRITICAL."""
+    """Line-diff raw source files. hardforks.cpp change = CRITICAL."""
     files = state.setdefault("files", {})
     for name, url in RAW_FILES.items():
         body = http_get(url)
@@ -299,13 +345,12 @@ def check_raw_files(state):
         if name == "hardforks":
             # mainnet_hard_forks rows look like:  { 16, 3456789, 0, 1700000000 },
             rows = [l for l in added if re.match(r"^\{\s*\d+\s*,", l)]
-            sev = 3
             detail = ("NEW HARD FORK TABLE ROW:\n" + "\n".join(rows)) if rows \
                      else "hardforks.cpp changed (no new table row parsed)"
-            alert("🔴 CRITICAL: Monero hardforks.cpp changed",
+            alert("CRITICAL: Monero hardforks.cpp changed",
                   f"{detail}\n\nFile: {url}\n\nDiff preview:\n" +
                   "\n".join(added[:25]),
-                  sev, key, state)
+                  3, key, state)
 
         elif name == "version":
             ver = [l for l in added if re.search(r"MONERO_VERSION", l, re.I)]
@@ -314,10 +359,12 @@ def check_raw_files(state):
                   f"{' '.join(ver) or 'version.cpp.in changed'}\n\n{url}\n\n" +
                   "\n".join(added[:25]), sev, key, state)
 
+
 def check_github_api(state):
-    """Milestone and PR counts."""
+    """Milestones, open FCMP++ PR count, and official-site blog commits."""
     api = state.setdefault("api", {})
 
+    # ── Milestones ──────────────────────────────────────────────────
     ms = http_get(GITHUB_API["milestones"], try_json=True)
     if isinstance(ms, list):
         summary = {m.get("title", "?"): m.get("state") for m in ms}
@@ -329,6 +376,7 @@ def check_github_api(state):
                   2, key, state)
         api["milestones"] = summary
 
+    # ── Open FCMP++ PR count ────────────────────────────────────────
     prs = http_get(GITHUB_API["open-prs"], try_json=True)
     if isinstance(prs, dict) and "total_count" in prs:
         total = prs["total_count"]
@@ -336,10 +384,29 @@ def check_github_api(state):
         if prev is not None and total != prev:
             key = f"api:prs:{total}"
             sev = 2 if abs(total - prev) >= 2 else 1
-            alert(f"FCMP++ open PR count changed: {prev} → {total}",
-                  f"Open FCMP++ PRs: {prev} → {total}\n{GITHUB_API['open-prs']}",
+            alert(f"FCMP++ open PR count changed: {prev} -> {total}",
+                  f"Open FCMP++ PRs: {prev} -> {total}\n{GITHUB_API['open-prs']}",
                   sev, key, state)
         api["fcmp_prs"] = total
+
+    # ── Official website blog source (catches prose before the feed) ─
+    posts = http_get(GITHUB_API["site-posts"], try_json=True)
+    if isinstance(posts, list) and posts:
+        latest = posts[0]
+        sha = latest.get("sha", "")
+        msg = (latest.get("commit", {}).get("message", "") or "").splitlines()
+        msg = msg[0] if msg else ""
+        prev = api.get("site_posts_sha")
+        api["site_posts_sha"] = sha
+        if prev and prev != sha:
+            sev = score_text(msg, base=2)
+            key = f"api:site-posts:{sha}"
+            if not already_alerted(state, key):
+                alert("Monero website _posts changed",
+                      f"Latest blog-source commit:\n{msg}\n\n"
+                      "https://github.com/monero-project/monero-site/commits/master/_posts",
+                      sev, key, state)
+
 
 # ═══════════════════════════════════════════════════════════════════
 #  Main
@@ -353,31 +420,42 @@ def ping_hc(path=""):
     except Exception:
         pass
 
+
 def main():
-    log("═" * 60)
+    log("=" * 60)
     log("FCMP+ Sentinel run starting")
     ping_hc("/start")
 
     state = load_state()
     try:
-        log("→ checking feeds")
+        log("-> checking feeds")
         check_feeds(state)
-        log("→ checking raw source files")
+        log("-> checking raw source files")
         check_raw_files(state)
-        log("→ checking GitHub API")
+        log("-> checking GitHub API")
         check_github_api(state)
+
         state["last_run"] = datetime.now(timezone.utc).isoformat()
         state["run_count"] = state.get("run_count", 0) + 1
+
+        if SEND_TEST_ALERT:
+            log("SEND_TEST_ALERT is set -> firing test alert")
+            alert("TEST: alert path check",
+                  "If you are reading this, your alert pipeline works.",
+                  3, f"test:{int(time.time())}", state)
+
+        prune_state(state)
         save_state(state)
-        log(f"✓ run complete (#{state['run_count']})")
-        alert("TEST: alert path check", "Pipeline works.", 3, f"test:{int(time.time())}", state)
+        log(f"OK run complete (#{state['run_count']})")
         ping_hc("")             # success ping
         return 0
     except Exception as e:
-        log(f"✗ FATAL: {e}")
-        import traceback; traceback.print_exc()
+        log(f"FATAL: {e}")
+        import traceback
+        traceback.print_exc()
         ping_hc("/fail")
         return 1
+
 
 if __name__ == "__main__":
     sys.exit(main())
