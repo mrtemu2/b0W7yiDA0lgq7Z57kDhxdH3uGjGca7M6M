@@ -2,10 +2,10 @@ name: FCMP+ Sentinel
 
 on:
   schedule:
-    # NOTE: offset from :00/:15/:30/:45 — top-of-hour slots are congested
-    # and GitHub delays or drops runs during high load.
+    # Offset from :00/:15/:30/:45 — top-of-hour slots are congested and
+    # GitHub delays or drops scheduled runs during high load.
     - cron: '7,22,37,52 * * * *'
-  workflow_dispatch:        # lets you run it manually with a button click
+  workflow_dispatch:        # manual "Run workflow" button
 
 permissions:
   contents: write           # needed to commit state.json back
@@ -20,11 +20,16 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      # fetch-depth: 0 gives full history so fetch/merge works (a shallow
+      # clone cannot merge cleanly). checkout@v5 / setup-python@v6 are the
+      # Node 24 builds, which removes the Node 20 deprecation warnings.
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
@@ -34,27 +39,46 @@ jobs:
       - name: Run sentinel
         env:
           # ── every credential is wired here ───────────────────────
-          NTFY_TOPIC:     ${{ secrets.NTFY_TOPIC }}
-          NTFY_URL:       ${{ secrets.NTFY_URL }}
-          GH_TOKEN:       ${{ secrets.GH_TOKEN }}
-          HC_PING_URL:    ${{ secrets.HC_PING_URL }}
-          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
-          PUSHOVER_USER:  ${{ secrets.PUSHOVER_USER }}
-          SMTP_HOST:      ${{ secrets.SMTP_HOST }}
-          SMTP_PORT:      ${{ secrets.SMTP_PORT }}
-          SMTP_USER:      ${{ secrets.SMTP_USER }}
-          SMTP_PASS:      ${{ secrets.SMTP_PASS }}
-          ALERT_EMAIL:    ${{ secrets.ALERT_EMAIL }}
+          NTFY_TOPIC:      ${{ secrets.NTFY_TOPIC }}
+          NTFY_URL:        ${{ secrets.NTFY_URL }}
+          GH_TOKEN:        ${{ secrets.GH_TOKEN }}
+          HC_PING_URL:     ${{ secrets.HC_PING_URL }}
+          PUSHOVER_TOKEN:  ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER:   ${{ secrets.PUSHOVER_USER }}
+          SMTP_HOST:       ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:       ${{ secrets.SMTP_PORT }}
+          SMTP_USER:       ${{ secrets.SMTP_USER }}
+          SMTP_PASS:       ${{ secrets.SMTP_PASS }}
+          ALERT_EMAIL:     ${{ secrets.ALERT_EMAIL }}
+          SEND_TEST_ALERT: ${{ secrets.SEND_TEST_ALERT }}
         run: python fcmp_sentinel.py
 
-      - name: Commit state
+      # Retries on the state push so that two runs racing each other
+      # (or a web-UI edit landing mid-run) self-heal instead of failing.
+      # Everything that can fail sits inside an `if ...; then` chain, so
+      # bash -e does not abort the step on the first failed attempt.
+      - name: Commit and push state
         run: |
           git config user.name  "fcmp-sentinel"
           git config user.email "sentinel@users.noreply.github.com"
+
           git add state/state.json
           if git diff --staged --quiet; then
             echo "no state change"
-          else
-            git commit -m "state: $(date -u +%FT%TZ) [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "state: $(date -u +%FT%TZ) [skip ci]"
+
+          for i in 1 2 3 4 5; do
+            echo "--- push attempt $i ---"
+            if git fetch origin main \
+               && git merge --no-edit -X ours origin/main \
+               && git push origin main; then
+              echo "state pushed on attempt $i"
+              exit 0
+            fi
+            sleep $((i * 5))
+          done
+
+          echo "could not push state after 5 attempts"
+          exit 1
