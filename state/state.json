@@ -124,6 +124,8 @@
     "feed:mo-dev:https://monero.observer/monero-dev-activity-report-week-9-2022/": "2026-09-20T18:30:39.940546+00:00",
     "feed:mo-dev:https://monero.observer/monero-dev-activity-report-week-9-2023/": "2026-09-20T18:30:38.553073+00:00",
     "feed:mo-dev:https://monero.observer/monero-dev-activity-report-week-9-2024/": "2026-09-20T18:30:37.618053+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/23448f1c7ff5a0d004b8fd9c7dd88dce8e168c08": "2026-09-20T20:55:33.991464+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/a7aed9b94c88df4796e52a8b2c260ca45d60500b": "2026-09-20T20:55:34.069415+00:00",
     "test:1789929453": "2026-09-20T18:37:37.523526+00:00",
     "test:1789929865": "2026-09-20T18:44:27.053541+00:00",
     "test:1789930044": "2026-09-20T18:47:26.332799+00:00"
@@ -379,6 +381,8 @@
       "https://monero.observer/monero-research-lab-meeting-9-september-2026/"
     ],
     "monero-commits": [
+      "tag:github.com,2008:Grit::Commit/23448f1c7ff5a0d004b8fd9c7dd88dce8e168c08",
+      "tag:github.com,2008:Grit::Commit/a7aed9b94c88df4796e52a8b2c260ca45d60500b",
       "tag:github.com,2008:Grit::Commit/43c31c2aacdd789404d16cfda0c5456e0a090b86",
       "tag:github.com,2008:Grit::Commit/19dc96b7a81fac5a13fea3903368d99afc8b6896",
       "tag:github.com,2008:Grit::Commit/71e950723ca929c435b01c64244e807dbabce49e",
@@ -396,9 +400,7 @@
       "tag:github.com,2008:Grit::Commit/4fc46c0d4a6e0c262e74b6fbd4fa24075a774182",
       "tag:github.com,2008:Grit::Commit/ca9348e8838632e5dd9de8056b80d8817b219f5e",
       "tag:github.com,2008:Grit::Commit/a5ab8ef93e2389333610f9e604028b17bc41f811",
-      "tag:github.com,2008:Grit::Commit/77e778a351c228c084d6ee7ec81059b0a11ecd12",
-      "tag:github.com,2008:Grit::Commit/991f8594e3d8b6e718976dd3ab12f2e1626a1a17",
-      "tag:github.com,2008:Grit::Commit/6b5368facfc56614202c04d8e83c1657165dc79c"
+      "tag:github.com,2008:Grit::Commit/77e778a351c228c084d6ee7ec81059b0a11ecd12"
     ],
     "monero-observer": [
       "https://monero.observer/sgp-2/",
@@ -630,6 +632,6 @@
       ]
     }
   },
-  "last_run": "2026-09-20T18:49:29.231560+00:00",
-  "run_count": 7
+  "last_run": "2026-09-20T20:55:40.730065+00:00",
+  "run_count": 8
 }
