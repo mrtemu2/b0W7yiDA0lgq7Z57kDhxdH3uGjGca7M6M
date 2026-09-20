@@ -370,6 +370,7 @@ def main():
         state["run_count"] = state.get("run_count", 0) + 1
         save_state(state)
         log(f"✓ run complete (#{state['run_count']})")
+        alert("TEST: alert path check", "Pipeline works.", 3, f"test:{int(time.time())}", state)
         ping_hc("")             # success ping
         return 0
     except Exception as e:
