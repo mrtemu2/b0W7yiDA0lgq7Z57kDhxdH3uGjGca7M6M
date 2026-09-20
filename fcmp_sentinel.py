@@ -55,7 +55,7 @@ GITHUB_API = {
     "milestones": "https://api.github.com/repos/monero-project/monero/milestones",
     "open-prs":   "https://api.github.com/search/issues?q=repo:monero-project/monero+is:pr+is:open+fcmp++",
     # latest commit touching the official blog source; catches official prose
-    # (e.g. the unlock-time deprecation post) before it reaches the Atom feed
+    # (e.g. an unlock-time deprecation post) before it reaches the Atom feed
     "site-posts": "https://api.github.com/repos/monero-project/monero-site/commits?path=_posts&per_page=1",
 }
 
@@ -75,10 +75,46 @@ HIGH_KEYWORDS = [
 ]
 
 # ── Runtime tunables ────────────────────────────────────────────────
-HTTP_TIMEOUT        = 25
-USER_AGENT          = "fcmp-sentinel/1.0 (+https://github.com/)"
-FEED_IDS_KEPT       = 60      # per feed, how many entry IDs to remember
-ALERTED_KEEP_DAYS   = 45      # prune dedupe keys older than this
+HTTP_TIMEOUT         = 25
+USER_AGENT           = "fcmp-sentinel/1.0 (+https://github.com/)"
+FEED_IDS_KEPT        = 400    # store the WHOLE feed, not just the top 60.
+                              # mo-dev alone returns 184 entries; truncating the
+                              # list made the tail look "new" on the next run
+                              # and produced a 124-alert flood on 2026-09-20.
+RECENT_WINDOW        = 25     # feeds are newest-first, so only entries this
+                              # close to the top can be genuine news. Anything
+                              # unseen below this is a stale bookkeeping artefact.
+MAX_ALERTS_PER_FEED  = 8      # hard ceiling per feed per run, whatever happens.
+ALERTED_KEEP_DAYS    = 45     # prune dedupe keys older than this.
+
+# ═══════════════════════════════════════════════════════════════════
+#  HTTP — one opener used everywhere.
+#
+#  urllib refuses to replay a POST on a 307/308 redirect (it raises
+#  HTTPError instead) — a known CPython limitation. ntfy.sh sits behind a
+#  proxy that answers non-GET requests with exactly that, so without this
+#  handler every ntfy alert silently dies with "HTTP Error 307".
+# ═══════════════════════════════════════════════════════════════════
+
+class PostRedirectHandler(urllib.request.HTTPRedirectHandler):
+    """Follow 307/308 redirects for POST by re-sending method + body."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if req.get_method() == "POST" and code in (307, 308):
+            carried = {k: v for k, v in req.header_items()
+                       if k.lower() != "content-length"}
+            return urllib.request.Request(
+                newurl,
+                data=req.data,
+                headers=carried,
+                origin_req_host=req.origin_req_host,
+                unverifiable=True,
+                method="POST",
+            )
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
+OPENER = urllib.request.build_opener(PostRedirectHandler)
 
 # ═══════════════════════════════════════════════════════════════════
 #  Credentials — read from environment, injected by GitHub Actions.
@@ -99,11 +135,11 @@ SMTP_PASS      = os.environ.get("SMTP_PASS", "")                        # ◄─
 ALERT_EMAIL    = os.environ.get("ALERT_EMAIL", "")                      # ◄── secret
 
 # Set the SEND_TEST_ALERT secret to "1" to fire one test alert per run.
-# Set it back to empty/delete it when done — no code edits required.
+# Set it back to blank / delete it when done — no code edits required.
 SEND_TEST_ALERT = os.environ.get("SEND_TEST_ALERT", "").strip().lower() in ("1", "true", "yes", "on")
 
 # ═══════════════════════════════════════════════════════════════════
-#  HTTP helpers
+#  Helpers
 # ═══════════════════════════════════════════════════════════════════
 
 def log(msg):
@@ -119,7 +155,7 @@ def http_get(url, try_json=False, attempts=3):
     for i in range(attempts):
         try:
             req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as r:
+            with OPENER.open(req, timeout=HTTP_TIMEOUT) as r:
                 body = r.read().decode("utf-8", errors="replace")
                 return json.loads(body) if try_json else body
         except Exception as e:
@@ -156,9 +192,8 @@ def save_state(state):
 def prune_state(state, days=ALERTED_KEEP_DAYS):
     """Keep state.json from growing without bound."""
     cutoff = datetime.now(timezone.utc) - timedelta(days=days)
-    alerted = state.get("alerted", {})
     keep = {}
-    for k, v in alerted.items():
+    for k, v in state.get("alerted", {}).items():
         try:
             if datetime.fromisoformat(v) >= cutoff:
                 keep[k] = v
@@ -178,18 +213,45 @@ def notify_ntfy(title, message, severity):
     if not NTFY_TOPIC:
         log("  ! ntfy skipped: NTFY_TOPIC is empty")
         return
-    prio = {0: "2", 1: "3", 2: "4", 3: "5"}[severity]
-    tags = {0: "eyes", 1: "mag", 2: "warning", 3: "rotating_light"}[severity]
+
+    prio = {0: "2", 1: "3", 2: "4", 3: "5"}[severity]      # ntfy priority 1-5
+    tag  = {0: "eyes", 1: "mag", 2: "warning", 3: "rotating_light"}[severity]
+    clean_title = title.encode("ascii", "ignore").decode() or "FCMP+ Sentinel"
+    base = NTFY_URL.rstrip("/")
+
+    # ── Attempt 1: classic path publish  POST /<topic> ──────────────
     try:
         req = urllib.request.Request(
-            f"{NTFY_URL.rstrip('/')}/{NTFY_TOPIC}", data=message.encode("utf-8"),
-            headers={"Title": title.encode("ascii", "ignore").decode() or "FCMP+ Sentinel",
-                     "Priority": prio, "Tags": tags},
+            f"{base}/{NTFY_TOPIC}",
+            data=message.encode("utf-8"),
+            headers={"Title": clean_title, "Priority": prio, "Tags": tag},
             method="POST")
-        urllib.request.urlopen(req, timeout=HTTP_TIMEOUT)
-        log(f"  -> ntfy sent ({NTFY_URL.rstrip('/')}/{NTFY_TOPIC})")
+        OPENER.open(req, timeout=HTTP_TIMEOUT)
+        log(f"  -> ntfy sent via {base}/<topic>")
+        return
     except Exception as e:
-        log(f"  ! ntfy failed: {e}")
+        log(f"  ! ntfy path publish failed ({e}); trying JSON endpoint")
+
+    # ── Attempt 2: JSON publish  POST /  with topic in body ─────────
+    #    ntfy's own docs recommend this form: send to the host root and
+    #    put the topic name in the JSON, not in the URL path.
+    try:
+        payload = json.dumps({
+            "topic":    NTFY_TOPIC,
+            "title":    clean_title,
+            "message":  message,
+            "priority": severity + 2,
+            "tags":     [tag],
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            f"{base}/", data=payload,
+            headers={"Content-Type": "application/json"},
+            method="POST")
+        OPENER.open(req, timeout=HTTP_TIMEOUT)
+        log(f"  -> ntfy sent via JSON endpoint {base}/")
+        return
+    except Exception as e:
+        log(f"  ! ntfy failed on both methods: {e}")
 
 
 def notify_email(title, message, severity):
@@ -220,7 +282,7 @@ def notify_pushover(title, message, severity):
             "expire": "3600",         # give up after 1 hour
             "sound": "siren",
         }).encode()
-        urllib.request.urlopen(
+        OPENER.open(
             urllib.request.Request("https://api.pushover.net/1/messages.json", data=data),
             timeout=HTTP_TIMEOUT)
         log("  -> pushover EMERGENCY sent")
@@ -298,18 +360,33 @@ def check_feeds(state):
             continue
 
         seen_ids = set(seen.get(name, []))
-        new = [e for e in entries if e["id"] and e["id"] not in seen_ids]
+        indexed_new = [(i, e) for i, e in enumerate(entries)
+                       if e["id"] and e["id"] not in seen_ids]
 
         if not seen_ids:
             log(f"  {name}: baseline ({len(entries)} entries recorded)")
         else:
-            for e in new:
+            # Feeds are newest-first. An unseen entry buried deep in the list
+            # is a bookkeeping artefact (e.g. a baseline that only stored the
+            # top 60 of 184 entries), not news. Only the top window can be real.
+            recent  = [(i, e) for i, e in indexed_new if i < RECENT_WINDOW]
+            skipped = len(indexed_new) - len(recent)
+            if skipped:
+                log(f"  {name}: {len(indexed_new)} unseen IDs, {skipped} outside the "
+                    f"{RECENT_WINDOW}-item window -> ignored as stale")
+
+            fired = 0
+            for i, e in recent:
+                if fired >= MAX_ALERTS_PER_FEED:
+                    log(f"  {name}: alert cap of {MAX_ALERTS_PER_FEED} reached for this run")
+                    break
                 sev = score_text(e["title"], base=1)
                 key = f"feed:{name}:{e['id']}"
                 if sev >= 1 and not already_alerted(state, key):
                     alert(f"[{name}] {e['title']}",
                           f"{e['title']}\n{e['link']}\n\nSource feed: {name}",
                           sev, key, state)
+                    fired += 1
 
         seen[name] = [e["id"] for e in entries[:FEED_IDS_KEPT]]
 
@@ -416,7 +493,7 @@ def ping_hc(path=""):
     if not HC_PING_URL:
         return
     try:
-        urllib.request.urlopen(HC_PING_URL.rstrip("/") + path, timeout=15)
+        OPENER.open(HC_PING_URL.rstrip("/") + path, timeout=15)
     except Exception:
         pass
 
