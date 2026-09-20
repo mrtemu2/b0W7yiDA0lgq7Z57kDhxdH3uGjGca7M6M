@@ -74,7 +74,7 @@ USER_AGENT  = "fcmp-sentinel/1.0 (+https://github.com/)"
 # ═══════════════════════════════════════════════════════════════════
 
 NTFY_TOPIC     = os.environ.get("NTFY_TOPIC", "")        # ◄── from secret
-NTFY_URL       = os.environ.get("NTFY_URL", "https://ntfy.sh")
+NTFY_URL = os.environ.get("NTFY_URL") or "https://ntfy.sh"   # ◄── handles empty string
 GH_TOKEN       = os.environ.get("GH_TOKEN", "")          # ◄── from secret
 HC_PING_URL    = os.environ.get("HC_PING_URL", "")       # ◄── from secret
 PUSHOVER_TOKEN = os.environ.get("PUSHOVER_TOKEN", "")    # ◄── from secret
