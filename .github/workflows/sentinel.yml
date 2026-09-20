@@ -1,0 +1,60 @@
+name: FCMP+ Sentinel
+
+on:
+  schedule:
+    # NOTE: offset from :00/:15/:30/:45 — top-of-hour slots are congested
+    # and GitHub delays or drops runs during high load.
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:        # lets you run it manually with a button click
+
+permissions:
+  contents: write           # needed to commit state.json back
+
+concurrency:
+  group: sentinel
+  cancel-in-progress: false
+
+jobs:
+  sentinel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install email dependency
+        run: pip install --quiet apprise
+
+      - name: Run sentinel
+        env:
+          # ── every credential is wired here ───────────────────────
+          NTFY_TOPIC:     ${{ secrets.NTFY_TOPIC }}
+          NTFY_URL:       ${{ secrets.NTFY_URL }}
+          GH_TOKEN:       ${{ secrets.GH_TOKEN }}
+          HC_PING_URL:    ${{ secrets.HC_PING_URL }}
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER:  ${{ secrets.PUSHOVER_USER }}
+          SMTP_HOST:      ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:      ${{ secrets.SMTP_PORT }}
+          SMTP_USER:      ${{ secrets.SMTP_USER }}
+          SMTP_PASS:      ${{ secrets.SMTP_PASS }}
+          ALERT_EMAIL:    ${{ secrets.ALERT_EMAIL }}
+        run: python fcmp_sentinel.py
+
+      - name: Commit state
+        run: |
+          git config user.name  "fcmp-sentinel"
+          git config user.email "sentinel@users.noreply.github.com"
+          git add state/state.json
+          if git diff --staged --quiet; then
+            echo "no state change"
+          else
+            git commit -m "state: $(date -u +%FT%TZ) [skip ci]"
+            git push
+          fi
