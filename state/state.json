@@ -126,12 +126,17 @@
     "feed:mo-dev:https://monero.observer/monero-dev-activity-report-week-9-2023/": "2026-09-20T18:30:38.553073+00:00",
     "feed:mo-dev:https://monero.observer/monero-dev-activity-report-week-9-2024/": "2026-09-20T18:30:37.618053+00:00",
     "feed:mo-stories:https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/": "2026-09-20T23:10:54.104188+00:00",
+    "feed:mo-stories:https://monero.observer/magic-grants-releases-skylight-wallet-v2.0.0/": "2026-09-22T00:56:00.880754+00:00",
     "feed:mo-stories:https://monero.observer/monero-dev-activity-report-week-38-2026/": "2026-09-20T23:10:54.076952+00:00",
+    "feed:mo-stories:https://monero.observer/monero-tech-meeting-28-september-2026/": "2026-09-22T00:56:01.053962+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/23448f1c7ff5a0d004b8fd9c7dd88dce8e168c08": "2026-09-20T20:55:33.991464+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/a7aed9b94c88df4796e52a8b2c260ca45d60500b": "2026-09-20T20:55:34.069415+00:00",
     "feed:monero-observer:https://monero.observer/alkimiadev/": "2026-09-20T23:10:53.158379+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/": "2026-09-20T23:10:53.130536+00:00",
+    "feed:monero-observer:https://monero.observer/external-gain-1174/": "2026-09-22T00:55:59.464886+00:00",
+    "feed:monero-observer:https://monero.observer/magic-grants-releases-skylight-wallet-v2.0.0/": "2026-09-22T00:55:59.301313+00:00",
     "feed:monero-observer:https://monero.observer/monero-dev-activity-report-week-38-2026/": "2026-09-20T23:10:53.103308+00:00",
+    "feed:monero-observer:https://monero.observer/monero-tech-meeting-28-september-2026/": "2026-09-22T00:55:59.636411+00:00",
     "feed:monero-observer:https://monero.observer/moneromatteo-2/": "2026-09-20T23:10:53.185201+00:00",
     "test:1789929453": "2026-09-20T18:37:37.523526+00:00",
     "test:1789929865": "2026-09-20T18:44:27.053541+00:00",
@@ -362,6 +367,8 @@
       "https://monero.observer/monero-dev-activity-report-week-9-2022/"
     ],
     "mo-stories": [
+      "https://monero.observer/magic-grants-releases-skylight-wallet-v2.0.0/",
+      "https://monero.observer/monero-tech-meeting-28-september-2026/",
       "https://monero.observer/monero-dev-activity-report-week-38-2026/",
       "https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/",
       "https://monero.observer/jeffro256-posts-august-2026-monero-dev-update/",
@@ -384,9 +391,7 @@
       "https://monero.observer/monero-dev-activity-report-week-36-2026/",
       "https://monero.observer/d4ndox-releases-monero-named-pipes-v0.2.0/",
       "https://monero.observer/iml1s-releases-xmrig-multi-v2.3.0/",
-      "https://monero.observer/monero-community-workgroup-meeting-19-september-2026/",
-      "https://monero.observer/cake-wallet-monero.com-v6.4.4-released-monero-sync-improvements/",
-      "https://monero.observer/xmrpod-v0.1.18-released/"
+      "https://monero.observer/monero-community-workgroup-meeting-19-september-2026/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/23448f1c7ff5a0d004b8fd9c7dd88dce8e168c08",
@@ -411,6 +416,9 @@
       "tag:github.com,2008:Grit::Commit/77e778a351c228c084d6ee7ec81059b0a11ecd12"
     ],
     "monero-observer": [
+      "https://monero.observer/magic-grants-releases-skylight-wallet-v2.0.0/",
+      "https://monero.observer/external-gain-1174/",
+      "https://monero.observer/monero-tech-meeting-28-september-2026/",
       "https://monero.observer/monero-dev-activity-report-week-38-2026/",
       "https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/",
       "https://monero.observer/alkimiadev/",
@@ -457,10 +465,7 @@
       "https://monero.observer/iml1s-releases-xmrig-multi-v2.3.0/",
       "https://monero.observer/monero-community-workgroup-meeting-19-september-2026/",
       "https://monero.observer/flashift/",
-      "https://monero.observer/4rkal-17/",
-      "https://monero.observer/cake-wallet-monero.com-v6.4.4-released-monero-sync-improvements/",
-      "https://monero.observer/xmrpod-v0.1.18-released/",
-      "https://monero.observer/rucknium-24/"
+      "https://monero.observer/4rkal-17/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.1",
@@ -640,6 +645,6 @@
       ]
     }
   },
-  "last_run": "2026-09-21T22:19:51.597282+00:00",
-  "run_count": 14
+  "last_run": "2026-09-22T00:56:06.632924+00:00",
+  "run_count": 15
 }
