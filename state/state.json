@@ -135,13 +135,18 @@
     "feed:mo-stories:https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/": "2026-09-23T00:43:42.525188+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/0bdc219eef7dc3dfced6df137cee2fbdbe2ecda2": "2026-09-23T10:06:12.487550+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/23448f1c7ff5a0d004b8fd9c7dd88dce8e168c08": "2026-09-20T20:55:33.991464+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/3c7a003b6879681f53b402b80fc9e3f8ccbda8fb": "2026-09-23T14:59:13.788524+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/4979a1c57e2823753aa9bb046ece98b831569108": "2026-09-23T10:06:15.133108+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/4ccce75d46067642242e47d42d9ad37785f47f7d": "2026-09-23T14:59:13.566072+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/630e22a278b3ae3ea7df35b9a268a9e054aa1994": "2026-09-23T10:06:12.331382+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/834923958d975ce2d7e824fc22acb96533714cc5": "2026-09-23T10:06:12.256122+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/9260854ac0ae2bf82667d858b8af51db159ce351": "2026-09-23T10:06:12.651613+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/a7aed9b94c88df4796e52a8b2c260ca45d60500b": "2026-09-20T20:55:34.069415+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/ad31a78245f15b4884e1cab049a10ac0d695e00b": "2026-09-23T10:06:12.569221+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/ae6962bb293b378bba0facc2fd863f9ba5a4f64f": "2026-09-23T14:59:13.306332+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/b7d4144ecc4508e0e8258180f693f584c47e911b": "2026-09-23T14:59:14.006751+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/ba244f3482e91c3ae3620747fe1ac21a621d7865": "2026-09-23T10:06:15.044527+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/d02c7c57a7b9e9ce0eead684a48345c6f48fea81": "2026-09-23T14:59:12.975014+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/e3774ef0a0d633fe40bff991aef3df04659bd7a5": "2026-09-23T10:06:12.406196+00:00",
     "feed:monero-observer:https://monero.observer/alkimiadev/": "2026-09-20T23:10:53.158379+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/": "2026-09-20T23:10:53.130536+00:00",
@@ -410,6 +415,11 @@
       "https://monero.observer/d4ndox-releases-monero-named-pipes-v0.2.0/"
     ],
     "monero-commits": [
+      "tag:github.com,2008:Grit::Commit/d02c7c57a7b9e9ce0eead684a48345c6f48fea81",
+      "tag:github.com,2008:Grit::Commit/ae6962bb293b378bba0facc2fd863f9ba5a4f64f",
+      "tag:github.com,2008:Grit::Commit/4ccce75d46067642242e47d42d9ad37785f47f7d",
+      "tag:github.com,2008:Grit::Commit/3c7a003b6879681f53b402b80fc9e3f8ccbda8fb",
+      "tag:github.com,2008:Grit::Commit/b7d4144ecc4508e0e8258180f693f584c47e911b",
       "tag:github.com,2008:Grit::Commit/834923958d975ce2d7e824fc22acb96533714cc5",
       "tag:github.com,2008:Grit::Commit/630e22a278b3ae3ea7df35b9a268a9e054aa1994",
       "tag:github.com,2008:Grit::Commit/e3774ef0a0d633fe40bff991aef3df04659bd7a5",
@@ -424,12 +434,7 @@
       "tag:github.com,2008:Grit::Commit/43c31c2aacdd789404d16cfda0c5456e0a090b86",
       "tag:github.com,2008:Grit::Commit/19dc96b7a81fac5a13fea3903368d99afc8b6896",
       "tag:github.com,2008:Grit::Commit/71e950723ca929c435b01c64244e807dbabce49e",
-      "tag:github.com,2008:Grit::Commit/c397c70309f916e4be7c98bc1ec44e5a3f7454d3",
-      "tag:github.com,2008:Grit::Commit/35ca989ab96c4c1c12a3599f681fc564290cf3f4",
-      "tag:github.com,2008:Grit::Commit/de29fbf9f25c4fa02dcfd40bda97d777b6ed1d31",
-      "tag:github.com,2008:Grit::Commit/d247d50ac7ef4f776f96a3ec5877fd0e6ceda824",
-      "tag:github.com,2008:Grit::Commit/f6add162fdd3b57546e81667b235a6ae800f2ee1",
-      "tag:github.com,2008:Grit::Commit/c8699f2468aa81909182ce7060b340d5d7928039"
+      "tag:github.com,2008:Grit::Commit/c397c70309f916e4be7c98bc1ec44e5a3f7454d3"
     ],
     "monero-observer": [
       "https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/",
@@ -661,6 +666,6 @@
       ]
     }
   },
-  "last_run": "2026-09-23T10:06:21.914203+00:00",
-  "run_count": 23
+  "last_run": "2026-09-23T14:59:23.152043+00:00",
+  "run_count": 24
 }
