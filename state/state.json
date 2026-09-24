@@ -129,8 +129,10 @@
     "feed:mo-dev:https://monero.observer/monero-dev-activity-report-week-9-2024/": "2026-09-20T18:30:37.618053+00:00",
     "feed:mo-stories:https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/": "2026-09-20T23:10:54.104188+00:00",
     "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-29-september-2026/": "2026-09-23T00:43:42.606702+00:00",
+    "feed:mo-stories:https://monero.observer/fujimoto44-releases-code-monero-pos-device/": "2026-09-24T05:22:11.169423+00:00",
     "feed:mo-stories:https://monero.observer/magic-grants-releases-skylight-wallet-v2.0.0/": "2026-09-22T00:56:00.880754+00:00",
     "feed:mo-stories:https://monero.observer/monero-dev-activity-report-week-38-2026/": "2026-09-20T23:10:54.076952+00:00",
+    "feed:mo-stories:https://monero.observer/monero-research-lab-meeting-30-september-2026/": "2026-09-24T05:22:11.384545+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-28-september-2026/": "2026-09-22T00:56:01.053962+00:00",
     "feed:mo-stories:https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/": "2026-09-23T00:43:42.525188+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/0bdc219eef7dc3dfced6df137cee2fbdbe2ecda2": "2026-09-23T10:06:12.487550+00:00",
@@ -153,10 +155,14 @@
     "feed:monero-observer:https://monero.observer/cryptoknath-hue/": "2026-09-23T00:43:41.351165+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-29-september-2026/": "2026-09-23T00:43:41.251652+00:00",
     "feed:monero-observer:https://monero.observer/external-gain-1174/": "2026-09-22T00:55:59.464886+00:00",
+    "feed:monero-observer:https://monero.observer/fujimoto44-releases-code-monero-pos-device/": "2026-09-24T05:22:09.279574+00:00",
     "feed:monero-observer:https://monero.observer/magic-grants-releases-skylight-wallet-v2.0.0/": "2026-09-22T00:55:59.301313+00:00",
+    "feed:monero-observer:https://monero.observer/mgu9o/": "2026-09-24T05:22:09.065266+00:00",
     "feed:monero-observer:https://monero.observer/monero-dev-activity-report-week-38-2026/": "2026-09-20T23:10:53.103308+00:00",
+    "feed:monero-observer:https://monero.observer/monero-research-lab-meeting-30-september-2026/": "2026-09-24T05:22:09.493629+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-28-september-2026/": "2026-09-22T00:55:59.636411+00:00",
     "feed:monero-observer:https://monero.observer/moneromatteo-2/": "2026-09-20T23:10:53.185201+00:00",
+    "feed:monero-observer:https://monero.observer/nullsink/": "2026-09-24T05:22:08.845070+00:00",
     "feed:monero-observer:https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/": "2026-09-23T00:43:41.092817+00:00",
     "feed:monero-observer:https://monero.observer/sgp_3/": "2026-09-23T00:43:41.167989+00:00",
     "test:1789929453": "2026-09-20T18:37:37.523526+00:00",
@@ -388,6 +394,8 @@
       "https://monero.observer/monero-dev-activity-report-week-9-2022/"
     ],
     "mo-stories": [
+      "https://monero.observer/fujimoto44-releases-code-monero-pos-device/",
+      "https://monero.observer/monero-research-lab-meeting-30-september-2026/",
       "https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/",
       "https://monero.observer/cuprate-meeting-scheduled-29-september-2026/",
       "https://monero.observer/magic-grants-releases-skylight-wallet-v2.0.0/",
@@ -410,9 +418,7 @@
       "https://monero.observer/selsta-ccs-monero-dev-september-november-2026-ready-funding/",
       "https://monero.observer/jpk68-posts-monero-dev-report-august-2026/",
       "https://monero.observer/cuprate-meeting-scheduled-15-september-2026/",
-      "https://monero.observer/monero-tech-meeting-14-september-2026/",
-      "https://monero.observer/monero-dev-activity-report-week-36-2026/",
-      "https://monero.observer/d4ndox-releases-monero-named-pipes-v0.2.0/"
+      "https://monero.observer/monero-tech-meeting-14-september-2026/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/d02c7c57a7b9e9ce0eead684a48345c6f48fea81",
@@ -437,6 +443,10 @@
       "tag:github.com,2008:Grit::Commit/c397c70309f916e4be7c98bc1ec44e5a3f7454d3"
     ],
     "monero-observer": [
+      "https://monero.observer/nullsink/",
+      "https://monero.observer/mgu9o/",
+      "https://monero.observer/fujimoto44-releases-code-monero-pos-device/",
+      "https://monero.observer/monero-research-lab-meeting-30-september-2026/",
       "https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/",
       "https://monero.observer/sgp_3/",
       "https://monero.observer/cuprate-meeting-scheduled-29-september-2026/",
@@ -482,11 +492,7 @@
       "https://monero.observer/cuprate-meeting-scheduled-15-september-2026/",
       "https://monero.observer/monero-tech-meeting-14-september-2026/",
       "https://monero.observer/anon-24/",
-      "https://monero.observer/aillia-4/",
-      "https://monero.observer/aquaticxcp/",
-      "https://monero.observer/ryo-news/",
-      "https://monero.observer/monero-dev-activity-report-week-36-2026/",
-      "https://monero.observer/d4ndox-releases-monero-named-pipes-v0.2.0/"
+      "https://monero.observer/aillia-4/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.1",
@@ -666,6 +672,6 @@
       ]
     }
   },
-  "last_run": "2026-09-24T00:35:41.961781+00:00",
-  "run_count": 27
+  "last_run": "2026-09-24T05:22:16.472551+00:00",
+  "run_count": 28
 }
