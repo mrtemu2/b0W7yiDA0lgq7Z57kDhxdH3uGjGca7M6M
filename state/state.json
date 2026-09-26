@@ -143,6 +143,7 @@
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/076a311e6fc34c47cc25664e8d1cad64a4bd6251": "2026-09-24T10:17:38.936245+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/0ac3a540355a8fa332f69289aeddb9e9f1f64913": "2026-09-25T15:31:19.233535+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/0bdc219eef7dc3dfced6df137cee2fbdbe2ecda2": "2026-09-23T10:06:12.487550+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/1019b7885dabb86a3ce9c239264ba2264c773b61": "2026-09-26T18:31:51.466307+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/148521d8f8326bda95714f15b75b8eee7a7472b5": "2026-09-24T10:17:39.583122+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/1add2d748747e5462640638f12d0c605bb5f05c8": "2026-09-24T19:18:18.696445+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/1c079ffa9117e7429d16ebc6d627ecdb0a952bd4": "2026-09-25T15:31:18.589401+00:00",
@@ -153,9 +154,12 @@
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/3c7a003b6879681f53b402b80fc9e3f8ccbda8fb": "2026-09-23T14:59:13.788524+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/4979a1c57e2823753aa9bb046ece98b831569108": "2026-09-23T10:06:15.133108+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/4ccce75d46067642242e47d42d9ad37785f47f7d": "2026-09-23T14:59:13.566072+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/5cf4a5bf99bd0242159eac9cd76ca462e810db0d": "2026-09-26T18:31:51.670592+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/630e22a278b3ae3ea7df35b9a268a9e054aa1994": "2026-09-23T10:06:12.331382+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/78a49af36ee8390d7e947403a78f67693c21ca99": "2026-09-26T18:31:51.565898+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/834923958d975ce2d7e824fc22acb96533714cc5": "2026-09-23T10:06:12.256122+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/9260854ac0ae2bf82667d858b8af51db159ce351": "2026-09-23T10:06:12.651613+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/9cef02d91c3a4a8ef2ecbbf25abd8eaf3c7287c1": "2026-09-26T18:31:51.874708+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/a7aed9b94c88df4796e52a8b2c260ca45d60500b": "2026-09-20T20:55:34.069415+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/abdef54ae449d05cd20509daa3f79f35083dd264": "2026-09-25T15:31:18.809339+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/ad31a78245f15b4884e1cab049a10ac0d695e00b": "2026-09-23T10:06:12.569221+00:00",
@@ -163,13 +167,17 @@
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/b1335676e6aa61f98360027bda7a08582a996785": "2026-09-24T10:17:40.066259+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/b7d4144ecc4508e0e8258180f693f584c47e911b": "2026-09-23T14:59:14.006751+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/ba244f3482e91c3ae3620747fe1ac21a621d7865": "2026-09-23T10:06:15.044527+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/be19e930a95ec67ec12914f33a31331b56d8716b": "2026-09-26T18:31:51.258124+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/c0944a04fe5ab39b7d94c92d03d635922cf95e05": "2026-09-24T10:17:39.807374+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/ca98e4fa899bc37d209e921eb07715eeeae0501a": "2026-09-24T15:16:07.040308+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/cc6fb1d2e59fe9fe03720f1a47fb858ec54f16f1": "2026-09-26T18:31:51.781158+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/d02c7c57a7b9e9ce0eead684a48345c6f48fea81": "2026-09-23T14:59:12.975014+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/d1bcbc76713be3905360d0d49f8cad0cd00d52e1": "2026-09-24T10:17:38.727877+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/d5ad72e574d013d5cfa67d0c46bbc1218fe58339": "2026-09-24T10:17:39.159973+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/e3774ef0a0d633fe40bff991aef3df04659bd7a5": "2026-09-23T10:06:12.406196+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/e478eb5afb429e7691730c44f3d4f84a799e8673": "2026-09-25T15:31:19.687590+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/e4fbca88b15f3cb2b6aa2d0e98639649f7da3d21": "2026-09-26T18:31:51.161675+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/f037512df7dec3af96b8a39b571339751291d47a": "2026-09-26T18:31:51.364270+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/f53e87ac255b2b75581318e5a746668a3bd82bfb": "2026-09-25T15:31:19.438452+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/f783e2dc6a3cf4cfc848c75eeb424e7e24af9540": "2026-09-24T10:17:40.297511+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/fe371dd7fe52306521defb66cc7ee1e241f56161": "2026-09-25T15:31:20.161284+00:00",
@@ -450,6 +458,14 @@
       "https://monero.observer/selsta-ccs-monero-dev-september-november-2026-ready-funding/"
     ],
     "monero-commits": [
+      "tag:github.com,2008:Grit::Commit/e4fbca88b15f3cb2b6aa2d0e98639649f7da3d21",
+      "tag:github.com,2008:Grit::Commit/be19e930a95ec67ec12914f33a31331b56d8716b",
+      "tag:github.com,2008:Grit::Commit/f037512df7dec3af96b8a39b571339751291d47a",
+      "tag:github.com,2008:Grit::Commit/1019b7885dabb86a3ce9c239264ba2264c773b61",
+      "tag:github.com,2008:Grit::Commit/78a49af36ee8390d7e947403a78f67693c21ca99",
+      "tag:github.com,2008:Grit::Commit/5cf4a5bf99bd0242159eac9cd76ca462e810db0d",
+      "tag:github.com,2008:Grit::Commit/cc6fb1d2e59fe9fe03720f1a47fb858ec54f16f1",
+      "tag:github.com,2008:Grit::Commit/9cef02d91c3a4a8ef2ecbbf25abd8eaf3c7287c1",
       "tag:github.com,2008:Grit::Commit/1c079ffa9117e7429d16ebc6d627ecdb0a952bd4",
       "tag:github.com,2008:Grit::Commit/abdef54ae449d05cd20509daa3f79f35083dd264",
       "tag:github.com,2008:Grit::Commit/325976c62ee7df8665bf2b8bd4f6c4d253d65cd1",
@@ -461,15 +477,7 @@
       "tag:github.com,2008:Grit::Commit/ca98e4fa899bc37d209e921eb07715eeeae0501a",
       "tag:github.com,2008:Grit::Commit/fe371dd7fe52306521defb66cc7ee1e241f56161",
       "tag:github.com,2008:Grit::Commit/dab064fdebf5d0e47eaf263ed9fcfc30fabe2634",
-      "tag:github.com,2008:Grit::Commit/d1bcbc76713be3905360d0d49f8cad0cd00d52e1",
-      "tag:github.com,2008:Grit::Commit/076a311e6fc34c47cc25664e8d1cad64a4bd6251",
-      "tag:github.com,2008:Grit::Commit/d5ad72e574d013d5cfa67d0c46bbc1218fe58339",
-      "tag:github.com,2008:Grit::Commit/3b18aeb18c46bc4afd3edf7ed2c1a6223aed188e",
-      "tag:github.com,2008:Grit::Commit/148521d8f8326bda95714f15b75b8eee7a7472b5",
-      "tag:github.com,2008:Grit::Commit/c0944a04fe5ab39b7d94c92d03d635922cf95e05",
-      "tag:github.com,2008:Grit::Commit/b1335676e6aa61f98360027bda7a08582a996785",
-      "tag:github.com,2008:Grit::Commit/f783e2dc6a3cf4cfc848c75eeb424e7e24af9540",
-      "tag:github.com,2008:Grit::Commit/7f910239c32122235013775e6e1eaddd6dd2c4ce"
+      "tag:github.com,2008:Grit::Commit/d1bcbc76713be3905360d0d49f8cad0cd00d52e1"
     ],
     "monero-observer": [
       "https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/",
@@ -701,6 +709,6 @@
       ]
     }
   },
-  "last_run": "2026-09-26T15:01:18.228642+00:00",
-  "run_count": 42
+  "last_run": "2026-09-26T18:31:58.454890+00:00",
+  "run_count": 43
 }
