@@ -4,6 +4,7 @@
     "api:prs:26": "2026-09-26T00:57:50.794417+00:00",
     "api:prs:27": "2026-09-23T10:06:21.569606+00:00",
     "api:prs:28": "2026-09-22T22:18:41.802277+00:00",
+    "feed:mo-breaking:https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/": "2026-09-27T02:15:57.483382+00:00",
     "feed:mo-dev:https://monero.observer/monero-dev-activity-report-week-1-2023/": "2026-09-20T18:30:38.769198+00:00",
     "feed:mo-dev:https://monero.observer/monero-dev-activity-report-week-1-2024/": "2026-09-20T18:30:37.832726+00:00",
     "feed:mo-dev:https://monero.observer/monero-dev-activity-report-week-10-2022/": "2026-09-20T18:30:39.914824+00:00",
@@ -139,6 +140,7 @@
     "feed:mo-stories:https://monero.observer/monero-research-lab-meeting-30-september-2026/": "2026-09-24T05:22:11.384545+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-28-september-2026/": "2026-09-22T00:56:01.053962+00:00",
     "feed:mo-stories:https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/": "2026-09-23T00:43:42.525188+00:00",
+    "feed:mo-stories:https://monero.observer/slowbeardigger-proposal-take-over-monero-integrations-part-3-ccs/": "2026-09-27T02:15:52.106230+00:00",
     "feed:mo-stories:https://monero.observer/woodser-releases-monero-cpp-v0.9.5-monero-java-v0.8.57-monero-ts-v0.11.16/": "2026-09-25T05:29:54.233149+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/076a311e6fc34c47cc25664e8d1cad64a4bd6251": "2026-09-24T10:17:38.936245+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/0ac3a540355a8fa332f69289aeddb9e9f1f64913": "2026-09-25T15:31:19.233535+00:00",
@@ -184,6 +186,7 @@
     "feed:monero-observer:https://monero.observer/4rkal-19/": "2026-09-26T06:06:19.478771+00:00",
     "feed:monero-observer:https://monero.observer/alkimiadev/": "2026-09-20T23:10:53.158379+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/": "2026-09-20T23:10:53.130536+00:00",
+    "feed:monero-observer:https://monero.observer/chowbungaman-5/": "2026-09-27T02:15:50.453929+00:00",
     "feed:monero-observer:https://monero.observer/cryptoknath-hue/": "2026-09-23T00:43:41.351165+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-29-september-2026/": "2026-09-23T00:43:41.251652+00:00",
     "feed:monero-observer:https://monero.observer/external-gain-1174/": "2026-09-22T00:55:59.464886+00:00",
@@ -200,7 +203,9 @@
     "feed:monero-observer:https://monero.observer/nullsink/": "2026-09-24T05:22:08.845070+00:00",
     "feed:monero-observer:https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/": "2026-09-23T00:43:41.092817+00:00",
     "feed:monero-observer:https://monero.observer/sgp_3/": "2026-09-23T00:43:41.167989+00:00",
+    "feed:monero-observer:https://monero.observer/slowbeardigger-proposal-take-over-monero-integrations-part-3-ccs/": "2026-09-27T02:15:50.671218+00:00",
     "feed:monero-observer:https://monero.observer/slowservers/": "2026-09-25T05:29:53.408893+00:00",
+    "feed:monero-observer:https://monero.observer/sp1n0ut/": "2026-09-27T02:15:50.224041+00:00",
     "feed:monero-observer:https://monero.observer/woodser-releases-monero-cpp-v0.9.5-monero-java-v0.8.57-monero-ts-v0.11.16/": "2026-09-25T05:29:53.370041+00:00",
     "test:1789929453": "2026-09-20T18:37:37.523526+00:00",
     "test:1789929865": "2026-09-20T18:44:27.053541+00:00",
@@ -238,6 +243,7 @@
       "https://www.getmonero.org/2025/07/25/monero-GUI-0.18.4.1-released"
     ],
     "mo-breaking": [
+      "https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/",
       "https://monero.observer/manizada-releases-public-exploits-decades-old-linux-kernel-security-flaws/",
       "https://monero.observer/x-corp-demands-permanent-takedown-of-nitter/",
       "https://monero.observer/trezor-customers-affected-shipmonk-data-breach/",
@@ -431,6 +437,7 @@
       "https://monero.observer/monero-dev-activity-report-week-9-2022/"
     ],
     "mo-stories": [
+      "https://monero.observer/slowbeardigger-proposal-take-over-monero-integrations-part-3-ccs/",
       "https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/",
       "https://monero.observer/frstrtr-submits-ccs-proposal-c2pool-mainnet-deployment/",
       "https://monero.observer/woodser-releases-monero-cpp-v0.9.5-monero-java-v0.8.57-monero-ts-v0.11.16/",
@@ -453,9 +460,7 @@
       "https://monero.observer/monero-dev-activity-report-week-37-2026/",
       "https://monero.observer/meeting-log-summary-monero-research-lab-meeting-9-september-2026/",
       "https://monero.observer/d4ndox-releases-monero-named-pipes-v0.2.3/",
-      "https://monero.observer/jackie-submits-ccs-proposal-update-monerod-http-digest-rfc7616/",
-      "https://monero.observer/monero-research-lab-meeting-16-september-2026/",
-      "https://monero.observer/selsta-ccs-monero-dev-september-november-2026-ready-funding/"
+      "https://monero.observer/jackie-submits-ccs-proposal-update-monerod-http-digest-rfc7616/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/e4fbca88b15f3cb2b6aa2d0e98639649f7da3d21",
@@ -480,6 +485,9 @@
       "tag:github.com,2008:Grit::Commit/d1bcbc76713be3905360d0d49f8cad0cd00d52e1"
     ],
     "monero-observer": [
+      "https://monero.observer/sp1n0ut/",
+      "https://monero.observer/chowbungaman-5/",
+      "https://monero.observer/slowbeardigger-proposal-take-over-monero-integrations-part-3-ccs/",
       "https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/",
       "https://monero.observer/geonic-2/",
       "https://monero.observer/frstrtr-submits-ccs-proposal-c2pool-mainnet-deployment/",
@@ -526,10 +534,7 @@
       "https://monero.observer/orangefren-27/",
       "https://monero.observer/unsanctionedf-6/",
       "https://monero.observer/faust_noir/",
-      "https://monero.observer/moneso/",
-      "https://monero.observer/monero-research-lab-meeting-16-september-2026/",
-      "https://monero.observer/94spazio/",
-      "https://monero.observer/selsta-ccs-monero-dev-september-november-2026-ready-funding/"
+      "https://monero.observer/moneso/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.1",
@@ -709,6 +714,6 @@
       ]
     }
   },
-  "last_run": "2026-09-26T23:50:49.369673+00:00",
-  "run_count": 45
+  "last_run": "2026-09-27T02:15:59.016765+00:00",
+  "run_count": 46
 }
