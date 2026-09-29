@@ -133,6 +133,7 @@
     "feed:mo-stories:https://monero.observer/acx-releases-monfluo-beta-v0.9.7/": "2026-09-28T23:35:13.766022+00:00",
     "feed:mo-stories:https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/": "2026-09-20T23:10:54.104188+00:00",
     "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-29-september-2026/": "2026-09-23T00:43:42.606702+00:00",
+    "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-6-october-2026/": "2026-09-29T23:58:41.260744+00:00",
     "feed:mo-stories:https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/": "2026-09-26T06:06:21.120671+00:00",
     "feed:mo-stories:https://monero.observer/free-software-community-celebrates-gnu-43rd-anniversary-today/": "2026-09-28T05:14:38.458711+00:00",
     "feed:mo-stories:https://monero.observer/frstrtr-submits-ccs-proposal-c2pool-mainnet-deployment/": "2026-09-26T06:06:21.161169+00:00",
@@ -200,9 +201,11 @@
     "feed:monero-observer:https://monero.observer/alkimiadev/": "2026-09-20T23:10:53.158379+00:00",
     "feed:monero-observer:https://monero.observer/anon-26/": "2026-09-28T23:35:12.996677+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/": "2026-09-20T23:10:53.130536+00:00",
+    "feed:monero-observer:https://monero.observer/cardsrelay/": "2026-09-29T23:58:39.675303+00:00",
     "feed:monero-observer:https://monero.observer/chowbungaman-5/": "2026-09-27T02:15:50.453929+00:00",
     "feed:monero-observer:https://monero.observer/cryptoknath-hue/": "2026-09-23T00:43:41.351165+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-29-september-2026/": "2026-09-23T00:43:41.251652+00:00",
+    "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-6-october-2026/": "2026-09-29T23:58:39.853859+00:00",
     "feed:monero-observer:https://monero.observer/external-gain-1174/": "2026-09-22T00:55:59.464886+00:00",
     "feed:monero-observer:https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/": "2026-09-26T06:06:19.357683+00:00",
     "feed:monero-observer:https://monero.observer/free-software-community-celebrates-gnu-43rd-anniversary-today/": "2026-09-28T05:14:36.976701+00:00",
@@ -220,6 +223,7 @@
     "feed:monero-observer:https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/": "2026-09-23T00:43:41.092817+00:00",
     "feed:monero-observer:https://monero.observer/rosen-bridge-seeks-critical-reviews-proposed-monero-integration/": "2026-09-28T23:35:12.941623+00:00",
     "feed:monero-observer:https://monero.observer/sgp_3/": "2026-09-23T00:43:41.167989+00:00",
+    "feed:monero-observer:https://monero.observer/sgp_4/": "2026-09-29T23:58:39.493637+00:00",
     "feed:monero-observer:https://monero.observer/slowbeardigger-proposal-take-over-monero-integrations-part-3-ccs/": "2026-09-27T02:15:50.671218+00:00",
     "feed:monero-observer:https://monero.observer/slowservers/": "2026-09-25T05:29:53.408893+00:00",
     "feed:monero-observer:https://monero.observer/sp1n0ut/": "2026-09-27T02:15:50.224041+00:00",
@@ -455,6 +459,7 @@
       "https://monero.observer/monero-dev-activity-report-week-9-2022/"
     ],
     "mo-stories": [
+      "https://monero.observer/cuprate-meeting-scheduled-6-october-2026/",
       "https://monero.observer/acx-releases-monfluo-beta-v0.9.7/",
       "https://monero.observer/rosen-bridge-seeks-critical-reviews-proposed-monero-integration/",
       "https://monero.observer/monero-tech-meeting-5-october-2026/",
@@ -506,6 +511,9 @@
       "tag:github.com,2008:Grit::Commit/1c079ffa9117e7429d16ebc6d627ecdb0a952bd4"
     ],
     "monero-observer": [
+      "https://monero.observer/sgp_4/",
+      "https://monero.observer/cardsrelay/",
+      "https://monero.observer/cuprate-meeting-scheduled-6-october-2026/",
       "https://monero.observer/acx-releases-monfluo-beta-v0.9.7/",
       "https://monero.observer/rosen-bridge-seeks-critical-reviews-proposed-monero-integration/",
       "https://monero.observer/monero-tech-meeting-5-october-2026/",
@@ -552,10 +560,7 @@
       "https://monero.observer/hungry-lex/",
       "https://monero.observer/monero-dev-activity-report-week-37-2026/",
       "https://monero.observer/meeting-log-summary-monero-research-lab-meeting-9-september-2026/",
-      "https://monero.observer/d4ndox-releases-monero-named-pipes-v0.2.3/",
-      "https://monero.observer/desire_azazel/",
-      "https://monero.observer/4rkal-18/",
-      "https://monero.observer/coinwallet/"
+      "https://monero.observer/d4ndox-releases-monero-named-pipes-v0.2.3/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.1",
@@ -735,6 +740,6 @@
       ]
     }
   },
-  "last_run": "2026-09-29T20:41:53.036551+00:00",
-  "run_count": 59
+  "last_run": "2026-09-29T23:58:46.124377+00:00",
+  "run_count": 60
 }
