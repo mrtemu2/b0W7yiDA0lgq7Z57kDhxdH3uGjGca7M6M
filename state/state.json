@@ -217,6 +217,7 @@
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/e4fbca88b15f3cb2b6aa2d0e98639649f7da3d21": "2026-09-26T18:31:51.161675+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/f037512df7dec3af96b8a39b571339751291d47a": "2026-09-26T18:31:51.364270+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/f53e87ac255b2b75581318e5a746668a3bd82bfb": "2026-09-25T15:31:19.438452+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/f6a591c33a40957800bc0d8cb4804058ab36d1f3": "2026-10-04T22:29:55.572449+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/f783e2dc6a3cf4cfc848c75eeb424e7e24af9540": "2026-09-24T10:17:40.297511+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/fe371dd7fe52306521defb66cc7ee1e241f56161": "2026-09-25T15:31:20.161284+00:00",
     "feed:monero-observer:https://monero.observer/4rkal-19/": "2026-09-26T06:06:19.478771+00:00",
@@ -529,6 +530,7 @@
       "https://monero.observer/jeffro256-posts-august-2026-monero-dev-update/"
     ],
     "monero-commits": [
+      "tag:github.com,2008:Grit::Commit/f6a591c33a40957800bc0d8cb4804058ab36d1f3",
       "tag:github.com,2008:Grit::Commit/160e21504aed2a9b6dfdba0970517161383b04e5",
       "tag:github.com,2008:Grit::Commit/4b84712e4eab8a561ca4186c1a9ef35baf50c6bd",
       "tag:github.com,2008:Grit::Commit/80f75eaa8a327cd0b5b0825920880fc22851d80a",
@@ -547,8 +549,7 @@
       "tag:github.com,2008:Grit::Commit/c99e32ed204975f28d79fd800e95f7d456758979",
       "tag:github.com,2008:Grit::Commit/6f4b99ab10959f865f2b554fa73a3d38332cd5a1",
       "tag:github.com,2008:Grit::Commit/dba16f076f5dbbfff4e3c7b0627f04511ab36422",
-      "tag:github.com,2008:Grit::Commit/66dd773e01edfea81bb5a281170c07c27d1da414",
-      "tag:github.com,2008:Grit::Commit/ddfa2279410e01e3cc1ef87f2a7c09e259124944"
+      "tag:github.com,2008:Grit::Commit/66dd773e01edfea81bb5a281170c07c27d1da414"
     ],
     "monero-observer": [
       "https://monero.observer/magic-grants-releases-skylight-wallet-v2.1.0/",
@@ -780,6 +781,6 @@
       ]
     }
   },
-  "last_run": "2026-10-04T19:33:04.031975+00:00",
-  "run_count": 84
+  "last_run": "2026-10-04T22:30:01.242960+00:00",
+  "run_count": 85
 }
