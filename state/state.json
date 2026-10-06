@@ -4,6 +4,7 @@
     "api:prs:26": "2026-10-05T16:11:10.555326+00:00",
     "api:prs:27": "2026-10-02T08:58:38.641847+00:00",
     "api:prs:28": "2026-09-22T22:18:41.802277+00:00",
+    "feed:mo-breaking:https://monero.observer/dread-main-onion-private-key-exposed/": "2026-10-06T02:32:43.469534+00:00",
     "feed:mo-breaking:https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/": "2026-09-27T02:15:57.483382+00:00",
     "feed:mo-dev:https://monero.observer/monero-dev-activity-report-week-1-2023/": "2026-09-20T18:30:38.769198+00:00",
     "feed:mo-dev:https://monero.observer/monero-dev-activity-report-week-1-2024/": "2026-09-20T18:30:37.832726+00:00",
@@ -135,10 +136,12 @@
     "feed:mo-stories:https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/": "2026-09-20T23:10:54.104188+00:00",
     "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-29-september-2026/": "2026-09-23T00:43:42.606702+00:00",
     "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-6-october-2026/": "2026-09-29T23:58:41.260744+00:00",
+    "feed:mo-stories:https://monero.observer/dread-main-onion-private-key-exposed/": "2026-10-06T02:32:39.862325+00:00",
     "feed:mo-stories:https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/": "2026-09-26T06:06:21.120671+00:00",
     "feed:mo-stories:https://monero.observer/free-software-community-celebrates-gnu-43rd-anniversary-today/": "2026-09-28T05:14:38.458711+00:00",
     "feed:mo-stories:https://monero.observer/frstrtr-submits-ccs-proposal-c2pool-mainnet-deployment/": "2026-09-26T06:06:21.161169+00:00",
     "feed:mo-stories:https://monero.observer/fujimoto44-releases-code-monero-pos-device/": "2026-09-24T05:22:11.169423+00:00",
+    "feed:mo-stories:https://monero.observer/gingeropolous-submits-ccs-proposal-monerosim-mrc/": "2026-10-06T02:32:40.010933+00:00",
     "feed:mo-stories:https://monero.observer/magic-grants-releases-skylight-wallet-v2.0.0/": "2026-09-22T00:56:00.880754+00:00",
     "feed:mo-stories:https://monero.observer/magic-grants-releases-skylight-wallet-v2.1.0/": "2026-10-04T05:43:04.873428+00:00",
     "feed:mo-stories:https://monero.observer/monero-community-workgroup-meeting-17-october-2026/": "2026-10-04T05:43:04.994861+00:00",
@@ -147,9 +150,11 @@
     "feed:mo-stories:https://monero.observer/monero-observer-funding-2027/": "2026-10-02T02:32:40.882331+00:00",
     "feed:mo-stories:https://monero.observer/monero-research-lab-meeting-30-september-2026/": "2026-09-24T05:22:11.384545+00:00",
     "feed:mo-stories:https://monero.observer/monero-research-lab-meeting-7-october-2026/": "2026-10-01T00:48:10.019490+00:00",
+    "feed:mo-stories:https://monero.observer/monero-tech-meeting-12-october-2026/": "2026-10-06T02:32:40.331025+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-28-september-2026/": "2026-09-22T00:56:01.053962+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-5-october-2026/": "2026-09-28T23:35:13.818769+00:00",
     "feed:mo-stories:https://monero.observer/monero-v0.18.5.3-fluorine-fermi-tagged/": "2026-10-03T02:59:43.173679+00:00",
+    "feed:mo-stories:https://monero.observer/ofrnxmr-completes-fifth-milestone-basicswapdex-ccs-proposal/": "2026-10-06T02:32:40.163800+00:00",
     "feed:mo-stories:https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/": "2026-09-23T00:43:42.525188+00:00",
     "feed:mo-stories:https://monero.observer/p2pool-v5.0-beta-released-for-fcmps-carrot-stressnet-v3.0/": "2026-10-02T02:32:41.533288+00:00",
     "feed:mo-stories:https://monero.observer/pyxmr2025-ccs-proposal-part-time-monero-dev-work-3-months/": "2026-10-05T01:13:50.599541+00:00",
@@ -234,6 +239,7 @@
     "feed:monero-observer:https://monero.observer/cryptoknath-hue/": "2026-09-23T00:43:41.351165+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-29-september-2026/": "2026-09-23T00:43:41.251652+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-6-october-2026/": "2026-09-29T23:58:39.853859+00:00",
+    "feed:monero-observer:https://monero.observer/dread-main-onion-private-key-exposed/": "2026-10-06T02:32:38.021837+00:00",
     "feed:monero-observer:https://monero.observer/emptybub1394/": "2026-10-03T02:59:41.191534+00:00",
     "feed:monero-observer:https://monero.observer/external-gain-1174/": "2026-09-22T00:55:59.464886+00:00",
     "feed:monero-observer:https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/": "2026-09-26T06:06:19.357683+00:00",
@@ -241,6 +247,7 @@
     "feed:monero-observer:https://monero.observer/frstrtr-submits-ccs-proposal-c2pool-mainnet-deployment/": "2026-09-26T06:06:19.438877+00:00",
     "feed:monero-observer:https://monero.observer/fujimoto44-releases-code-monero-pos-device/": "2026-09-24T05:22:09.279574+00:00",
     "feed:monero-observer:https://monero.observer/geonic-2/": "2026-09-26T06:06:19.398340+00:00",
+    "feed:monero-observer:https://monero.observer/gingeropolous-submits-ccs-proposal-monerosim-mrc/": "2026-10-06T02:32:38.492715+00:00",
     "feed:monero-observer:https://monero.observer/ivkik55/": "2026-10-02T02:32:38.682859+00:00",
     "feed:monero-observer:https://monero.observer/magic-grants-releases-skylight-wallet-v2.0.0/": "2026-09-22T00:55:59.301313+00:00",
     "feed:monero-observer:https://monero.observer/magic-grants-releases-skylight-wallet-v2.1.0/": "2026-10-04T05:43:03.669344+00:00",
@@ -251,17 +258,22 @@
     "feed:monero-observer:https://monero.observer/monero-observer-funding-2027/": "2026-10-02T02:32:38.626827+00:00",
     "feed:monero-observer:https://monero.observer/monero-research-lab-meeting-30-september-2026/": "2026-09-24T05:22:09.493629+00:00",
     "feed:monero-observer:https://monero.observer/monero-research-lab-meeting-7-october-2026/": "2026-10-01T00:48:09.286093+00:00",
+    "feed:monero-observer:https://monero.observer/monero-tech-meeting-12-october-2026/": "2026-10-06T02:32:38.824800+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-28-september-2026/": "2026-09-22T00:55:59.636411+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-5-october-2026/": "2026-09-28T23:35:12.969397+00:00",
     "feed:monero-observer:https://monero.observer/monero-v0.18.5.3-fluorine-fermi-tagged/": "2026-10-03T02:59:40.825623+00:00",
     "feed:monero-observer:https://monero.observer/moneromatteo-2/": "2026-09-20T23:10:53.185201+00:00",
+    "feed:monero-observer:https://monero.observer/null/": "2026-10-06T02:32:38.333623+00:00",
     "feed:monero-observer:https://monero.observer/nullsink/": "2026-09-24T05:22:08.845070+00:00",
+    "feed:monero-observer:https://monero.observer/ofrnxmr-completes-fifth-milestone-basicswapdex-ccs-proposal/": "2026-10-06T02:32:38.647462+00:00",
     "feed:monero-observer:https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/": "2026-09-23T00:43:41.092817+00:00",
     "feed:monero-observer:https://monero.observer/p2pool-v5.0-beta-released-for-fcmps-carrot-stressnet-v3.0/": "2026-10-02T02:32:40.140008+00:00",
     "feed:monero-observer:https://monero.observer/pyxmr2025-ccs-proposal-part-time-monero-dev-work-3-months/": "2026-10-05T01:13:48.476200+00:00",
+    "feed:monero-observer:https://monero.observer/ravendeluxe/": "2026-10-06T02:32:38.181668+00:00",
     "feed:monero-observer:https://monero.observer/rosen-bridge-seeks-critical-reviews-proposed-monero-integration/": "2026-09-28T23:35:12.941623+00:00",
     "feed:monero-observer:https://monero.observer/sgp_3/": "2026-09-23T00:43:41.167989+00:00",
     "feed:monero-observer:https://monero.observer/sgp_4/": "2026-09-29T23:58:39.493637+00:00",
+    "feed:monero-observer:https://monero.observer/sgp_5/": "2026-10-06T02:32:38.956861+00:00",
     "feed:monero-observer:https://monero.observer/silvertriple765/": "2026-10-05T01:13:48.662696+00:00",
     "feed:monero-observer:https://monero.observer/slowbeardigger-proposal-take-over-monero-integrations-part-3-ccs/": "2026-09-27T02:15:50.671218+00:00",
     "feed:monero-observer:https://monero.observer/slowservers/": "2026-09-25T05:29:53.408893+00:00",
@@ -312,6 +324,7 @@
       "https://www.getmonero.org/2025/07/25/monero-GUI-0.18.4.1-released"
     ],
     "mo-breaking": [
+      "https://monero.observer/dread-main-onion-private-key-exposed/",
       "https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/",
       "https://monero.observer/manizada-releases-public-exploits-decades-old-linux-kernel-security-flaws/",
       "https://monero.observer/x-corp-demands-permanent-takedown-of-nitter/",
@@ -506,6 +519,10 @@
       "https://monero.observer/monero-dev-activity-report-week-9-2022/"
     ],
     "mo-stories": [
+      "https://monero.observer/dread-main-onion-private-key-exposed/",
+      "https://monero.observer/gingeropolous-submits-ccs-proposal-monerosim-mrc/",
+      "https://monero.observer/ofrnxmr-completes-fifth-milestone-basicswapdex-ccs-proposal/",
+      "https://monero.observer/monero-tech-meeting-12-october-2026/",
       "https://monero.observer/acx-ccs-proposal-monfluo-maintenance-development-q4-2026/",
       "https://monero.observer/pyxmr2025-ccs-proposal-part-time-monero-dev-work-3-months/",
       "https://monero.observer/magic-grants-releases-skylight-wallet-v2.1.0/",
@@ -529,12 +546,7 @@
       "https://monero.observer/woodser-releases-monero-cpp-v0.9.5-monero-java-v0.8.57-monero-ts-v0.11.16/",
       "https://monero.observer/fujimoto44-releases-code-monero-pos-device/",
       "https://monero.observer/monero-research-lab-meeting-30-september-2026/",
-      "https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/",
-      "https://monero.observer/cuprate-meeting-scheduled-29-september-2026/",
-      "https://monero.observer/magic-grants-releases-skylight-wallet-v2.0.0/",
-      "https://monero.observer/monero-tech-meeting-28-september-2026/",
-      "https://monero.observer/monero-dev-activity-report-week-38-2026/",
-      "https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/"
+      "https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/f6a591c33a40957800bc0d8cb4804058ab36d1f3",
@@ -559,6 +571,13 @@
       "tag:github.com,2008:Grit::Commit/66dd773e01edfea81bb5a281170c07c27d1da414"
     ],
     "monero-observer": [
+      "https://monero.observer/dread-main-onion-private-key-exposed/",
+      "https://monero.observer/ravendeluxe/",
+      "https://monero.observer/null/",
+      "https://monero.observer/gingeropolous-submits-ccs-proposal-monerosim-mrc/",
+      "https://monero.observer/ofrnxmr-completes-fifth-milestone-basicswapdex-ccs-proposal/",
+      "https://monero.observer/monero-tech-meeting-12-october-2026/",
+      "https://monero.observer/sgp_5/",
       "https://monero.observer/acx-ccs-proposal-monfluo-maintenance-development-q4-2026/",
       "https://monero.observer/astrek/",
       "https://monero.observer/pyxmr2025-ccs-proposal-part-time-monero-dev-work-3-months/",
@@ -601,14 +620,7 @@
       "https://monero.observer/fujimoto44-releases-code-monero-pos-device/",
       "https://monero.observer/monero-research-lab-meeting-30-september-2026/",
       "https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/",
-      "https://monero.observer/sgp_3/",
-      "https://monero.observer/cuprate-meeting-scheduled-29-september-2026/",
-      "https://monero.observer/cryptoknath-hue/",
-      "https://monero.observer/magic-grants-releases-skylight-wallet-v2.0.0/",
-      "https://monero.observer/external-gain-1174/",
-      "https://monero.observer/monero-tech-meeting-28-september-2026/",
-      "https://monero.observer/monero-dev-activity-report-week-38-2026/",
-      "https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/"
+      "https://monero.observer/sgp_3/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.3",
@@ -788,6 +800,6 @@
       ]
     }
   },
-  "last_run": "2026-10-05T22:45:52.465463+00:00",
-  "run_count": 89
+  "last_run": "2026-10-06T02:32:45.298181+00:00",
+  "run_count": 90
 }
