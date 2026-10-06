@@ -4,7 +4,11 @@
     "api:prs:26": "2026-10-05T16:11:10.555326+00:00",
     "api:prs:27": "2026-10-02T08:58:38.641847+00:00",
     "api:prs:28": "2026-09-22T22:18:41.802277+00:00",
+    "api:site-posts:894ca672dbf78e902dc780bbf254e7449994ab93": "2026-10-06T16:14:19.338708+00:00",
     "api:site-posts:dc4e01a220cee46eedd2c80611b5608ee8047349": "2026-10-06T09:22:49.823609+00:00",
+    "feed:getmonero-blog:https://www.getmonero.org/2026/09/08/announcing-the-getmonero-org-beta": "2026-10-06T16:14:08.060028+00:00",
+    "feed:getmonero-blog:https://www.getmonero.org/2026/10/06/monero-0.18.5.3-released": "2026-10-06T16:14:07.833423+00:00",
+    "feed:getmonero-blog:https://www.getmonero.org/2026/10/06/monero-GUI-0.18.5.3-released": "2026-10-06T16:14:07.941646+00:00",
     "feed:mo-breaking:https://monero.observer/dread-main-onion-private-key-exposed/": "2026-10-06T02:32:43.469534+00:00",
     "feed:mo-breaking:https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/": "2026-09-27T02:15:57.483382+00:00",
     "feed:mo-dev:https://monero.observer/monero-dev-activity-report-week-1-2023/": "2026-09-20T18:30:38.769198+00:00",
@@ -299,10 +303,13 @@
       "fcmp++ hf": "open",
       "release-v0.19": "open"
     },
-    "site_posts_sha": "dc4e01a220cee46eedd2c80611b5608ee8047349"
+    "site_posts_sha": "894ca672dbf78e902dc780bbf254e7449994ab93"
   },
   "feeds": {
     "getmonero-blog": [
+      "https://www.getmonero.org/2026/10/06/monero-0.18.5.3-released",
+      "https://www.getmonero.org/2026/10/06/monero-GUI-0.18.5.3-released",
+      "https://www.getmonero.org/2026/09/08/announcing-the-getmonero-org-beta",
       "https://www.getmonero.org/2026/07/21/monero-GUI-0.18.5.2-released",
       "https://www.getmonero.org/2026/07/08/monero-0.18.5.1-released",
       "https://www.getmonero.org/2026/07/08/monero-GUI-0.18.5.1-released",
@@ -319,10 +326,7 @@
       "https://www.getmonero.org/2025/10/08/monero-GUI-0.18.4.3-released",
       "https://www.getmonero.org/2025/08/27/fcmp++-contest-final",
       "https://www.getmonero.org/2025/08/26/monero-0.18.4.2-released",
-      "https://www.getmonero.org/2025/08/26/monero-GUI-0.18.4.2-released",
-      "https://www.getmonero.org/2025/08/26/post-mortem-of-find-and-save-rings-bug",
-      "https://www.getmonero.org/2025/07/25/monero-0.18.4.1-released",
-      "https://www.getmonero.org/2025/07/25/monero-GUI-0.18.4.1-released"
+      "https://www.getmonero.org/2025/08/26/monero-GUI-0.18.4.2-released"
     ],
     "mo-breaking": [
       "https://monero.observer/dread-main-onion-private-key-exposed/",
@@ -801,6 +805,6 @@
       ]
     }
   },
-  "last_run": "2026-10-06T09:22:49.823759+00:00",
-  "run_count": 91
+  "last_run": "2026-10-06T16:14:19.338882+00:00",
+  "run_count": 92
 }
