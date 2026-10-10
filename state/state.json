@@ -158,6 +158,7 @@
     "feed:mo-stories:https://monero.observer/monero-dev-activity-report-week-38-2026/": "2026-09-20T23:10:54.076952+00:00",
     "feed:mo-stories:https://monero.observer/monero-observer-blitz-september-2026/": "2026-10-02T02:32:40.907461+00:00",
     "feed:mo-stories:https://monero.observer/monero-observer-funding-2027/": "2026-10-02T02:32:40.882331+00:00",
+    "feed:mo-stories:https://monero.observer/monero-observer-pgp-key-contact-signed-update/": "2026-10-10T08:39:31.651207+00:00",
     "feed:mo-stories:https://monero.observer/monero-research-lab-meeting-14-october-2026/": "2026-10-08T06:18:58.129572+00:00",
     "feed:mo-stories:https://monero.observer/monero-research-lab-meeting-30-september-2026/": "2026-09-24T05:22:11.384545+00:00",
     "feed:mo-stories:https://monero.observer/monero-research-lab-meeting-7-october-2026/": "2026-10-01T00:48:10.019490+00:00",
@@ -252,6 +253,7 @@
     "feed:monero-observer:https://monero.observer/acx-releases-monfluo-beta-v0.9.7/": "2026-09-28T23:35:12.916099+00:00",
     "feed:monero-observer:https://monero.observer/alkimiadev/": "2026-09-20T23:10:53.158379+00:00",
     "feed:monero-observer:https://monero.observer/anon-26/": "2026-09-28T23:35:12.996677+00:00",
+    "feed:monero-observer:https://monero.observer/anon-27/": "2026-10-10T08:39:30.619299+00:00",
     "feed:monero-observer:https://monero.observer/astrek/": "2026-10-05T01:13:48.299839+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/": "2026-09-20T23:10:53.130536+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-monero.com-v6.4.6-released/": "2026-10-07T06:35:48.740199+00:00",
@@ -281,6 +283,7 @@
     "feed:monero-observer:https://monero.observer/monero-dev-activity-report-week-38-2026/": "2026-09-20T23:10:53.103308+00:00",
     "feed:monero-observer:https://monero.observer/monero-observer-blitz-september-2026/": "2026-10-02T02:32:38.709411+00:00",
     "feed:monero-observer:https://monero.observer/monero-observer-funding-2027/": "2026-10-02T02:32:38.626827+00:00",
+    "feed:monero-observer:https://monero.observer/monero-observer-pgp-key-contact-signed-update/": "2026-10-10T08:39:30.522097+00:00",
     "feed:monero-observer:https://monero.observer/monero-research-lab-meeting-14-october-2026/": "2026-10-08T06:18:55.187482+00:00",
     "feed:monero-observer:https://monero.observer/monero-research-lab-meeting-30-september-2026/": "2026-09-24T05:22:09.493629+00:00",
     "feed:monero-observer:https://monero.observer/monero-research-lab-meeting-7-october-2026/": "2026-10-01T00:48:09.286093+00:00",
@@ -308,6 +311,7 @@
     "feed:monero-observer:https://monero.observer/sneedlewoods-completes-ccs-monero-dev-work-q3-2026/": "2026-10-01T00:48:09.229453+00:00",
     "feed:monero-observer:https://monero.observer/sneedlewoods-part-time-monero-dev-ccs-proposal-q4-2026/": "2026-10-02T02:32:38.735221+00:00",
     "feed:monero-observer:https://monero.observer/sp1n0ut/": "2026-09-27T02:15:50.224041+00:00",
+    "feed:monero-observer:https://monero.observer/spirobel-16/": "2026-10-10T08:39:30.726908+00:00",
     "feed:monero-observer:https://monero.observer/swimming-cake-2892-2/": "2026-10-07T06:35:48.935129+00:00",
     "feed:monero-observer:https://monero.observer/usdpswap/": "2026-10-02T02:32:38.655793+00:00",
     "feed:monero-observer:https://monero.observer/vtnerd-2/": "2026-10-03T02:59:41.008308+00:00",
@@ -548,6 +552,7 @@
       "https://monero.observer/monero-dev-activity-report-week-9-2022/"
     ],
     "mo-stories": [
+      "https://monero.observer/monero-observer-pgp-key-contact-signed-update/",
       "https://monero.observer/j-berman-ccs-proposal-fcmps-carrot-dev-work-3-months/",
       "https://monero.observer/feather-fork-biscuit-wallet-released-xmr-btc-ltc/",
       "https://monero.observer/monero-research-lab-meeting-14-october-2026/",
@@ -576,9 +581,7 @@
       "https://monero.observer/rosen-bridge-seeks-critical-reviews-proposed-monero-integration/",
       "https://monero.observer/monero-tech-meeting-5-october-2026/",
       "https://monero.observer/free-software-community-celebrates-gnu-43rd-anniversary-today/",
-      "https://monero.observer/slowbeardigger-proposal-take-over-monero-integrations-part-3-ccs/",
-      "https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/",
-      "https://monero.observer/frstrtr-submits-ccs-proposal-c2pool-mainnet-deployment/"
+      "https://monero.observer/slowbeardigger-proposal-take-over-monero-integrations-part-3-ccs/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/24272e4a3b2e812cc2a569d95b177ecef4b91e46",
@@ -603,6 +606,9 @@
       "tag:github.com,2008:Grit::Commit/5992349db3cb1403ea4ec799ff55cfa52b5a6557"
     ],
     "monero-observer": [
+      "https://monero.observer/monero-observer-pgp-key-contact-signed-update/",
+      "https://monero.observer/anon-27/",
+      "https://monero.observer/spirobel-16/",
       "https://monero.observer/seethelayer/",
       "https://monero.observer/j-berman-ccs-proposal-fcmps-carrot-dev-work-3-months/",
       "https://monero.observer/feather-fork-biscuit-wallet-released-xmr-btc-ltc/",
@@ -649,10 +655,7 @@
       "https://monero.observer/zecnero/",
       "https://monero.observer/sp1n0ut/",
       "https://monero.observer/chowbungaman-5/",
-      "https://monero.observer/slowbeardigger-proposal-take-over-monero-integrations-part-3-ccs/",
-      "https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/",
-      "https://monero.observer/geonic-2/",
-      "https://monero.observer/frstrtr-submits-ccs-proposal-c2pool-mainnet-deployment/"
+      "https://monero.observer/slowbeardigger-proposal-take-over-monero-integrations-part-3-ccs/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.3",
@@ -832,6 +835,6 @@
       ]
     }
   },
-  "last_run": "2026-10-10T02:16:19.834173+00:00",
-  "run_count": 107
+  "last_run": "2026-10-10T08:39:36.259421+00:00",
+  "run_count": 108
 }
