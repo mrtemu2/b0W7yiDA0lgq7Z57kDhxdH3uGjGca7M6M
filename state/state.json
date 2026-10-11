@@ -150,6 +150,7 @@
     "feed:mo-stories:https://monero.observer/frstrtr-submits-ccs-proposal-c2pool-mainnet-deployment/": "2026-09-26T06:06:21.161169+00:00",
     "feed:mo-stories:https://monero.observer/fujimoto44-releases-code-monero-pos-device/": "2026-09-24T05:22:11.169423+00:00",
     "feed:mo-stories:https://monero.observer/gingeropolous-submits-ccs-proposal-monerosim-mrc/": "2026-10-06T02:32:40.010933+00:00",
+    "feed:mo-stories:https://monero.observer/haveno-v1.10.0-released-minor-bugfixes/": "2026-10-11T07:19:32.962332+00:00",
     "feed:mo-stories:https://monero.observer/haveno-v1.9.0-released-ui-improvements-new-payment-methods-security-fixes/": "2026-10-07T06:35:50.171221+00:00",
     "feed:mo-stories:https://monero.observer/j-berman-ccs-proposal-fcmps-carrot-dev-work-3-months/": "2026-10-08T06:18:57.780217+00:00",
     "feed:mo-stories:https://monero.observer/magic-grants-releases-skylight-wallet-v2.0.0/": "2026-09-22T00:56:00.880754+00:00",
@@ -177,6 +178,7 @@
     "feed:mo-stories:https://monero.observer/sneedlewoods-part-time-monero-dev-ccs-proposal-q4-2026/": "2026-10-02T02:32:40.933670+00:00",
     "feed:mo-stories:https://monero.observer/woodser-releases-monero-cpp-v0.9.5-monero-java-v0.8.57-monero-ts-v0.11.16/": "2026-09-25T05:29:54.233149+00:00",
     "feed:mo-stories:https://monero.observer/woodser-releases-monero-cpp-v0.9.6-monero-java-v0.8.58-monero-ts-v0.11.17/": "2026-10-01T00:48:09.992065+00:00",
+    "feed:mo-stories:https://monero.observer/woodser-releases-monero-java-v0.8.62-monero-ts-v0.11.20/": "2026-10-11T07:19:33.061858+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/02c496ce917fae965eb430b8ad339143e6293daf": "2026-09-28T18:46:35.363340+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/076a311e6fc34c47cc25664e8d1cad64a4bd6251": "2026-09-24T10:17:38.936245+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/0ac3a540355a8fa332f69289aeddb9e9f1f64913": "2026-09-25T15:31:19.233535+00:00",
@@ -272,7 +274,9 @@
     "feed:monero-observer:https://monero.observer/frstrtr-submits-ccs-proposal-c2pool-mainnet-deployment/": "2026-09-26T06:06:19.438877+00:00",
     "feed:monero-observer:https://monero.observer/fujimoto44-releases-code-monero-pos-device/": "2026-09-24T05:22:09.279574+00:00",
     "feed:monero-observer:https://monero.observer/geonic-2/": "2026-09-26T06:06:19.398340+00:00",
+    "feed:monero-observer:https://monero.observer/ghostswap/": "2026-10-11T07:19:31.836815+00:00",
     "feed:monero-observer:https://monero.observer/gingeropolous-submits-ccs-proposal-monerosim-mrc/": "2026-10-06T02:32:38.492715+00:00",
+    "feed:monero-observer:https://monero.observer/haveno-v1.10.0-released-minor-bugfixes/": "2026-10-11T07:19:31.943863+00:00",
     "feed:monero-observer:https://monero.observer/haveno-v1.9.0-released-ui-improvements-new-payment-methods-security-fixes/": "2026-10-07T06:35:48.627429+00:00",
     "feed:monero-observer:https://monero.observer/ivkik55/": "2026-10-02T02:32:38.682859+00:00",
     "feed:monero-observer:https://monero.observer/j-berman-ccs-proposal-fcmps-carrot-dev-work-3-months/": "2026-10-08T06:18:54.837948+00:00",
@@ -317,6 +321,7 @@
     "feed:monero-observer:https://monero.observer/vtnerd-2/": "2026-10-03T02:59:41.008308+00:00",
     "feed:monero-observer:https://monero.observer/woodser-releases-monero-cpp-v0.9.5-monero-java-v0.8.57-monero-ts-v0.11.16/": "2026-09-25T05:29:53.370041+00:00",
     "feed:monero-observer:https://monero.observer/woodser-releases-monero-cpp-v0.9.6-monero-java-v0.8.58-monero-ts-v0.11.17/": "2026-10-01T00:48:09.259226+00:00",
+    "feed:monero-observer:https://monero.observer/woodser-releases-monero-java-v0.8.62-monero-ts-v0.11.20/": "2026-10-11T07:19:32.053874+00:00",
     "feed:monero-observer:https://monero.observer/xmrlist/": "2026-10-01T00:48:09.203335+00:00",
     "feed:monero-observer:https://monero.observer/zecnero/": "2026-09-28T05:14:37.159373+00:00",
     "feed:monero-releases:tag:github.com,2008:Repository/19316619/v0.18.5.3": "2026-10-02T20:10:47.786746+00:00",
@@ -552,6 +557,8 @@
       "https://monero.observer/monero-dev-activity-report-week-9-2022/"
     ],
     "mo-stories": [
+      "https://monero.observer/haveno-v1.10.0-released-minor-bugfixes/",
+      "https://monero.observer/woodser-releases-monero-java-v0.8.62-monero-ts-v0.11.20/",
       "https://monero.observer/monero-observer-pgp-key-contact-signed-update/",
       "https://monero.observer/j-berman-ccs-proposal-fcmps-carrot-dev-work-3-months/",
       "https://monero.observer/feather-fork-biscuit-wallet-released-xmr-btc-ltc/",
@@ -580,8 +587,7 @@
       "https://monero.observer/acx-releases-monfluo-beta-v0.9.7/",
       "https://monero.observer/rosen-bridge-seeks-critical-reviews-proposed-monero-integration/",
       "https://monero.observer/monero-tech-meeting-5-october-2026/",
-      "https://monero.observer/free-software-community-celebrates-gnu-43rd-anniversary-today/",
-      "https://monero.observer/slowbeardigger-proposal-take-over-monero-integrations-part-3-ccs/"
+      "https://monero.observer/free-software-community-celebrates-gnu-43rd-anniversary-today/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/24272e4a3b2e812cc2a569d95b177ecef4b91e46",
@@ -606,6 +612,9 @@
       "tag:github.com,2008:Grit::Commit/5992349db3cb1403ea4ec799ff55cfa52b5a6557"
     ],
     "monero-observer": [
+      "https://monero.observer/ghostswap/",
+      "https://monero.observer/haveno-v1.10.0-released-minor-bugfixes/",
+      "https://monero.observer/woodser-releases-monero-java-v0.8.62-monero-ts-v0.11.20/",
       "https://monero.observer/monero-observer-pgp-key-contact-signed-update/",
       "https://monero.observer/anon-27/",
       "https://monero.observer/spirobel-16/",
@@ -652,10 +661,7 @@
       "https://monero.observer/monero-tech-meeting-5-october-2026/",
       "https://monero.observer/anon-26/",
       "https://monero.observer/free-software-community-celebrates-gnu-43rd-anniversary-today/",
-      "https://monero.observer/zecnero/",
-      "https://monero.observer/sp1n0ut/",
-      "https://monero.observer/chowbungaman-5/",
-      "https://monero.observer/slowbeardigger-proposal-take-over-monero-integrations-part-3-ccs/"
+      "https://monero.observer/zecnero/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.3",
@@ -835,6 +841,6 @@
       ]
     }
   },
-  "last_run": "2026-10-11T01:12:49.040816+00:00",
-  "run_count": 112
+  "last_run": "2026-10-11T07:19:37.095700+00:00",
+  "run_count": 113
 }
