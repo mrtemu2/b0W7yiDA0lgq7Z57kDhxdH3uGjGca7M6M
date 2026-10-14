@@ -234,6 +234,7 @@
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/9401067cce17e82c98b0e067e1bfc88a21fb84de": "2026-09-28T18:46:35.308936+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/9cef02d91c3a4a8ef2ecbbf25abd8eaf3c7287c1": "2026-09-26T18:31:51.874708+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/a7aed9b94c88df4796e52a8b2c260ca45d60500b": "2026-09-20T20:55:34.069415+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/a8f92ca78033fe36daeda4a0a058e1ebdd3982a7": "2026-10-14T22:14:46.022711+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/abdef54ae449d05cd20509daa3f79f35083dd264": "2026-09-25T15:31:18.809339+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/ad31a78245f15b4884e1cab049a10ac0d695e00b": "2026-09-23T10:06:12.569221+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/ae6962bb293b378bba0facc2fd863f9ba5a4f64f": "2026-09-23T14:59:13.306332+00:00",
@@ -264,6 +265,7 @@
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/f6a591c33a40957800bc0d8cb4804058ab36d1f3": "2026-10-04T22:29:55.572449+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/f783e2dc6a3cf4cfc848c75eeb424e7e24af9540": "2026-09-24T10:17:40.297511+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/fe371dd7fe52306521defb66cc7ee1e241f56161": "2026-09-25T15:31:20.161284+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/fe786010b76bab2fdcaeeea47f74123845cd82c5": "2026-10-14T22:14:45.996241+00:00",
     "feed:monero-observer:https://monero.observer/4rkal-19/": "2026-09-26T06:06:19.478771+00:00",
     "feed:monero-observer:https://monero.observer/acx-ccs-proposal-monfluo-maintenance-development-q4-2026/": "2026-10-05T01:13:48.118718+00:00",
     "feed:monero-observer:https://monero.observer/acx-releases-monfluo-beta-v0.9.7/": "2026-09-28T23:35:12.916099+00:00",
@@ -613,6 +615,8 @@
       "https://monero.observer/monero-research-lab-meeting-7-october-2026/"
     ],
     "monero-commits": [
+      "tag:github.com,2008:Grit::Commit/fe786010b76bab2fdcaeeea47f74123845cd82c5",
+      "tag:github.com,2008:Grit::Commit/a8f92ca78033fe36daeda4a0a058e1ebdd3982a7",
       "tag:github.com,2008:Grit::Commit/8308dee67eba7c6b63ab748834e58c17c5ba4688",
       "tag:github.com,2008:Grit::Commit/580d6043671038c1bca11ee61186f8b73f5da2d7",
       "tag:github.com,2008:Grit::Commit/12b1f0dba1b586781cafbed78ed9683c838de45b",
@@ -630,9 +634,7 @@
       "tag:github.com,2008:Grit::Commit/ce6a8435320120b74f43e56b7721fe71d0695fd8",
       "tag:github.com,2008:Grit::Commit/419b541ce3f8995c53ec2be2f0ae336d34ec496a",
       "tag:github.com,2008:Grit::Commit/9d45a39dc7775265f45fff4b2e0a582353735b7e",
-      "tag:github.com,2008:Grit::Commit/66b4890db0a4ee89bacf184ce0e1094072cc400c",
-      "tag:github.com,2008:Grit::Commit/c8a65ee269ddd7099cfe12532b6d390b48df727e",
-      "tag:github.com,2008:Grit::Commit/a948430e83ea84c6f1848591f7efef56a4e91901"
+      "tag:github.com,2008:Grit::Commit/66b4890db0a4ee89bacf184ce0e1094072cc400c"
     ],
     "monero-observer": [
       "https://monero.observer/xmrpod-v0.1.23-released/",
@@ -864,6 +866,6 @@
       ]
     }
   },
-  "last_run": "2026-10-14T18:59:10.715196+00:00",
-  "run_count": 128
+  "last_run": "2026-10-14T22:14:50.807259+00:00",
+  "run_count": 129
 }
