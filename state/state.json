@@ -175,6 +175,7 @@
     "feed:mo-stories:https://monero.observer/monero-research-lab-meeting-7-october-2026/": "2026-10-01T00:48:10.019490+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-12-october-2026/": "2026-10-06T02:32:40.331025+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-19-october-2026/": "2026-10-13T07:03:59.159361+00:00",
+    "feed:mo-stories:https://monero.observer/monero-tech-meeting-26-october-2026/": "2026-10-19T21:43:59.547148+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-28-september-2026/": "2026-09-22T00:56:01.053962+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-5-october-2026/": "2026-09-28T23:35:13.818769+00:00",
     "feed:mo-stories:https://monero.observer/monero-v0.18.5.3-fluorine-fermi-released/": "2026-10-07T06:35:50.058348+00:00",
@@ -351,6 +352,7 @@
     "feed:monero-observer:https://monero.observer/monero-research-lab-meeting-7-october-2026/": "2026-10-01T00:48:09.286093+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-12-october-2026/": "2026-10-06T02:32:38.824800+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-19-october-2026/": "2026-10-13T07:03:58.170712+00:00",
+    "feed:monero-observer:https://monero.observer/monero-tech-meeting-26-october-2026/": "2026-10-19T21:43:58.185573+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-28-september-2026/": "2026-09-22T00:55:59.636411+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-5-october-2026/": "2026-09-28T23:35:12.969397+00:00",
     "feed:monero-observer:https://monero.observer/monero-v0.18.5.3-fluorine-fermi-released/": "2026-10-07T06:35:48.531988+00:00",
@@ -379,6 +381,7 @@
     "feed:monero-observer:https://monero.observer/sp1n0ut/": "2026-09-27T02:15:50.224041+00:00",
     "feed:monero-observer:https://monero.observer/spirobel-16/": "2026-10-10T08:39:30.726908+00:00",
     "feed:monero-observer:https://monero.observer/swimming-cake-2892-2/": "2026-10-07T06:35:48.935129+00:00",
+    "feed:monero-observer:https://monero.observer/swimming-cake-2892-3/": "2026-10-19T21:43:58.300539+00:00",
     "feed:monero-observer:https://monero.observer/torisim/": "2026-10-15T00:36:02.062607+00:00",
     "feed:monero-observer:https://monero.observer/usdpswap/": "2026-10-02T02:32:38.655793+00:00",
     "feed:monero-observer:https://monero.observer/vtnerd-2/": "2026-10-03T02:59:41.008308+00:00",
@@ -625,6 +628,7 @@
       "https://monero.observer/monero-dev-activity-report-week-9-2022/"
     ],
     "mo-stories": [
+      "https://monero.observer/monero-tech-meeting-26-october-2026/",
       "https://monero.observer/woodser-releases-monero-java-v0.8.63-monero-cpp-v0.9.10/",
       "https://monero.observer/haveno-v1.11.0-released-security-updates-fixes-ui-improvements/",
       "https://monero.observer/monero-community-workgroup-meeting-31-october-2026/",
@@ -652,9 +656,7 @@
       "https://monero.observer/ofrnxmr-completes-fifth-milestone-basicswapdex-ccs-proposal/",
       "https://monero.observer/monero-tech-meeting-12-october-2026/",
       "https://monero.observer/acx-ccs-proposal-monfluo-maintenance-development-q4-2026/",
-      "https://monero.observer/pyxmr2025-ccs-proposal-part-time-monero-dev-work-3-months/",
-      "https://monero.observer/magic-grants-releases-skylight-wallet-v2.1.0/",
-      "https://monero.observer/monero-community-workgroup-meeting-17-october-2026/"
+      "https://monero.observer/pyxmr2025-ccs-proposal-part-time-monero-dev-work-3-months/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/8340be5e920d881edc006e0896d6074cd06dfb2e",
@@ -679,6 +681,8 @@
       "tag:github.com,2008:Grit::Commit/bb602b3a35ab039a5098a15f86b1836ff220af59"
     ],
     "monero-observer": [
+      "https://monero.observer/monero-tech-meeting-26-october-2026/",
+      "https://monero.observer/swimming-cake-2892-3/",
       "https://monero.observer/zedeus/",
       "https://monero.observer/monerovegas/",
       "https://monero.observer/woodser-releases-monero-java-v0.8.63-monero-cpp-v0.9.10/",
@@ -726,9 +730,7 @@
       "https://monero.observer/acx-ccs-proposal-monfluo-maintenance-development-q4-2026/",
       "https://monero.observer/astrek/",
       "https://monero.observer/pyxmr2025-ccs-proposal-part-time-monero-dev-work-3-months/",
-      "https://monero.observer/silvertriple765/",
-      "https://monero.observer/magic-grants-releases-skylight-wallet-v2.1.0/",
-      "https://monero.observer/monero-community-workgroup-meeting-17-october-2026/"
+      "https://monero.observer/silvertriple765/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.4",
@@ -908,6 +910,6 @@
       ]
     }
   },
-  "last_run": "2026-10-19T17:26:15.655629+00:00",
-  "run_count": 161
+  "last_run": "2026-10-19T21:44:03.860201+00:00",
+  "run_count": 162
 }
