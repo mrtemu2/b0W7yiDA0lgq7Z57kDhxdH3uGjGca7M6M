@@ -147,6 +147,7 @@
     "feed:mo-stories:https://monero.observer/cake-wallet-monero.com-v6.5.0-adds-support-robinhood-chain/": "2026-10-13T07:03:59.058105+00:00",
     "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-13-october-2026/": "2026-10-07T06:35:50.389378+00:00",
     "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-20-october-2026/": "2026-10-14T04:44:35.681122+00:00",
+    "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-27-october-2026/": "2026-10-21T00:55:22.858645+00:00",
     "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-29-september-2026/": "2026-09-23T00:43:42.606702+00:00",
     "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-6-october-2026/": "2026-09-29T23:58:41.260744+00:00",
     "feed:mo-stories:https://monero.observer/dread-main-onion-private-key-exposed/": "2026-10-06T02:32:39.862325+00:00",
@@ -316,6 +317,7 @@
     "feed:monero-observer:https://monero.observer/cryptoknath-hue/": "2026-09-23T00:43:41.351165+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-13-october-2026/": "2026-10-07T06:35:48.835928+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-20-october-2026/": "2026-10-14T04:44:33.377928+00:00",
+    "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-27-october-2026/": "2026-10-21T00:55:22.033231+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-29-september-2026/": "2026-09-23T00:43:41.251652+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-6-october-2026/": "2026-09-29T23:58:39.853859+00:00",
     "feed:monero-observer:https://monero.observer/decolorizedxmr/": "2026-10-13T07:03:58.067225+00:00",
@@ -360,6 +362,7 @@
     "feed:monero-observer:https://monero.observer/monero-v0.18.5.4-fluorine-fermi-released/": "2026-10-17T01:50:08.957746+00:00",
     "feed:monero-observer:https://monero.observer/moneromatteo-2/": "2026-09-20T23:10:53.185201+00:00",
     "feed:monero-observer:https://monero.observer/monerovegas/": "2026-10-18T22:34:50.013412+00:00",
+    "feed:monero-observer:https://monero.observer/null-2/": "2026-10-21T00:55:21.995439+00:00",
     "feed:monero-observer:https://monero.observer/null/": "2026-10-06T02:32:38.333623+00:00",
     "feed:monero-observer:https://monero.observer/nullsink/": "2026-09-24T05:22:08.845070+00:00",
     "feed:monero-observer:https://monero.observer/ofrnxmr-completes-fifth-milestone-basicswapdex-ccs-proposal/": "2026-10-06T02:32:38.647462+00:00",
@@ -628,6 +631,7 @@
       "https://monero.observer/monero-dev-activity-report-week-9-2022/"
     ],
     "mo-stories": [
+      "https://monero.observer/cuprate-meeting-scheduled-27-october-2026/",
       "https://monero.observer/monero-tech-meeting-26-october-2026/",
       "https://monero.observer/woodser-releases-monero-java-v0.8.63-monero-cpp-v0.9.10/",
       "https://monero.observer/haveno-v1.11.0-released-security-updates-fixes-ui-improvements/",
@@ -655,8 +659,7 @@
       "https://monero.observer/gingeropolous-submits-ccs-proposal-monerosim-mrc/",
       "https://monero.observer/ofrnxmr-completes-fifth-milestone-basicswapdex-ccs-proposal/",
       "https://monero.observer/monero-tech-meeting-12-october-2026/",
-      "https://monero.observer/acx-ccs-proposal-monfluo-maintenance-development-q4-2026/",
-      "https://monero.observer/pyxmr2025-ccs-proposal-part-time-monero-dev-work-3-months/"
+      "https://monero.observer/acx-ccs-proposal-monfluo-maintenance-development-q4-2026/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/8340be5e920d881edc006e0896d6074cd06dfb2e",
@@ -681,6 +684,8 @@
       "tag:github.com,2008:Grit::Commit/bb602b3a35ab039a5098a15f86b1836ff220af59"
     ],
     "monero-observer": [
+      "https://monero.observer/null-2/",
+      "https://monero.observer/cuprate-meeting-scheduled-27-october-2026/",
       "https://monero.observer/monero-tech-meeting-26-october-2026/",
       "https://monero.observer/swimming-cake-2892-3/",
       "https://monero.observer/zedeus/",
@@ -728,9 +733,7 @@
       "https://monero.observer/monero-tech-meeting-12-october-2026/",
       "https://monero.observer/sgp_5/",
       "https://monero.observer/acx-ccs-proposal-monfluo-maintenance-development-q4-2026/",
-      "https://monero.observer/astrek/",
-      "https://monero.observer/pyxmr2025-ccs-proposal-part-time-monero-dev-work-3-months/",
-      "https://monero.observer/silvertriple765/"
+      "https://monero.observer/astrek/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.4",
@@ -910,6 +913,6 @@
       ]
     }
   },
-  "last_run": "2026-10-20T22:36:27.858394+00:00",
-  "run_count": 168
+  "last_run": "2026-10-21T00:55:26.028099+00:00",
+  "run_count": 169
 }
