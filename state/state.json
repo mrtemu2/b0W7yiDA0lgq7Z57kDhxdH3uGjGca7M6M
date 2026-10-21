@@ -164,6 +164,7 @@
     "feed:mo-stories:https://monero.observer/jpk68-ccs-proposal-full-time-monero-dev-work-3-months/": "2026-10-12T01:51:51.269590+00:00",
     "feed:mo-stories:https://monero.observer/magic-grants-releases-skylight-wallet-v2.0.0/": "2026-09-22T00:56:00.880754+00:00",
     "feed:mo-stories:https://monero.observer/magic-grants-releases-skylight-wallet-v2.1.0/": "2026-10-04T05:43:04.873428+00:00",
+    "feed:mo-stories:https://monero.observer/monero-ccs-website-temporarily-disabled-disclosure-critical-php-vulnerabilities/": "2026-10-21T23:27:26.911346+00:00",
     "feed:mo-stories:https://monero.observer/monero-community-workgroup-meeting-17-october-2026/": "2026-10-04T05:43:04.994861+00:00",
     "feed:mo-stories:https://monero.observer/monero-community-workgroup-meeting-31-october-2026/": "2026-10-18T01:29:37.445352+00:00",
     "feed:mo-stories:https://monero.observer/monero-dev-activity-report-week-38-2026/": "2026-09-20T23:10:54.076952+00:00",
@@ -172,6 +173,7 @@
     "feed:mo-stories:https://monero.observer/monero-observer-pgp-key-contact-signed-update/": "2026-10-10T08:39:31.651207+00:00",
     "feed:mo-stories:https://monero.observer/monero-research-lab-meeting-14-october-2026/": "2026-10-08T06:18:58.129572+00:00",
     "feed:mo-stories:https://monero.observer/monero-research-lab-meeting-21-october-2026/": "2026-10-15T00:36:03.484140+00:00",
+    "feed:mo-stories:https://monero.observer/monero-research-lab-meeting-28-october-2026/": "2026-10-21T23:27:27.128661+00:00",
     "feed:mo-stories:https://monero.observer/monero-research-lab-meeting-30-september-2026/": "2026-09-24T05:22:11.384545+00:00",
     "feed:mo-stories:https://monero.observer/monero-research-lab-meeting-7-october-2026/": "2026-10-01T00:48:10.019490+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-12-october-2026/": "2026-10-06T02:32:40.331025+00:00",
@@ -342,6 +344,7 @@
     "feed:monero-observer:https://monero.observer/magic-grants-releases-skylight-wallet-v2.0.0/": "2026-09-22T00:55:59.301313+00:00",
     "feed:monero-observer:https://monero.observer/magic-grants-releases-skylight-wallet-v2.1.0/": "2026-10-04T05:43:03.669344+00:00",
     "feed:monero-observer:https://monero.observer/mgu9o/": "2026-09-24T05:22:09.065266+00:00",
+    "feed:monero-observer:https://monero.observer/monero-ccs-website-temporarily-disabled-disclosure-critical-php-vulnerabilities/": "2026-10-21T23:27:25.232806+00:00",
     "feed:monero-observer:https://monero.observer/monero-community-workgroup-meeting-17-october-2026/": "2026-10-04T05:43:03.769773+00:00",
     "feed:monero-observer:https://monero.observer/monero-community-workgroup-meeting-31-october-2026/": "2026-10-18T01:29:35.644192+00:00",
     "feed:monero-observer:https://monero.observer/monero-dev-activity-report-week-38-2026/": "2026-09-20T23:10:53.103308+00:00",
@@ -350,6 +353,7 @@
     "feed:monero-observer:https://monero.observer/monero-observer-pgp-key-contact-signed-update/": "2026-10-10T08:39:30.522097+00:00",
     "feed:monero-observer:https://monero.observer/monero-research-lab-meeting-14-october-2026/": "2026-10-08T06:18:55.187482+00:00",
     "feed:monero-observer:https://monero.observer/monero-research-lab-meeting-21-october-2026/": "2026-10-15T00:36:02.286358+00:00",
+    "feed:monero-observer:https://monero.observer/monero-research-lab-meeting-28-october-2026/": "2026-10-21T23:27:25.455307+00:00",
     "feed:monero-observer:https://monero.observer/monero-research-lab-meeting-30-september-2026/": "2026-09-24T05:22:09.493629+00:00",
     "feed:monero-observer:https://monero.observer/monero-research-lab-meeting-7-october-2026/": "2026-10-01T00:48:09.286093+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-12-october-2026/": "2026-10-06T02:32:38.824800+00:00",
@@ -631,6 +635,8 @@
       "https://monero.observer/monero-dev-activity-report-week-9-2022/"
     ],
     "mo-stories": [
+      "https://monero.observer/monero-ccs-website-temporarily-disabled-disclosure-critical-php-vulnerabilities/",
+      "https://monero.observer/monero-research-lab-meeting-28-october-2026/",
       "https://monero.observer/cuprate-meeting-scheduled-27-october-2026/",
       "https://monero.observer/monero-tech-meeting-26-october-2026/",
       "https://monero.observer/woodser-releases-monero-java-v0.8.63-monero-cpp-v0.9.10/",
@@ -658,8 +664,7 @@
       "https://monero.observer/dread-main-onion-private-key-exposed/",
       "https://monero.observer/gingeropolous-submits-ccs-proposal-monerosim-mrc/",
       "https://monero.observer/ofrnxmr-completes-fifth-milestone-basicswapdex-ccs-proposal/",
-      "https://monero.observer/monero-tech-meeting-12-october-2026/",
-      "https://monero.observer/acx-ccs-proposal-monfluo-maintenance-development-q4-2026/"
+      "https://monero.observer/monero-tech-meeting-12-october-2026/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/8340be5e920d881edc006e0896d6074cd06dfb2e",
@@ -684,6 +689,8 @@
       "tag:github.com,2008:Grit::Commit/bb602b3a35ab039a5098a15f86b1836ff220af59"
     ],
     "monero-observer": [
+      "https://monero.observer/monero-ccs-website-temporarily-disabled-disclosure-critical-php-vulnerabilities/",
+      "https://monero.observer/monero-research-lab-meeting-28-october-2026/",
       "https://monero.observer/null-2/",
       "https://monero.observer/cuprate-meeting-scheduled-27-october-2026/",
       "https://monero.observer/monero-tech-meeting-26-october-2026/",
@@ -731,9 +738,7 @@
       "https://monero.observer/gingeropolous-submits-ccs-proposal-monerosim-mrc/",
       "https://monero.observer/ofrnxmr-completes-fifth-milestone-basicswapdex-ccs-proposal/",
       "https://monero.observer/monero-tech-meeting-12-october-2026/",
-      "https://monero.observer/sgp_5/",
-      "https://monero.observer/acx-ccs-proposal-monfluo-maintenance-development-q4-2026/",
-      "https://monero.observer/astrek/"
+      "https://monero.observer/sgp_5/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.4",
@@ -913,6 +918,6 @@
       ]
     }
   },
-  "last_run": "2026-10-21T20:14:43.335605+00:00",
-  "run_count": 173
+  "last_run": "2026-10-21T23:27:32.066246+00:00",
+  "run_count": 174
 }
