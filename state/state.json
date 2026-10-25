@@ -388,7 +388,9 @@
     "feed:monero-observer:https://monero.observer/null-2/": "2026-10-21T00:55:21.995439+00:00",
     "feed:monero-observer:https://monero.observer/null/": "2026-10-06T02:32:38.333623+00:00",
     "feed:monero-observer:https://monero.observer/nullsink/": "2026-09-24T05:22:08.845070+00:00",
+    "feed:monero-observer:https://monero.observer/obscurify/": "2026-10-25T01:33:14.010807+00:00",
     "feed:monero-observer:https://monero.observer/ofrnxmr-completes-fifth-milestone-basicswapdex-ccs-proposal/": "2026-10-06T02:32:38.647462+00:00",
+    "feed:monero-observer:https://monero.observer/one_paint8721/": "2026-10-25T01:33:14.037623+00:00",
     "feed:monero-observer:https://monero.observer/p2pool-v4.18.1-released-tari-merge-mining-fix/": "2026-09-23T00:43:41.092817+00:00",
     "feed:monero-observer:https://monero.observer/p2pool-v5.0-beta-released-for-fcmps-carrot-stressnet-v3.0/": "2026-10-02T02:32:40.140008+00:00",
     "feed:monero-observer:https://monero.observer/pyxmr2025-ccs-proposal-part-time-monero-dev-work-3-months/": "2026-10-05T01:13:48.476200+00:00",
@@ -520,8 +522,7 @@
       "https://monero.observer/monero-research-lab-meeting-14-october-2026/",
       "https://monero.observer/monero-v0.18.5.3-fluorine-fermi-released/",
       "https://monero.observer/haveno-v1.9.0-released-ui-improvements-new-payment-methods-security-fixes/",
-      "https://monero.observer/cake-wallet-monero.com-v6.4.6-released/",
-      "https://monero.observer/cuprate-meeting-scheduled-13-october-2026/"
+      "https://monero.observer/cake-wallet-monero.com-v6.4.6-released/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/4487cc68f672c48006f7a3e3d1ba6d9ca2233bd0",
@@ -546,6 +547,8 @@
       "tag:github.com,2008:Grit::Commit/0eb5a4d2bc142ab5dc33e2be0c55cb606e7fd92b"
     ],
     "monero-observer": [
+      "https://monero.observer/obscurify/",
+      "https://monero.observer/one_paint8721/",
       "https://monero.observer/ghostswap/",
       "https://monero.observer/monerotalk-50/",
       "https://monero.observer/unsanctionedf-7/",
@@ -593,9 +596,7 @@
       "https://monero.observer/monero-research-lab-meeting-14-october-2026/",
       "https://monero.observer/monero-v0.18.5.3-fluorine-fermi-released/",
       "https://monero.observer/haveno-v1.9.0-released-ui-improvements-new-payment-methods-security-fixes/",
-      "https://monero.observer/cake-wallet-monero.com-v6.4.6-released/",
-      "https://monero.observer/cuprate-meeting-scheduled-13-october-2026/",
-      "https://monero.observer/swimming-cake-2892-2/"
+      "https://monero.observer/cake-wallet-monero.com-v6.4.6-released/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.4",
@@ -775,6 +776,6 @@
       ]
     }
   },
-  "last_run": "2026-10-24T23:23:41.470095+00:00",
-  "run_count": 193
+  "last_run": "2026-10-25T01:33:16.065962+00:00",
+  "run_count": 194
 }
