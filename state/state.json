@@ -13,6 +13,7 @@
     "feed:getmonero-blog:https://www.getmonero.org/2026/10/06/monero-GUI-0.18.5.3-released": "2026-10-06T16:14:07.941646+00:00",
     "feed:getmonero-blog:https://www.getmonero.org/2026/10/16/monero-0.18.5.4-released": "2026-10-16T18:13:30.926611+00:00",
     "feed:getmonero-blog:https://www.getmonero.org/2026/10/16/monero-GUI-0.18.5.4-released": "2026-10-16T18:13:31.159407+00:00",
+    "feed:mo-breaking:https://monero.observer/binance-suffers-largest-hack-crypto-history-to-cover-all-losses/": "2026-10-30T07:18:34.595600+00:00",
     "feed:mo-breaking:https://monero.observer/disroot-reports-major-hardware-failure-storage-server/": "2026-10-27T06:12:20.947452+00:00",
     "feed:mo-breaking:https://monero.observer/dread-main-onion-private-key-exposed/": "2026-10-06T02:32:43.469534+00:00",
     "feed:mo-breaking:https://monero.observer/fcmp++-carrot-beta-stressnet-v3.0-released/": "2026-09-27T02:15:57.483382+00:00",
@@ -146,6 +147,7 @@
     "feed:mo-dev:https://monero.observer/monero-dev-activity-report-week-9-2024/": "2026-09-20T18:30:37.618053+00:00",
     "feed:mo-stories:https://monero.observer/acx-ccs-proposal-monfluo-maintenance-development-q4-2026/": "2026-10-05T01:13:50.423936+00:00",
     "feed:mo-stories:https://monero.observer/acx-releases-monfluo-beta-v0.9.7/": "2026-09-28T23:35:13.766022+00:00",
+    "feed:mo-stories:https://monero.observer/binance-suffers-largest-hack-crypto-history-to-cover-all-losses/": "2026-10-30T07:18:33.546790+00:00",
     "feed:mo-stories:https://monero.observer/biscuit-wallet-1.1.1-adds-support-eth-usdt-usdc/": "2026-10-12T01:51:51.372131+00:00",
     "feed:mo-stories:https://monero.observer/biscuit-wallet-v1.2.1-released-support-swaps-tor-mode/": "2026-10-23T07:23:00.051719+00:00",
     "feed:mo-stories:https://monero.observer/biscuit-wallet-v1.2.3-released-ui-improvements/": "2026-10-28T07:33:22.695245+00:00",
@@ -169,6 +171,7 @@
     "feed:mo-stories:https://monero.observer/gingeropolous-submits-ccs-proposal-monerosim-mrc/": "2026-10-06T02:32:40.010933+00:00",
     "feed:mo-stories:https://monero.observer/haveno-v1.10.0-released-minor-bugfixes/": "2026-10-11T07:19:32.962332+00:00",
     "feed:mo-stories:https://monero.observer/haveno-v1.11.0-released-security-updates-fixes-ui-improvements/": "2026-10-18T01:29:37.235933+00:00",
+    "feed:mo-stories:https://monero.observer/haveno-v1.12.0-released-security-fixes-ui-improvements/": "2026-10-30T07:18:33.728299+00:00",
     "feed:mo-stories:https://monero.observer/haveno-v1.9.0-released-ui-improvements-new-payment-methods-security-fixes/": "2026-10-07T06:35:50.171221+00:00",
     "feed:mo-stories:https://monero.observer/j-berman-ccs-proposal-fcmps-carrot-dev-work-3-months/": "2026-10-08T06:18:57.780217+00:00",
     "feed:mo-stories:https://monero.observer/jpk68-ccs-full-time-monero-dev-work-3-months-fully-funded/": "2026-10-27T06:12:19.705391+00:00",
@@ -341,7 +344,9 @@
     "feed:monero-observer:https://monero.observer/anon-28/": "2026-10-17T01:50:09.121956+00:00",
     "feed:monero-observer:https://monero.observer/anon-29/": "2026-10-23T07:22:58.583345+00:00",
     "feed:monero-observer:https://monero.observer/anon-30/": "2026-10-29T02:56:34.960587+00:00",
+    "feed:monero-observer:https://monero.observer/appearanceawkward660/": "2026-10-30T07:18:32.740402+00:00",
     "feed:monero-observer:https://monero.observer/astrek/": "2026-10-05T01:13:48.299839+00:00",
+    "feed:monero-observer:https://monero.observer/binance-suffers-largest-hack-crypto-history-to-cover-all-losses/": "2026-10-30T07:18:32.565770+00:00",
     "feed:monero-observer:https://monero.observer/biscuit-wallet-1.1.1-adds-support-eth-usdt-usdc/": "2026-10-12T01:51:50.429501+00:00",
     "feed:monero-observer:https://monero.observer/biscuit-wallet-v1.2.1-released-support-swaps-tor-mode/": "2026-10-23T07:22:58.987264+00:00",
     "feed:monero-observer:https://monero.observer/biscuit-wallet-v1.2.3-released-ui-improvements/": "2026-10-28T07:33:18.737230+00:00",
@@ -374,6 +379,7 @@
     "feed:monero-observer:https://monero.observer/gingeropolous-submits-ccs-proposal-monerosim-mrc/": "2026-10-06T02:32:38.492715+00:00",
     "feed:monero-observer:https://monero.observer/haveno-v1.10.0-released-minor-bugfixes/": "2026-10-11T07:19:31.943863+00:00",
     "feed:monero-observer:https://monero.observer/haveno-v1.11.0-released-security-updates-fixes-ui-improvements/": "2026-10-18T01:29:35.229837+00:00",
+    "feed:monero-observer:https://monero.observer/haveno-v1.12.0-released-security-fixes-ui-improvements/": "2026-10-30T07:18:32.914814+00:00",
     "feed:monero-observer:https://monero.observer/haveno-v1.9.0-released-ui-improvements-new-payment-methods-security-fixes/": "2026-10-07T06:35:48.627429+00:00",
     "feed:monero-observer:https://monero.observer/ivkik55/": "2026-10-02T02:32:38.682859+00:00",
     "feed:monero-observer:https://monero.observer/j-berman-ccs-proposal-fcmps-carrot-dev-work-3-months/": "2026-10-08T06:18:54.837948+00:00",
@@ -435,6 +441,7 @@
     "feed:monero-observer:https://monero.observer/sneedlewoods-part-time-monero-dev-ccs-proposal-q4-2026/": "2026-10-02T02:32:38.735221+00:00",
     "feed:monero-observer:https://monero.observer/sp1n0ut/": "2026-09-27T02:15:50.224041+00:00",
     "feed:monero-observer:https://monero.observer/spirobel-16/": "2026-10-10T08:39:30.726908+00:00",
+    "feed:monero-observer:https://monero.observer/sunchakr-27/": "2026-10-30T07:18:33.089276+00:00",
     "feed:monero-observer:https://monero.observer/swimming-cake-2892-2/": "2026-10-07T06:35:48.935129+00:00",
     "feed:monero-observer:https://monero.observer/swimming-cake-2892-3/": "2026-10-19T21:43:58.300539+00:00",
     "feed:monero-observer:https://monero.observer/syntheticbird45-4/": "2026-10-26T10:59:16.612022+00:00",
@@ -492,6 +499,7 @@
       "https://www.getmonero.org/2025/08/27/fcmp++-contest-final"
     ],
     "mo-breaking": [
+      "https://monero.observer/binance-suffers-largest-hack-crypto-history-to-cover-all-losses/",
       "https://monero.observer/keystone-to-destroy-18835-compromised-harware-wallets-after-data-breach/",
       "https://monero.observer/disroot-reports-major-hardware-failure-storage-server/",
       "https://monero.observer/monero-observer-clearnet-site-outage/",
@@ -525,6 +533,8 @@
       "https://monero.observer/monero-dev-activity-report-week-36-2025/"
     ],
     "mo-stories": [
+      "https://monero.observer/binance-suffers-largest-hack-crypto-history-to-cover-all-losses/",
+      "https://monero.observer/haveno-v1.12.0-released-security-fixes-ui-improvements/",
       "https://monero.observer/monero-research-lab-meeting-4-november-2026/",
       "https://monero.observer/keystone-to-destroy-18835-compromised-harware-wallets-after-data-breach/",
       "https://monero.observer/biscuit-wallet-v1.2.3-released-ui-improvements/",
@@ -549,10 +559,7 @@
       "https://monero.observer/monero-research-lab-meeting-21-october-2026/",
       "https://monero.observer/xmrpod-v0.1.23-released/",
       "https://monero.observer/cuprate-meeting-scheduled-20-october-2026/",
-      "https://monero.observer/cake-wallet-monero.com-v6.5.0-adds-support-robinhood-chain/",
-      "https://monero.observer/monero-tech-meeting-19-october-2026/",
-      "https://monero.observer/jpk68-ccs-proposal-full-time-monero-dev-work-3-months/",
-      "https://monero.observer/biscuit-wallet-1.1.1-adds-support-eth-usdt-usdc/"
+      "https://monero.observer/cake-wallet-monero.com-v6.5.0-adds-support-robinhood-chain/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/3fd0f88c20f559839cafb20911cb13cb45eba7bd",
@@ -577,6 +584,10 @@
       "tag:github.com,2008:Grit::Commit/8a48fc884d15473395de900ab64cd24d2e4c8f9a"
     ],
     "monero-observer": [
+      "https://monero.observer/binance-suffers-largest-hack-crypto-history-to-cover-all-losses/",
+      "https://monero.observer/appearanceawkward660/",
+      "https://monero.observer/haveno-v1.12.0-released-security-fixes-ui-improvements/",
+      "https://monero.observer/sunchakr-27/",
       "https://monero.observer/unstoppableswap-4/",
       "https://monero.observer/anon-30/",
       "https://monero.observer/monero-research-lab-meeting-4-november-2026/",
@@ -622,11 +633,7 @@
       "https://monero.observer/xmrpod-v0.1.23-released/",
       "https://monero.observer/cuprate-meeting-scheduled-20-october-2026/",
       "https://monero.observer/cowaware7731/",
-      "https://monero.observer/cake-wallet-monero.com-v6.5.0-adds-support-robinhood-chain/",
-      "https://monero.observer/decolorizedxmr/",
-      "https://monero.observer/monero-tech-meeting-19-october-2026/",
-      "https://monero.observer/jpk68-ccs-proposal-full-time-monero-dev-work-3-months/",
-      "https://monero.observer/biscuit-wallet-1.1.1-adds-support-eth-usdt-usdc/"
+      "https://monero.observer/cake-wallet-monero.com-v6.5.0-adds-support-robinhood-chain/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.4",
@@ -806,6 +813,6 @@
       ]
     }
   },
-  "last_run": "2026-10-30T01:19:32.285290+00:00",
-  "run_count": 219
+  "last_run": "2026-10-30T07:18:36.548643+00:00",
+  "run_count": 220
 }
