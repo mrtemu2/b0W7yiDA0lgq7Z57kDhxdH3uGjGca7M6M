@@ -152,6 +152,7 @@
     "feed:mo-stories:https://monero.observer/biscuit-wallet-v1.2.1-released-support-swaps-tor-mode/": "2026-10-23T07:23:00.051719+00:00",
     "feed:mo-stories:https://monero.observer/biscuit-wallet-v1.2.3-released-ui-improvements/": "2026-10-28T07:33:22.695245+00:00",
     "feed:mo-stories:https://monero.observer/bitcart-v0.11.0.0-released-redesigned-payment-flow/": "2026-10-27T06:12:19.803422+00:00",
+    "feed:mo-stories:https://monero.observer/boog900-cuprate-fcmp-support-ccs-fully-funded/": "2026-11-02T02:27:30.345582+00:00",
     "feed:mo-stories:https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/": "2026-09-20T23:10:54.104188+00:00",
     "feed:mo-stories:https://monero.observer/cake-wallet-monero.com-v6.4.6-released/": "2026-10-07T06:35:50.275167+00:00",
     "feed:mo-stories:https://monero.observer/cake-wallet-monero.com-v6.5.0-adds-support-robinhood-chain/": "2026-10-13T07:03:59.058105+00:00",
@@ -186,6 +187,7 @@
     "feed:mo-stories:https://monero.observer/monero-community-workgroup-meeting-17-october-2026/": "2026-10-04T05:43:04.994861+00:00",
     "feed:mo-stories:https://monero.observer/monero-community-workgroup-meeting-31-october-2026/": "2026-10-18T01:29:37.445352+00:00",
     "feed:mo-stories:https://monero.observer/monero-dev-activity-report-week-38-2026/": "2026-09-20T23:10:54.076952+00:00",
+    "feed:mo-stories:https://monero.observer/monero-observer-blitz-october-2026/": "2026-11-02T02:26:39.492230+00:00",
     "feed:mo-stories:https://monero.observer/monero-observer-blitz-september-2026/": "2026-10-02T02:32:40.907461+00:00",
     "feed:mo-stories:https://monero.observer/monero-observer-clearnet-site-outage/": "2026-10-23T07:22:59.843667+00:00",
     "feed:mo-stories:https://monero.observer/monero-observer-funding-2027/": "2026-10-02T02:32:40.882331+00:00",
@@ -356,6 +358,7 @@
     "feed:monero-observer:https://monero.observer/biscuit-wallet-v1.2.1-released-support-swaps-tor-mode/": "2026-10-23T07:22:58.987264+00:00",
     "feed:monero-observer:https://monero.observer/biscuit-wallet-v1.2.3-released-ui-improvements/": "2026-10-28T07:33:18.737230+00:00",
     "feed:monero-observer:https://monero.observer/bitcart-v0.11.0.0-released-redesigned-payment-flow/": "2026-10-27T06:12:18.979469+00:00",
+    "feed:monero-observer:https://monero.observer/boog900-cuprate-fcmp-support-ccs-fully-funded/": "2026-11-02T02:25:49.122285+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-monero.com-v6.4.5-released-key-monero-upgrades/": "2026-09-20T23:10:53.130536+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-monero.com-v6.4.6-released/": "2026-10-07T06:35:48.740199+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-monero.com-v6.5.0-adds-support-robinhood-chain/": "2026-10-13T07:03:57.961418+00:00",
@@ -390,6 +393,7 @@
     "feed:monero-observer:https://monero.observer/haveno-v1.9.0-released-ui-improvements-new-payment-methods-security-fixes/": "2026-10-07T06:35:48.627429+00:00",
     "feed:monero-observer:https://monero.observer/ivkik55/": "2026-10-02T02:32:38.682859+00:00",
     "feed:monero-observer:https://monero.observer/j-berman-ccs-proposal-fcmps-carrot-dev-work-3-months/": "2026-10-08T06:18:54.837948+00:00",
+    "feed:monero-observer:https://monero.observer/jealous_conflict6651/": "2026-11-02T02:24:57.160243+00:00",
     "feed:monero-observer:https://monero.observer/jpk68-ccs-full-time-monero-dev-work-3-months-fully-funded/": "2026-10-27T06:12:18.867333+00:00",
     "feed:monero-observer:https://monero.observer/jpk68-ccs-proposal-full-time-monero-dev-work-3-months/": "2026-10-12T01:51:50.328884+00:00",
     "feed:monero-observer:https://monero.observer/keystone-to-destroy-18835-compromised-harware-wallets-after-data-breach/": "2026-10-28T07:33:18.516076+00:00",
@@ -403,6 +407,7 @@
     "feed:monero-observer:https://monero.observer/monero-community-workgroup-meeting-17-october-2026/": "2026-10-04T05:43:03.769773+00:00",
     "feed:monero-observer:https://monero.observer/monero-community-workgroup-meeting-31-october-2026/": "2026-10-18T01:29:35.644192+00:00",
     "feed:monero-observer:https://monero.observer/monero-dev-activity-report-week-38-2026/": "2026-09-20T23:10:53.103308+00:00",
+    "feed:monero-observer:https://monero.observer/monero-observer-blitz-october-2026/": "2026-11-02T02:24:07.107440+00:00",
     "feed:monero-observer:https://monero.observer/monero-observer-blitz-september-2026/": "2026-10-02T02:32:38.709411+00:00",
     "feed:monero-observer:https://monero.observer/monero-observer-clearnet-site-outage/": "2026-10-23T07:22:58.359551+00:00",
     "feed:monero-observer:https://monero.observer/monero-observer-funding-2027/": "2026-10-02T02:32:38.626827+00:00",
@@ -543,6 +548,8 @@
       "https://monero.observer/monero-dev-activity-report-week-37-2025/"
     ],
     "mo-stories": [
+      "https://monero.observer/monero-observer-blitz-october-2026/",
+      "https://monero.observer/boog900-cuprate-fcmp-support-ccs-fully-funded/",
       "https://monero.observer/chainalysis-customer-data-exposed-cybersecurity-incident/",
       "https://monero.observer/cake-wallet-monero.com-v6.5.2-released/",
       "https://monero.observer/monero-community-workgroup-meeting-14-november-2026/",
@@ -594,6 +601,9 @@
       "tag:github.com,2008:Grit::Commit/8a48fc884d15473395de900ab64cd24d2e4c8f9a"
     ],
     "monero-observer": [
+      "https://monero.observer/monero-observer-blitz-october-2026/",
+      "https://monero.observer/jealous_conflict6651/",
+      "https://monero.observer/boog900-cuprate-fcmp-support-ccs-fully-funded/",
       "https://monero.observer/chainalysis-customer-data-exposed-cybersecurity-incident/",
       "https://monero.observer/noxswap/",
       "https://monero.observer/cake-wallet-monero.com-v6.5.2-released/",
@@ -640,10 +650,7 @@
       "https://monero.observer/90ssolo/",
       "https://monero.observer/monero-community-workgroup-meeting-31-october-2026/",
       "https://monero.observer/monero-v0.18.5.4-fluorine-fermi-released/",
-      "https://monero.observer/silverpill-ccs-proposal-monero-rs-to-monero-oxide-migration/",
-      "https://monero.observer/anon-28/",
-      "https://monero.observer/acechange/",
-      "https://monero.observer/love-life-wo/"
+      "https://monero.observer/silverpill-ccs-proposal-monero-rs-to-monero-oxide-migration/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.4",
@@ -823,6 +830,6 @@
       ]
     }
   },
-  "last_run": "2026-11-01T23:01:46.195705+00:00",
-  "run_count": 233
+  "last_run": "2026-11-02T02:27:31.884376+00:00",
+  "run_count": 234
 }
