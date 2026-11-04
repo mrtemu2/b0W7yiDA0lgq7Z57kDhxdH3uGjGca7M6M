@@ -159,6 +159,7 @@
     "feed:mo-stories:https://monero.observer/cake-wallet-monero.com-v6.5.0-adds-support-robinhood-chain/": "2026-10-13T07:03:59.058105+00:00",
     "feed:mo-stories:https://monero.observer/cake-wallet-monero.com-v6.5.2-released/": "2026-11-01T08:04:33.807963+00:00",
     "feed:mo-stories:https://monero.observer/chainalysis-customer-data-exposed-cybersecurity-incident/": "2026-11-01T08:04:33.624804+00:00",
+    "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-10-november-2026/": "2026-11-04T02:40:44.961232+00:00",
     "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-13-october-2026/": "2026-10-07T06:35:50.389378+00:00",
     "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-20-october-2026/": "2026-10-14T04:44:35.681122+00:00",
     "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-27-october-2026/": "2026-10-21T00:55:22.858645+00:00",
@@ -363,6 +364,7 @@
     "feed:monero-observer:https://monero.observer/anon-29/": "2026-10-23T07:22:58.583345+00:00",
     "feed:monero-observer:https://monero.observer/anon-30/": "2026-10-29T02:56:34.960587+00:00",
     "feed:monero-observer:https://monero.observer/anon-31/": "2026-10-31T02:30:52.359729+00:00",
+    "feed:monero-observer:https://monero.observer/anon-32/": "2026-11-04T02:40:44.221802+00:00",
     "feed:monero-observer:https://monero.observer/appearanceawkward660/": "2026-10-30T07:18:32.740402+00:00",
     "feed:monero-observer:https://monero.observer/astrek/": "2026-10-05T01:13:48.299839+00:00",
     "feed:monero-observer:https://monero.observer/binance-suffers-largest-hack-crypto-history-to-cover-all-losses/": "2026-10-30T07:18:32.565770+00:00",
@@ -380,6 +382,7 @@
     "feed:monero-observer:https://monero.observer/chowbungaman-5/": "2026-09-27T02:15:50.453929+00:00",
     "feed:monero-observer:https://monero.observer/cowaware7731/": "2026-10-13T07:03:57.851907+00:00",
     "feed:monero-observer:https://monero.observer/cryptoknath-hue/": "2026-09-23T00:43:41.351165+00:00",
+    "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-10-november-2026/": "2026-11-04T02:40:44.573061+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-13-october-2026/": "2026-10-07T06:35:48.835928+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-20-october-2026/": "2026-10-14T04:44:33.377928+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-27-october-2026/": "2026-10-21T00:55:22.033231+00:00",
@@ -442,6 +445,7 @@
     "feed:monero-observer:https://monero.observer/monero-v0.18.5.3-fluorine-fermi-tagged/": "2026-10-03T02:59:40.825623+00:00",
     "feed:monero-observer:https://monero.observer/monero-v0.18.5.4-fluorine-fermi-released/": "2026-10-17T01:50:08.957746+00:00",
     "feed:monero-observer:https://monero.observer/moneromatteo-2/": "2026-09-20T23:10:53.185201+00:00",
+    "feed:monero-observer:https://monero.observer/moneroone/": "2026-11-04T02:40:44.399864+00:00",
     "feed:monero-observer:https://monero.observer/monerotalk-50/": "2026-10-24T07:12:47.577566+00:00",
     "feed:monero-observer:https://monero.observer/monerovegas/": "2026-10-18T22:34:50.013412+00:00",
     "feed:monero-observer:https://monero.observer/nahuhh-releases-basicswap-bash-v0.19.1/": "2026-10-28T07:33:21.857465+00:00",
@@ -563,8 +567,9 @@
       "https://monero.observer/monero-dev-activity-report-week-37-2025/"
     ],
     "mo-stories": [
-      "https://monero.observer/tobtoht-releases-feather-wallet-v2.9.1/",
+      "https://monero.observer/cuprate-meeting-scheduled-10-november-2026/",
       "https://monero.observer/magic-grants-releases-skylight-wallet-v2.2.0/",
+      "https://monero.observer/tobtoht-releases-feather-wallet-v2.9.1/",
       "https://monero.observer/monero-tech-meeting-9-november-2026/",
       "https://monero.observer/monero-observer-blitz-october-2026/",
       "https://monero.observer/boog900-cuprate-fcmp-support-ccs-fully-funded/",
@@ -589,9 +594,7 @@
       "https://monero.observer/monero-ccs-website-temporarily-disabled-disclosure-critical-php-vulnerabilities/",
       "https://monero.observer/monero-research-lab-meeting-28-october-2026/",
       "https://monero.observer/cuprate-meeting-scheduled-27-october-2026/",
-      "https://monero.observer/monero-tech-meeting-26-october-2026/",
-      "https://monero.observer/woodser-releases-monero-java-v0.8.63-monero-cpp-v0.9.10/",
-      "https://monero.observer/haveno-v1.11.0-released-security-updates-fixes-ui-improvements/"
+      "https://monero.observer/monero-tech-meeting-26-october-2026/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/b14fae7bca4099cea56205e44c1005602834b7bd",
@@ -616,8 +619,12 @@
       "tag:github.com,2008:Grit::Commit/36b87ef8061a157ea19910ae796d993fe2651b07"
     ],
     "monero-observer": [
-      "https://monero.observer/tobtoht-releases-feather-wallet-v2.9.1/",
+      "https://monero.observer/anon-32/",
+      "https://monero.observer/xmrlist/",
+      "https://monero.observer/moneroone/",
+      "https://monero.observer/cuprate-meeting-scheduled-10-november-2026/",
       "https://monero.observer/magic-grants-releases-skylight-wallet-v2.2.0/",
+      "https://monero.observer/tobtoht-releases-feather-wallet-v2.9.1/",
       "https://monero.observer/monero-tech-meeting-9-november-2026/",
       "https://monero.observer/monero-observer-blitz-october-2026/",
       "https://monero.observer/jealous_conflict6651/",
@@ -626,9 +633,9 @@
       "https://monero.observer/noxswap/",
       "https://monero.observer/cake-wallet-monero.com-v6.5.2-released/",
       "https://monero.observer/monero-community-workgroup-meeting-14-november-2026/",
-      "https://monero.observer/anon-31/",
       "https://monero.observer/woodser-releases-monero-java-v0.8.64-monero-ts-v0.11.21/",
       "https://monero.observer/rucknium-25/",
+      "https://monero.observer/anon-31/",
       "https://monero.observer/binance-suffers-largest-hack-crypto-history-to-cover-all-losses/",
       "https://monero.observer/appearanceawkward660/",
       "https://monero.observer/haveno-v1.12.0-released-security-fixes-ui-improvements/",
@@ -661,11 +668,7 @@
       "https://monero.observer/cuprate-meeting-scheduled-27-october-2026/",
       "https://monero.observer/monero-tech-meeting-26-october-2026/",
       "https://monero.observer/swimming-cake-2892-3/",
-      "https://monero.observer/zedeus/",
-      "https://monero.observer/monerovegas/",
-      "https://monero.observer/woodser-releases-monero-java-v0.8.63-monero-cpp-v0.9.10/",
-      "https://monero.observer/haveno-v1.11.0-released-security-updates-fixes-ui-improvements/",
-      "https://monero.observer/90ssolo/"
+      "https://monero.observer/zedeus/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.4",
@@ -845,6 +848,6 @@
       ]
     }
   },
-  "last_run": "2026-11-03T22:35:07.127665+00:00",
-  "run_count": 240
+  "last_run": "2026-11-04T02:40:47.980085+00:00",
+  "run_count": 241
 }
