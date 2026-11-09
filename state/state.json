@@ -30,6 +30,7 @@
     "feed:mo-stories:https://monero.observer/biscuit-wallet-v1.2.1-released-support-swaps-tor-mode/": "2026-10-23T07:23:00.051719+00:00",
     "feed:mo-stories:https://monero.observer/biscuit-wallet-v1.2.3-released-ui-improvements/": "2026-10-28T07:33:22.695245+00:00",
     "feed:mo-stories:https://monero.observer/bitcart-v0.11.0.0-released-redesigned-payment-flow/": "2026-10-27T06:12:19.803422+00:00",
+    "feed:mo-stories:https://monero.observer/bitcart-v0.11.1.0-released-new-template-renderer/": "2026-11-09T02:07:26.053989+00:00",
     "feed:mo-stories:https://monero.observer/boog900-cuprate-fcmp-support-ccs-fully-funded/": "2026-11-02T02:27:30.345582+00:00",
     "feed:mo-stories:https://monero.observer/cake-wallet-monero.com-v6.4.6-released/": "2026-10-07T06:35:50.275167+00:00",
     "feed:mo-stories:https://monero.observer/cake-wallet-monero.com-v6.5.0-adds-support-robinhood-chain/": "2026-10-13T07:03:59.058105+00:00",
@@ -231,6 +232,7 @@
     "feed:monero-observer:https://monero.observer/biscuit-wallet-v1.2.1-released-support-swaps-tor-mode/": "2026-10-23T07:22:58.987264+00:00",
     "feed:monero-observer:https://monero.observer/biscuit-wallet-v1.2.3-released-ui-improvements/": "2026-10-28T07:33:18.737230+00:00",
     "feed:monero-observer:https://monero.observer/bitcart-v0.11.0.0-released-redesigned-payment-flow/": "2026-10-27T06:12:18.979469+00:00",
+    "feed:monero-observer:https://monero.observer/bitcart-v0.11.1.0-released-new-template-renderer/": "2026-11-09T02:07:25.259029+00:00",
     "feed:monero-observer:https://monero.observer/boog900-cuprate-fcmp-support-ccs-fully-funded/": "2026-11-02T02:25:49.122285+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-monero.com-v6.4.6-released/": "2026-10-07T06:35:48.740199+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-monero.com-v6.5.0-adds-support-robinhood-chain/": "2026-10-13T07:03:57.961418+00:00",
@@ -320,6 +322,7 @@
     "feed:monero-observer:https://monero.observer/selsta-posts-monero-dev-report-october-2026/": "2026-11-06T07:00:11.611139+00:00",
     "feed:monero-observer:https://monero.observer/sgp_4/": "2026-09-29T23:58:39.493637+00:00",
     "feed:monero-observer:https://monero.observer/sgp_5/": "2026-10-06T02:32:38.956861+00:00",
+    "feed:monero-observer:https://monero.observer/silo/": "2026-11-09T02:07:25.435458+00:00",
     "feed:monero-observer:https://monero.observer/silverpill-ccs-proposal-monero-rs-to-monero-oxide-migration/": "2026-10-17T01:50:09.039080+00:00",
     "feed:monero-observer:https://monero.observer/silvertriple765/": "2026-10-05T01:13:48.662696+00:00",
     "feed:monero-observer:https://monero.observer/slowbeardigger-proposal-take-over-monero-integrations-part-3-ccs/": "2026-09-27T02:15:50.671218+00:00",
@@ -423,6 +426,7 @@
       "https://monero.observer/monero-dev-activity-report-week-38-2025/"
     ],
     "mo-stories": [
+      "https://monero.observer/bitcart-v0.11.1.0-released-new-template-renderer/",
       "https://monero.observer/monero-project-enrolls-into-anthropic-oss-scanner-service/",
       "https://monero.observer/selsta-posts-monero-dev-report-october-2026/",
       "https://monero.observer/xmr20-spends-block-reward-to-inject-598kb-music-video-monero-blockchain/",
@@ -476,6 +480,8 @@
       "tag:github.com,2008:Grit::Commit/a1e250160a0c7c7c1da58b1b3fd224372632a3be"
     ],
     "monero-observer": [
+      "https://monero.observer/bitcart-v0.11.1.0-released-new-template-renderer/",
+      "https://monero.observer/silo/",
       "https://monero.observer/edge-6/",
       "https://monero.observer/smslease/",
       "https://monero.observer/sunchakr-28/",
@@ -523,9 +529,7 @@
       "https://monero.observer/bitcart-v0.11.0.0-released-redesigned-payment-flow/",
       "https://monero.observer/monero-tech-meeting-2-november-2026/",
       "https://monero.observer/syntheticbird45-4/",
-      "https://monero.observer/obscurify/",
-      "https://monero.observer/one_paint8721/",
-      "https://monero.observer/ghostswap/"
+      "https://monero.observer/obscurify/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.4",
@@ -705,6 +709,6 @@
       ]
     }
   },
-  "last_run": "2026-11-08T22:49:50.753566+00:00",
-  "run_count": 261
+  "last_run": "2026-11-09T02:07:29.093787+00:00",
+  "run_count": 262
 }
