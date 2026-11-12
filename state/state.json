@@ -3,7 +3,7 @@
     "api:prs:23": "2026-11-07T13:29:34.514909+00:00",
     "api:prs:24": "2026-11-08T07:32:07.297046+00:00",
     "api:prs:25": "2026-11-08T22:49:50.386181+00:00",
-    "api:prs:26": "2026-10-24T12:04:56.091417+00:00",
+    "api:prs:26": "2026-11-12T08:13:13.889697+00:00",
     "api:prs:27": "2026-11-03T09:59:08.972294+00:00",
     "api:prs:28": "2026-10-19T10:56:10.235014+00:00",
     "api:prs:29": "2026-10-22T17:35:15.186562+00:00",
@@ -49,7 +49,6 @@
     "feed:mo-stories:https://monero.observer/disroot-reports-major-hardware-failure-storage-server/": "2026-10-27T06:12:19.601259+00:00",
     "feed:mo-stories:https://monero.observer/dread-main-onion-private-key-exposed/": "2026-10-06T02:32:39.862325+00:00",
     "feed:mo-stories:https://monero.observer/feather-fork-biscuit-wallet-released-xmr-btc-ltc/": "2026-10-08T06:18:57.954376+00:00",
-    "feed:mo-stories:https://monero.observer/free-software-community-celebrates-gnu-43rd-anniversary-today/": "2026-09-28T05:14:38.458711+00:00",
     "feed:mo-stories:https://monero.observer/gingeropolous-submits-ccs-proposal-monerosim-mrc/": "2026-10-06T02:32:40.010933+00:00",
     "feed:mo-stories:https://monero.observer/haveno-v1.10.0-released-minor-bugfixes/": "2026-10-11T07:19:32.962332+00:00",
     "feed:mo-stories:https://monero.observer/haveno-v1.11.0-released-security-updates-fixes-ui-improvements/": "2026-10-18T01:29:37.235933+00:00",
@@ -253,7 +252,6 @@
     "feed:monero-observer:https://monero.observer/emptybub1394/": "2026-10-03T02:59:41.191534+00:00",
     "feed:monero-observer:https://monero.observer/feather-fork-biscuit-wallet-released-xmr-btc-ltc/": "2026-10-08T06:18:55.013794+00:00",
     "feed:monero-observer:https://monero.observer/forward_science/": "2026-11-11T03:10:10.674067+00:00",
-    "feed:monero-observer:https://monero.observer/free-software-community-celebrates-gnu-43rd-anniversary-today/": "2026-09-28T05:14:36.976701+00:00",
     "feed:monero-observer:https://monero.observer/ghostswap-2/": "2026-11-05T03:42:40.275626+00:00",
     "feed:monero-observer:https://monero.observer/ghostswap/": "2026-10-11T07:19:31.836815+00:00",
     "feed:monero-observer:https://monero.observer/gingeropolous-submits-ccs-proposal-monerosim-mrc/": "2026-10-06T02:32:38.492715+00:00",
@@ -352,7 +350,6 @@
     "feed:monero-observer:https://monero.observer/xmrlist/": "2026-10-01T00:48:09.203335+00:00",
     "feed:monero-observer:https://monero.observer/xmrpod-v0.1.23-released/": "2026-10-14T04:44:33.160506+00:00",
     "feed:monero-observer:https://monero.observer/xmrpod-v0.1.24-released/": "2026-10-23T07:22:59.211299+00:00",
-    "feed:monero-observer:https://monero.observer/zecnero/": "2026-09-28T05:14:37.159373+00:00",
     "feed:monero-observer:https://monero.observer/zedeus/": "2026-10-18T22:34:49.939461+00:00",
     "feed:monero-releases:tag:github.com,2008:Repository/19316619/v0.18.5.3": "2026-10-02T20:10:47.786746+00:00",
     "feed:monero-releases:tag:github.com,2008:Repository/19316619/v0.18.5.4": "2026-10-15T10:04:47.769229+00:00",
@@ -360,7 +357,7 @@
     "feed:monero-tags:tag:github.com,2008:Repository/19316619/v0.18.5.4": "2026-10-15T10:04:48.103884+00:00"
   },
   "api": {
-    "fcmp_prs": 25,
+    "fcmp_prs": 26,
     "milestones": {
       "fcmp++ hf": "open",
       "release-v0.19": "open"
@@ -705,6 +702,6 @@
       ]
     }
   },
-  "last_run": "2026-11-12T01:04:02.759819+00:00",
-  "run_count": 272
+  "last_run": "2026-11-12T08:13:14.415924+00:00",
+  "run_count": 273
 }
