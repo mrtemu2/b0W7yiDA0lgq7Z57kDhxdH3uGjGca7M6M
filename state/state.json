@@ -113,6 +113,7 @@
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/101aa635a19d1c3b75f0102085bcc3c45ef1c0b6": "2026-10-15T19:04:10.090670+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/12b1f0dba1b586781cafbed78ed9683c838de45b": "2026-10-13T20:37:10.203087+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/160e21504aed2a9b6dfdba0970517161383b04e5": "2026-10-02T20:10:48.248394+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/1785a95800822d853096eb063a151f1800971ed9": "2026-11-13T18:14:44.586861+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/183b5e962401092ba6e1ea1a2e4774800851f693": "2026-10-18T11:39:37.254596+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/24272e4a3b2e812cc2a569d95b177ecef4b91e46": "2026-10-08T19:31:11.759492+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/24a012230cca323fc51f0bb561d464b92d52050a": "2026-10-02T20:10:48.448483+00:00",
@@ -134,6 +135,7 @@
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/45073a9bfcc7e4ce7765eb1f818946c654d63d27": "2026-11-07T13:29:31.181239+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/484a868830d89294e9b658e41cff3dac72b6c7e1": "2026-10-25T12:06:49.409146+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/4b84712e4eab8a561ca4186c1a9ef35baf50c6bd": "2026-10-02T20:10:48.289529+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/552034f91b4554c7a7acc843846873a7b1cb37c3": "2026-11-13T18:14:44.059685+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/56bf6025fcfda0267f534291dd1f402fbd2722d6": "2026-10-24T12:04:49.703239+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/56fc9c82ef11ef7695313eb84407b8ee8f62f20f": "2026-10-15T19:04:10.297955+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/57231be6b400c7ca349380f0f5c06e2c9eab1436": "2026-11-07T13:29:30.976783+00:00",
@@ -146,6 +148,7 @@
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/711d442557018125f13bffae0e3c725590a42e86": "2026-10-17T10:58:09.586358+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/717a423501bc19de0bf200715149b1525fe955dc": "2026-10-02T20:10:48.543344+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/724819caf0524443ce0462a8bce8ceb29c736444": "2026-10-13T20:37:11.086760+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/73b083c5a7dedbb9c0f6ac2cd5c6fbb435ca346f": "2026-11-13T18:14:44.234460+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/746fd383b96862b829e4e7b2cb15a9bf74406f29": "2026-10-13T20:37:10.735497+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/76d425f876995e49dc68cf53b593a2606bf8b1b3": "2026-10-25T12:06:49.589475+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/774f670d92782562bd95c33655e8f80b8a241a42": "2026-11-09T20:39:26.257971+00:00",
@@ -177,6 +180,7 @@
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/b0b5c42c3cb84bbfe34fab62831a8beb10e25ec1": "2026-11-07T13:29:31.279204+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/b14fae7bca4099cea56205e44c1005602834b7bd": "2026-11-02T20:17:24.038600+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/bb602b3a35ab039a5098a15f86b1836ff220af59": "2026-10-18T11:39:37.281539+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/bb68329204e4fb947eb64b754b5143af796863b8": "2026-11-13T18:14:44.412290+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/bcaaec16f72e71e0786b11f3639ebc12e6832b40": "2026-11-10T02:59:05.682924+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/bcd17917e57430450113dca1840a8d772175d133": "2026-10-25T12:06:49.760679+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/c03c1f15b14d2e2eb568d3b6bb0cab7ffb667918": "2026-10-02T20:10:48.488469+00:00",
@@ -189,9 +193,13 @@
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/dc5e751dd1b0dcfe7c5e205c389667ae62b27af4": "2026-10-15T19:04:10.191269+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/e0f36de6149ebfbbe092e783fffe0430d97f3e1f": "2026-09-30T21:24:01.112573+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/e3dd61d9740270b4a6968b83343127d639fa1faa": "2026-10-08T19:31:12.384699+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/e69ad3af04a51eb72bcba8058dc8dc7383a365ed": "2026-11-13T18:14:44.948400+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/eab7d1f5e0c84129cd4cae82e4529e772c4c59bf": "2026-11-09T20:39:26.085001+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/ec1beaaa8c8222490157e05d0215b1686d6f77ff": "2026-10-25T12:06:49.228709+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/ef78ff3d7496653f91e2ae870514352f753e3a07": "2026-11-13T18:14:43.874919+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/f036c5bd3c1dd9047c2c55778c478202abeff4e5": "2026-11-13T18:14:44.767074+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/f355a0532608197a3ab4968719b990ac9ef44162": "2026-10-19T10:56:02.397453+00:00",
+    "feed:monero-commits:tag:github.com,2008:Grit::Commit/f622545e8c67ae73d3489a57ba6c3be810b81dba": "2026-11-13T18:14:45.122296+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/f6a591c33a40957800bc0d8cb4804058ab36d1f3": "2026-10-04T22:29:55.572449+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/f8aba51d2d50ebe7c96a0f4d1f2d6e88add61710": "2026-10-17T10:58:09.073560+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/fbc36ef81fe3ae66cedafa0455cfa608dba74e38": "2026-10-24T12:04:49.605459+00:00",
@@ -439,6 +447,17 @@
       "https://monero.observer/haveno-v1.12.0-released-security-fixes-ui-improvements/"
     ],
     "monero-commits": [
+      "tag:github.com,2008:Grit::Commit/ef78ff3d7496653f91e2ae870514352f753e3a07",
+      "tag:github.com,2008:Grit::Commit/552034f91b4554c7a7acc843846873a7b1cb37c3",
+      "tag:github.com,2008:Grit::Commit/73b083c5a7dedbb9c0f6ac2cd5c6fbb435ca346f",
+      "tag:github.com,2008:Grit::Commit/bb68329204e4fb947eb64b754b5143af796863b8",
+      "tag:github.com,2008:Grit::Commit/1785a95800822d853096eb063a151f1800971ed9",
+      "tag:github.com,2008:Grit::Commit/f036c5bd3c1dd9047c2c55778c478202abeff4e5",
+      "tag:github.com,2008:Grit::Commit/e69ad3af04a51eb72bcba8058dc8dc7383a365ed",
+      "tag:github.com,2008:Grit::Commit/f622545e8c67ae73d3489a57ba6c3be810b81dba",
+      "tag:github.com,2008:Grit::Commit/061b2dc67780d4d89a6ce82fa15325919852b3ce",
+      "tag:github.com,2008:Grit::Commit/1a13152844a26862c697b682bcb689de8c0912d8",
+      "tag:github.com,2008:Grit::Commit/ec984da2d8c37f51c31ee158316b642507fcd7a7",
       "tag:github.com,2008:Grit::Commit/bcaaec16f72e71e0786b11f3639ebc12e6832b40",
       "tag:github.com,2008:Grit::Commit/046e926d338dff676bf35a7f8e6d62e85d9b28fe",
       "tag:github.com,2008:Grit::Commit/a525729493067ee9e7fb2b9336e9539ffc6dd01e",
@@ -447,18 +466,7 @@
       "tag:github.com,2008:Grit::Commit/42229681396cdbdaee169bd1ebb2ad5e04fac8bf",
       "tag:github.com,2008:Grit::Commit/eab7d1f5e0c84129cd4cae82e4529e772c4c59bf",
       "tag:github.com,2008:Grit::Commit/774f670d92782562bd95c33655e8f80b8a241a42",
-      "tag:github.com,2008:Grit::Commit/8a5c0eb01b5a20b6fa1b376413631f5a13c39613",
-      "tag:github.com,2008:Grit::Commit/446346221d5b3c6dd8e8016db8859b07d6185876",
-      "tag:github.com,2008:Grit::Commit/01dfcd6d2dbf4c07d482f2682e7eb3710901b84f",
-      "tag:github.com,2008:Grit::Commit/0120dda4d58fa6a7e6c822894fc1d7f4c48f445e",
-      "tag:github.com,2008:Grit::Commit/57231be6b400c7ca349380f0f5c06e2c9eab1436",
-      "tag:github.com,2008:Grit::Commit/a5b46abca3710b9c0402d67e85c0f8b8125887ea",
-      "tag:github.com,2008:Grit::Commit/45073a9bfcc7e4ce7765eb1f818946c654d63d27",
-      "tag:github.com,2008:Grit::Commit/b0b5c42c3cb84bbfe34fab62831a8beb10e25ec1",
-      "tag:github.com,2008:Grit::Commit/9aeb95176f51fddf38d956bf21fc9d6c6a8b2c3a",
-      "tag:github.com,2008:Grit::Commit/acf5b91197c91bccc2f7af43f40899489c7f6094",
-      "tag:github.com,2008:Grit::Commit/a9be0008e084ab85de39c76ed48b4a1a20e8812a",
-      "tag:github.com,2008:Grit::Commit/c489e3bded0aa0bbbdecd428208ed631e3d85e36"
+      "tag:github.com,2008:Grit::Commit/8a5c0eb01b5a20b6fa1b376413631f5a13c39613"
     ],
     "monero-observer": [
       "https://monero.observer/samsunggalaxyplayer-19/",
@@ -690,6 +698,6 @@
       ]
     }
   },
-  "last_run": "2026-11-13T10:50:58.203335+00:00",
-  "run_count": 277
+  "last_run": "2026-11-13T18:14:49.683629+00:00",
+  "run_count": 278
 }
