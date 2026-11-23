@@ -298,7 +298,6 @@
     "feed:monero-observer:https://monero.observer/rucknium-26/": "2026-11-13T23:42:11.912381+00:00",
     "feed:monero-observer:https://monero.observer/sablebolt/": "2026-11-13T10:50:55.416673+00:00",
     "feed:monero-observer:https://monero.observer/samsunggalaxyplayer-19/": "2026-11-13T10:50:54.903775+00:00",
-    "feed:monero-observer:https://monero.observer/seethelayer/": "2026-10-09T05:59:12.483076+00:00",
     "feed:monero-observer:https://monero.observer/selsta-posts-monero-dev-report-october-2026/": "2026-11-06T07:00:11.611139+00:00",
     "feed:monero-observer:https://monero.observer/silo/": "2026-11-09T02:07:25.435458+00:00",
     "feed:monero-observer:https://monero.observer/silverpill-ccs-proposal-monero-rs-to-monero-oxide-migration/": "2026-10-17T01:50:09.039080+00:00",
@@ -673,6 +672,6 @@
       ]
     }
   },
-  "last_run": "2026-11-23T02:35:46.977643+00:00",
-  "run_count": 312
+  "last_run": "2026-11-23T11:15:01.679486+00:00",
+  "run_count": 313
 }
