@@ -74,6 +74,7 @@
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-2-november-2026/": "2026-10-27T06:12:19.907837+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-23-november-2026/": "2026-11-17T08:25:56.524902+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-26-october-2026/": "2026-10-19T21:43:59.547148+00:00",
+    "feed:mo-stories:https://monero.observer/monero-tech-meeting-30-november-2026/": "2026-11-23T22:44:48.103451+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-9-november-2026/": "2026-11-03T02:27:38.636836+00:00",
     "feed:mo-stories:https://monero.observer/monero-v0.18.5.4-fluorine-fermi-released/": "2026-10-17T01:50:10.550887+00:00",
     "feed:mo-stories:https://monero.observer/nahuhh-releases-basicswap-bash-v0.19.1/": "2026-10-28T07:33:25.527974+00:00",
@@ -81,6 +82,7 @@
     "feed:mo-stories:https://monero.observer/rehrar-releases-stack-wallet-v2.7.5/": "2026-11-12T01:04:00.397379+00:00",
     "feed:mo-stories:https://monero.observer/selsta-posts-monero-dev-report-october-2026/": "2026-11-06T07:00:13.001372+00:00",
     "feed:mo-stories:https://monero.observer/silverpill-ccs-proposal-monero-rs-to-monero-oxide-migration/": "2026-10-17T01:50:10.624606+00:00",
+    "feed:mo-stories:https://monero.observer/sneedlewoods-ccs-part-time-monero-dev-q4-2026-ready-funding/": "2026-11-23T22:44:47.891974+00:00",
     "feed:mo-stories:https://monero.observer/syntheticbird-cuprate-ccs-fully-funded/": "2026-11-21T07:30:02.684355+00:00",
     "feed:mo-stories:https://monero.observer/tobtoht-releases-feather-wallet-v2.9.1/": "2026-11-03T02:27:38.584295+00:00",
     "feed:mo-stories:https://monero.observer/woodser-releases-haveno-ts-v0.0.47/": "2026-11-23T02:35:44.755848+00:00",
@@ -90,6 +92,7 @@
     "feed:mo-stories:https://monero.observer/woodser-releases-monero-java-v0.8.65-monero-ts-v0.11.22-monero-cpp-v0.9.12/": "2026-11-06T07:00:13.666475+00:00",
     "feed:mo-stories:https://monero.observer/xmr-summer-rally-cut-short-by-worst-weekly-close-since-january-2026/": "2026-11-16T06:52:06.082519+00:00",
     "feed:mo-stories:https://monero.observer/xmr20-spends-block-reward-to-inject-598kb-music-video-monero-blockchain/": "2026-11-06T07:00:13.225739+00:00",
+    "feed:mo-stories:https://monero.observer/xmrig-and-xmrig-proxy-v6.27.0-released/": "2026-11-23T22:44:47.990804+00:00",
     "feed:mo-stories:https://monero.observer/xmrpod-v0.1.23-released/": "2026-10-14T04:44:35.464450+00:00",
     "feed:mo-stories:https://monero.observer/xmrpod-v0.1.24-released/": "2026-10-23T07:23:00.262788+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/00a1691d536f165b89d60333ef1fb7c0a88d2ede": "2026-10-13T20:37:10.907650+00:00",
@@ -275,6 +278,7 @@
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-2-november-2026/": "2026-10-27T06:12:19.085139+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-23-november-2026/": "2026-11-17T08:25:56.221819+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-26-october-2026/": "2026-10-19T21:43:58.185573+00:00",
+    "feed:monero-observer:https://monero.observer/monero-tech-meeting-30-november-2026/": "2026-11-23T22:44:47.527474+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-9-november-2026/": "2026-11-03T02:27:38.487592+00:00",
     "feed:monero-observer:https://monero.observer/monero-v0.18.5.4-fluorine-fermi-released/": "2026-10-17T01:50:08.957746+00:00",
     "feed:monero-observer:https://monero.observer/monerodir/": "2026-11-07T06:31:41.131798+00:00",
@@ -302,6 +306,7 @@
     "feed:monero-observer:https://monero.observer/silo/": "2026-11-09T02:07:25.435458+00:00",
     "feed:monero-observer:https://monero.observer/silverpill-ccs-proposal-monero-rs-to-monero-oxide-migration/": "2026-10-17T01:50:09.039080+00:00",
     "feed:monero-observer:https://monero.observer/smslease/": "2026-11-08T01:19:44.516598+00:00",
+    "feed:monero-observer:https://monero.observer/sneedlewoods-ccs-part-time-monero-dev-q4-2026-ready-funding/": "2026-11-23T22:44:47.327233+00:00",
     "feed:monero-observer:https://monero.observer/spirobel-16/": "2026-10-10T08:39:30.726908+00:00",
     "feed:monero-observer:https://monero.observer/sunchakr-27/": "2026-10-30T07:18:33.089276+00:00",
     "feed:monero-observer:https://monero.observer/sunchakr-28/": "2026-11-08T01:19:44.670574+00:00",
@@ -324,6 +329,7 @@
     "feed:monero-observer:https://monero.observer/woodser-releases-monero-java-v0.8.65-monero-ts-v0.11.22-monero-cpp-v0.9.12/": "2026-11-06T07:00:12.262037+00:00",
     "feed:monero-observer:https://monero.observer/xmr-summer-rally-cut-short-by-worst-weekly-close-since-january-2026/": "2026-11-16T06:52:02.852482+00:00",
     "feed:monero-observer:https://monero.observer/xmr20-spends-block-reward-to-inject-598kb-music-video-monero-blockchain/": "2026-11-06T07:00:11.826790+00:00",
+    "feed:monero-observer:https://monero.observer/xmrig-and-xmrig-proxy-v6.27.0-released/": "2026-11-23T22:44:47.424842+00:00",
     "feed:monero-observer:https://monero.observer/xmrpod-v0.1.23-released/": "2026-10-14T04:44:33.160506+00:00",
     "feed:monero-observer:https://monero.observer/xmrpod-v0.1.24-released/": "2026-10-23T07:22:59.211299+00:00",
     "feed:monero-observer:https://monero.observer/zedeus/": "2026-10-18T22:34:49.939461+00:00",
@@ -392,10 +398,12 @@
       "https://monero.observer/monero-dev-activity-report-week-44-2025/",
       "https://monero.observer/monero-dev-activity-report-week-43-2025/",
       "https://monero.observer/monero-dev-activity-report-week-42-2025/",
-      "https://monero.observer/monero-dev-activity-report-week-41-2025/",
-      "https://monero.observer/monero-dev-activity-report-week-40-2025/"
+      "https://monero.observer/monero-dev-activity-report-week-41-2025/"
     ],
     "mo-stories": [
+      "https://monero.observer/sneedlewoods-ccs-part-time-monero-dev-q4-2026-ready-funding/",
+      "https://monero.observer/xmrig-and-xmrig-proxy-v6.27.0-released/",
+      "https://monero.observer/monero-tech-meeting-30-november-2026/",
       "https://monero.observer/mmgen-wallet-patches-two-critical-vulnerabilities-v17.0.1/",
       "https://monero.observer/woodser-releases-haveno-ts-v0.0.47/",
       "https://monero.observer/feather-wallet-website-suspected-serving-malware-1984-hosting-breach/",
@@ -417,8 +425,7 @@
       "https://monero.observer/cuprate-meeting-scheduled-17-november-2026/",
       "https://monero.observer/mmgen-wallet-patches-critical-security-bug-urges-monero-users-upgrade-v17.0.0/",
       "https://monero.observer/monero-tech-meeting-16-november-2026/",
-      "https://monero.observer/bitcart-v0.11.1.0-released-new-template-renderer/",
-      "https://monero.observer/monero-project-enrolls-into-anthropic-oss-scanner-service/"
+      "https://monero.observer/bitcart-v0.11.1.0-released-new-template-renderer/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/ebaf5fb184acc18919f414b65f1f42598a1c531f",
@@ -443,6 +450,9 @@
       "tag:github.com,2008:Grit::Commit/c4a1491b24272c7cafb1d11d0dd2c978937eced3"
     ],
     "monero-observer": [
+      "https://monero.observer/sneedlewoods-ccs-part-time-monero-dev-q4-2026-ready-funding/",
+      "https://monero.observer/xmrig-and-xmrig-proxy-v6.27.0-released/",
+      "https://monero.observer/monero-tech-meeting-30-november-2026/",
       "https://monero.observer/mmgen-wallet-patches-two-critical-vulnerabilities-v17.0.1/",
       "https://monero.observer/woodser-releases-haveno-ts-v0.0.47/",
       "https://monero.observer/orangefren-29/",
@@ -489,10 +499,7 @@
       "https://monero.observer/monero-tech-meeting-16-november-2026/",
       "https://monero.observer/silo/",
       "https://monero.observer/bitcart-v0.11.1.0-released-new-template-renderer/",
-      "https://monero.observer/edge-6/",
-      "https://monero.observer/smslease/",
-      "https://monero.observer/sunchakr-28/",
-      "https://monero.observer/monero-project-enrolls-into-anthropic-oss-scanner-service/"
+      "https://monero.observer/edge-6/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.4",
@@ -672,6 +679,6 @@
       ]
     }
   },
-  "last_run": "2026-11-23T11:15:01.679486+00:00",
-  "run_count": 313
+  "last_run": "2026-11-23T22:44:51.053707+00:00",
+  "run_count": 314
 }
