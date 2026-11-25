@@ -32,6 +32,7 @@
     "feed:mo-stories:https://monero.observer/cake-wallet-v6.5.3-pre-release-available-testing/": "2026-11-06T07:00:13.884473+00:00",
     "feed:mo-stories:https://monero.observer/cake-wallet-v6.5.4-pre-release-available-testing/": "2026-11-17T08:25:56.486372+00:00",
     "feed:mo-stories:https://monero.observer/chainalysis-customer-data-exposed-cybersecurity-incident/": "2026-11-01T08:04:33.624804+00:00",
+    "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-1-december-2026/": "2026-11-25T02:36:46.633647+00:00",
     "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-10-november-2026/": "2026-11-04T02:40:44.961232+00:00",
     "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-17-november-2026/": "2026-11-11T03:10:11.672693+00:00",
     "feed:mo-stories:https://monero.observer/cuprate-meeting-scheduled-20-october-2026/": "2026-10-14T04:44:35.681122+00:00",
@@ -227,8 +228,10 @@
     "feed:monero-observer:https://monero.observer/cake-wallet-v6.5.3-pre-release-available-testing/": "2026-11-06T07:00:12.478938+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-v6.5.4-pre-release-available-testing/": "2026-11-17T08:25:56.178589+00:00",
     "feed:monero-observer:https://monero.observer/chainalysis-customer-data-exposed-cybersecurity-incident/": "2026-11-01T08:04:32.554114+00:00",
+    "feed:monero-observer:https://monero.observer/corner_couch/": "2026-11-25T02:36:46.370851+00:00",
     "feed:monero-observer:https://monero.observer/cowaware7731/": "2026-10-13T07:03:57.851907+00:00",
     "feed:monero-observer:https://monero.observer/crypto-train/": "2026-11-16T06:52:03.077760+00:00",
+    "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-1-december-2026/": "2026-11-25T02:36:46.293445+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-10-november-2026/": "2026-11-04T02:40:44.573061+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-17-november-2026/": "2026-11-11T03:10:10.890309+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-20-october-2026/": "2026-10-14T04:44:33.377928+00:00",
@@ -291,6 +294,7 @@
     "feed:monero-observer:https://monero.observer/morse/": "2026-11-20T02:40:50.895944+00:00",
     "feed:monero-observer:https://monero.observer/nahuhh-releases-basicswap-bash-v0.19.1/": "2026-10-28T07:33:21.857465+00:00",
     "feed:monero-observer:https://monero.observer/nanashinick/": "2026-11-21T07:30:01.940749+00:00",
+    "feed:monero-observer:https://monero.observer/nowi333/": "2026-11-25T02:36:46.332470+00:00",
     "feed:monero-observer:https://monero.observer/noxswap/": "2026-11-01T08:04:32.736551+00:00",
     "feed:monero-observer:https://monero.observer/null-2/": "2026-10-21T00:55:21.995439+00:00",
     "feed:monero-observer:https://monero.observer/obscurify/": "2026-10-25T01:33:14.010807+00:00",
@@ -401,6 +405,7 @@
       "https://monero.observer/monero-dev-activity-report-week-41-2025/"
     ],
     "mo-stories": [
+      "https://monero.observer/cuprate-meeting-scheduled-1-december-2026/",
       "https://monero.observer/sneedlewoods-ccs-part-time-monero-dev-q4-2026-ready-funding/",
       "https://monero.observer/xmrig-and-xmrig-proxy-v6.27.0-released/",
       "https://monero.observer/monero-tech-meeting-30-november-2026/",
@@ -424,8 +429,7 @@
       "https://monero.observer/atsamd21-releases-haveno-android-app-v1.0.11/",
       "https://monero.observer/cuprate-meeting-scheduled-17-november-2026/",
       "https://monero.observer/mmgen-wallet-patches-critical-security-bug-urges-monero-users-upgrade-v17.0.0/",
-      "https://monero.observer/monero-tech-meeting-16-november-2026/",
-      "https://monero.observer/bitcart-v0.11.1.0-released-new-template-renderer/"
+      "https://monero.observer/monero-tech-meeting-16-november-2026/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/9d2c4a02eaff0cae6e1dc1225f86d247962bc732",
@@ -450,6 +454,9 @@
       "tag:github.com,2008:Grit::Commit/cbec7a43a8f71cffea1d0486e5f852dbfb36a6f9"
     ],
     "monero-observer": [
+      "https://monero.observer/cuprate-meeting-scheduled-1-december-2026/",
+      "https://monero.observer/nowi333/",
+      "https://monero.observer/corner_couch/",
       "https://monero.observer/sneedlewoods-ccs-part-time-monero-dev-q4-2026-ready-funding/",
       "https://monero.observer/xmrig-and-xmrig-proxy-v6.27.0-released/",
       "https://monero.observer/monero-tech-meeting-30-november-2026/",
@@ -496,10 +503,7 @@
       "https://monero.observer/forward_science/",
       "https://monero.observer/cuprate-meeting-scheduled-17-november-2026/",
       "https://monero.observer/mmgen-wallet-patches-critical-security-bug-urges-monero-users-upgrade-v17.0.0/",
-      "https://monero.observer/monero-tech-meeting-16-november-2026/",
-      "https://monero.observer/silo/",
-      "https://monero.observer/bitcart-v0.11.1.0-released-new-template-renderer/",
-      "https://monero.observer/edge-6/"
+      "https://monero.observer/monero-tech-meeting-16-november-2026/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.4",
@@ -679,6 +683,6 @@
       ]
     }
   },
-  "last_run": "2026-11-24T18:14:17.839176+00:00",
-  "run_count": 316
+  "last_run": "2026-11-25T02:36:48.495171+00:00",
+  "run_count": 317
 }
