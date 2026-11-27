@@ -27,7 +27,6 @@
     "feed:mo-stories:https://monero.observer/bitcart-v0.11.0.0-released-redesigned-payment-flow/": "2026-10-27T06:12:19.803422+00:00",
     "feed:mo-stories:https://monero.observer/bitcart-v0.11.1.0-released-new-template-renderer/": "2026-11-09T02:07:26.053989+00:00",
     "feed:mo-stories:https://monero.observer/boog900-cuprate-fcmp-support-ccs-fully-funded/": "2026-11-02T02:27:30.345582+00:00",
-    "feed:mo-stories:https://monero.observer/cake-wallet-monero.com-v6.5.0-adds-support-robinhood-chain/": "2026-10-13T07:03:59.058105+00:00",
     "feed:mo-stories:https://monero.observer/cake-wallet-monero.com-v6.5.2-released/": "2026-11-01T08:04:33.807963+00:00",
     "feed:mo-stories:https://monero.observer/cake-wallet-v6.5.3-pre-release-available-testing/": "2026-11-06T07:00:13.884473+00:00",
     "feed:mo-stories:https://monero.observer/cake-wallet-v6.5.4-pre-release-available-testing/": "2026-11-17T08:25:56.486372+00:00",
@@ -71,7 +70,6 @@
     "feed:mo-stories:https://monero.observer/monero-research-lab-meeting-4-november-2026/": "2026-10-29T02:56:35.326590+00:00",
     "feed:mo-stories:https://monero.observer/monero-talk-interview-cryptography-researcher-muhammed-esgin/": "2026-11-20T02:40:51.351487+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-16-november-2026/": "2026-11-10T02:59:07.115491+00:00",
-    "feed:mo-stories:https://monero.observer/monero-tech-meeting-19-october-2026/": "2026-10-13T07:03:59.159361+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-2-november-2026/": "2026-10-27T06:12:19.907837+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-23-november-2026/": "2026-11-17T08:25:56.524902+00:00",
     "feed:mo-stories:https://monero.observer/monero-tech-meeting-26-october-2026/": "2026-10-19T21:43:59.547148+00:00",
@@ -232,13 +230,11 @@
     "feed:monero-observer:https://monero.observer/bitcart-v0.11.1.0-released-new-template-renderer/": "2026-11-09T02:07:25.259029+00:00",
     "feed:monero-observer:https://monero.observer/bitpredict/": "2026-11-13T10:50:55.160403+00:00",
     "feed:monero-observer:https://monero.observer/boog900-cuprate-fcmp-support-ccs-fully-funded/": "2026-11-02T02:25:49.122285+00:00",
-    "feed:monero-observer:https://monero.observer/cake-wallet-monero.com-v6.5.0-adds-support-robinhood-chain/": "2026-10-13T07:03:57.961418+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-monero.com-v6.5.2-released/": "2026-11-01T08:04:32.919068+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-v6.5.3-pre-release-available-testing/": "2026-11-06T07:00:12.478938+00:00",
     "feed:monero-observer:https://monero.observer/cake-wallet-v6.5.4-pre-release-available-testing/": "2026-11-17T08:25:56.178589+00:00",
     "feed:monero-observer:https://monero.observer/chainalysis-customer-data-exposed-cybersecurity-incident/": "2026-11-01T08:04:32.554114+00:00",
     "feed:monero-observer:https://monero.observer/corner_couch/": "2026-11-25T02:36:46.370851+00:00",
-    "feed:monero-observer:https://monero.observer/cowaware7731/": "2026-10-13T07:03:57.851907+00:00",
     "feed:monero-observer:https://monero.observer/crypto-train/": "2026-11-16T06:52:03.077760+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-1-december-2026/": "2026-11-25T02:36:46.293445+00:00",
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-10-november-2026/": "2026-11-04T02:40:44.573061+00:00",
@@ -249,7 +245,6 @@
     "feed:monero-observer:https://monero.observer/cuprate-meeting-scheduled-3-november-2026/": "2026-10-28T07:33:22.080160+00:00",
     "feed:monero-observer:https://monero.observer/cyphergoat-launches-swapview-charting-project-instant-exchange-market/": "2026-11-27T04:19:29.498528+00:00",
     "feed:monero-observer:https://monero.observer/debian-ubuntu-derivative-linux-distros-vulnerable-mitm-atacks-apt-bug/": "2026-11-05T03:42:39.925856+00:00",
-    "feed:monero-observer:https://monero.observer/decolorizedxmr/": "2026-10-13T07:03:58.067225+00:00",
     "feed:monero-observer:https://monero.observer/disroot-reports-major-hardware-failure-storage-server/": "2026-10-27T06:12:18.763037+00:00",
     "feed:monero-observer:https://monero.observer/edge-6/": "2026-11-08T01:19:44.358515+00:00",
     "feed:monero-observer:https://monero.observer/eigenwallet-submits-ccs-proposal-6-months-dev-work-security-research/": "2026-11-17T08:25:56.098570+00:00",
@@ -288,7 +283,6 @@
     "feed:monero-observer:https://monero.observer/monero-research-lab-meeting-4-november-2026/": "2026-10-29T02:56:35.032728+00:00",
     "feed:monero-observer:https://monero.observer/monero-talk-interview-cryptography-researcher-muhammed-esgin/": "2026-11-20T02:40:50.678426+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-16-november-2026/": "2026-11-10T02:59:06.608149+00:00",
-    "feed:monero-observer:https://monero.observer/monero-tech-meeting-19-october-2026/": "2026-10-13T07:03:58.170712+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-2-november-2026/": "2026-10-27T06:12:19.085139+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-23-november-2026/": "2026-11-17T08:25:56.221819+00:00",
     "feed:monero-observer:https://monero.observer/monero-tech-meeting-26-october-2026/": "2026-10-19T21:43:58.185573+00:00",
@@ -697,6 +691,6 @@
       ]
     }
   },
-  "last_run": "2026-11-27T04:19:31.766272+00:00",
-  "run_count": 323
+  "last_run": "2026-11-27T14:01:57.768257+00:00",
+  "run_count": 324
 }
