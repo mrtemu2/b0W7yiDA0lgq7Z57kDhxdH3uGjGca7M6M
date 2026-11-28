@@ -20,6 +20,7 @@
     "feed:mo-breaking:https://monero.observer/mexc-to-delist-monero-dash-spot-trading-pairs-13-november-2026/": "2026-11-12T01:04:01.221142+00:00",
     "feed:mo-breaking:https://monero.observer/monero-ccs-website-temporarily-disabled-disclosure-critical-php-vulnerabilities/": "2026-10-23T07:23:01.433148+00:00",
     "feed:mo-breaking:https://monero.observer/monero-observer-clearnet-site-outage/": "2026-10-23T07:23:01.217086+00:00",
+    "feed:mo-breaking:https://monero.observer/xt-to-delist-xmr-usdt-spot-trading-pair-28-november-2026/": "2026-11-28T04:19:56.070581+00:00",
     "feed:mo-stories:https://monero.observer/atsamd21-releases-haveno-android-app-v1.0.11/": "2026-11-11T03:10:11.455922+00:00",
     "feed:mo-stories:https://monero.observer/binance-suffers-largest-hack-crypto-history-to-cover-all-losses/": "2026-10-30T07:18:33.546790+00:00",
     "feed:mo-stories:https://monero.observer/biscuit-wallet-v1.2.1-released-support-swaps-tor-mode/": "2026-10-23T07:23:00.051719+00:00",
@@ -82,6 +83,7 @@
     "feed:mo-stories:https://monero.observer/rehrar-releases-stack-wallet-v2.7.5/": "2026-11-12T01:04:00.397379+00:00",
     "feed:mo-stories:https://monero.observer/selsta-posts-monero-dev-report-october-2026/": "2026-11-06T07:00:13.001372+00:00",
     "feed:mo-stories:https://monero.observer/silverpill-ccs-proposal-monero-rs-to-monero-oxide-migration/": "2026-10-17T01:50:10.624606+00:00",
+    "feed:mo-stories:https://monero.observer/sneedlewoods-ccs-monero-dev-work-q4-2026-fully-funded/": "2026-11-28T04:19:55.120799+00:00",
     "feed:mo-stories:https://monero.observer/sneedlewoods-ccs-part-time-monero-dev-q4-2026-ready-funding/": "2026-11-23T22:44:47.891974+00:00",
     "feed:mo-stories:https://monero.observer/syntheticbird-cuprate-ccs-fully-funded/": "2026-11-21T07:30:02.684355+00:00",
     "feed:mo-stories:https://monero.observer/tobtoht-releases-feather-wallet-v2.9.1/": "2026-11-03T02:27:38.584295+00:00",
@@ -95,6 +97,7 @@
     "feed:mo-stories:https://monero.observer/xmrig-and-xmrig-proxy-v6.27.0-released/": "2026-11-23T22:44:47.990804+00:00",
     "feed:mo-stories:https://monero.observer/xmrpod-v0.1.23-released/": "2026-10-14T04:44:35.464450+00:00",
     "feed:mo-stories:https://monero.observer/xmrpod-v0.1.24-released/": "2026-10-23T07:23:00.262788+00:00",
+    "feed:mo-stories:https://monero.observer/xt-to-delist-xmr-usdt-spot-trading-pair-28-november-2026/": "2026-11-28T04:19:55.020298+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/0120dda4d58fa6a7e6c822894fc1d7f4c48f445e": "2026-11-07T13:29:30.860816+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/02cbc1b3d0780cc903e3d02a87dc030902b3ed75": "2026-11-24T18:14:15.240311+00:00",
     "feed:monero-commits:tag:github.com,2008:Grit::Commit/046e926d338dff676bf35a7f8e6d62e85d9b28fe": "2026-11-09T20:39:25.203641+00:00",
@@ -261,6 +264,7 @@
     "feed:monero-observer:https://monero.observer/jpk68-completes-ccs-monero-dev-work-full-time/": "2026-11-06T07:00:12.043695+00:00",
     "feed:monero-observer:https://monero.observer/keystone-to-destroy-18835-compromised-harware-wallets-after-data-breach/": "2026-10-28T07:33:18.516076+00:00",
     "feed:monero-observer:https://monero.observer/kucoin-to-delist-monero-trading-pairs-30-november-2026/": "2026-11-27T04:19:29.537533+00:00",
+    "feed:monero-observer:https://monero.observer/latelunne/": "2026-11-28T04:19:54.508867+00:00",
     "feed:monero-observer:https://monero.observer/love-life-wo/": "2026-10-16T00:29:15.029511+00:00",
     "feed:monero-observer:https://monero.observer/magic-grants-releases-skylight-wallet-v2.2.0/": "2026-11-03T02:27:38.460800+00:00",
     "feed:monero-observer:https://monero.observer/mcawesom96/": "2026-10-23T07:22:58.786195+00:00",
@@ -311,6 +315,7 @@
     "feed:monero-observer:https://monero.observer/plowsof-23/": "2026-11-26T03:13:48.006497+00:00",
     "feed:monero-observer:https://monero.observer/plowsof-posts-second-progress-report-7th-ccs-coordinator-term/": "2026-11-13T23:42:12.084355+00:00",
     "feed:monero-observer:https://monero.observer/rehrar-releases-stack-wallet-v2.7.5/": "2026-11-12T01:03:59.907370+00:00",
+    "feed:monero-observer:https://monero.observer/rottenwheel-31/": "2026-11-28T04:19:54.706830+00:00",
     "feed:monero-observer:https://monero.observer/rucknium-25/": "2026-10-31T02:30:52.586532+00:00",
     "feed:monero-observer:https://monero.observer/rucknium-26/": "2026-11-13T23:42:11.912381+00:00",
     "feed:monero-observer:https://monero.observer/sablebolt/": "2026-11-13T10:50:55.416673+00:00",
@@ -319,6 +324,7 @@
     "feed:monero-observer:https://monero.observer/silo/": "2026-11-09T02:07:25.435458+00:00",
     "feed:monero-observer:https://monero.observer/silverpill-ccs-proposal-monero-rs-to-monero-oxide-migration/": "2026-10-17T01:50:09.039080+00:00",
     "feed:monero-observer:https://monero.observer/smslease/": "2026-11-08T01:19:44.516598+00:00",
+    "feed:monero-observer:https://monero.observer/sneedlewoods-ccs-monero-dev-work-q4-2026-fully-funded/": "2026-11-28T04:19:54.601328+00:00",
     "feed:monero-observer:https://monero.observer/sneedlewoods-ccs-part-time-monero-dev-q4-2026-ready-funding/": "2026-11-23T22:44:47.327233+00:00",
     "feed:monero-observer:https://monero.observer/sunchakr-27/": "2026-10-30T07:18:33.089276+00:00",
     "feed:monero-observer:https://monero.observer/sunchakr-28/": "2026-11-08T01:19:44.670574+00:00",
@@ -344,6 +350,7 @@
     "feed:monero-observer:https://monero.observer/xmrig-and-xmrig-proxy-v6.27.0-released/": "2026-11-23T22:44:47.424842+00:00",
     "feed:monero-observer:https://monero.observer/xmrpod-v0.1.23-released/": "2026-10-14T04:44:33.160506+00:00",
     "feed:monero-observer:https://monero.observer/xmrpod-v0.1.24-released/": "2026-10-23T07:22:59.211299+00:00",
+    "feed:monero-observer:https://monero.observer/xt-to-delist-xmr-usdt-spot-trading-pair-28-november-2026/": "2026-11-28T04:19:54.404122+00:00",
     "feed:monero-observer:https://monero.observer/zedeus/": "2026-10-18T22:34:49.939461+00:00",
     "feed:monero-observer:https://monero.observer/zeroxbee/": "2026-11-17T08:25:56.137285+00:00",
     "feed:monero-releases:tag:github.com,2008:Repository/19316619/v0.18.5.4": "2026-10-15T10:04:47.769229+00:00",
@@ -381,6 +388,7 @@
       "https://www.getmonero.org/2025/08/27/fcmp++-contest-final"
     ],
     "mo-breaking": [
+      "https://monero.observer/xt-to-delist-xmr-usdt-spot-trading-pair-28-november-2026/",
       "https://monero.observer/kucoin-to-delist-monero-trading-pairs-30-november-2026/",
       "https://monero.observer/feather-wallet-website-suspected-serving-malware-1984-hosting-breach/",
       "https://monero.observer/mexc-to-delist-monero-dash-spot-trading-pairs-13-november-2026/",
@@ -410,10 +418,11 @@
       "https://monero.observer/monero-dev-activity-report-week-45-2025/",
       "https://monero.observer/monero-dev-activity-report-week-44-2025/",
       "https://monero.observer/monero-dev-activity-report-week-43-2025/",
-      "https://monero.observer/monero-dev-activity-report-week-42-2025/",
-      "https://monero.observer/monero-dev-activity-report-week-41-2025/"
+      "https://monero.observer/monero-dev-activity-report-week-42-2025/"
     ],
     "mo-stories": [
+      "https://monero.observer/xt-to-delist-xmr-usdt-spot-trading-pair-28-november-2026/",
+      "https://monero.observer/sneedlewoods-ccs-monero-dev-work-q4-2026-fully-funded/",
       "https://monero.observer/navidr-submits-ccs-proposal-monero-dev-work-3-months/",
       "https://monero.observer/cyphergoat-launches-swapview-charting-project-instant-exchange-market/",
       "https://monero.observer/kucoin-to-delist-monero-trading-pairs-30-november-2026/",
@@ -436,8 +445,7 @@
       "https://monero.observer/xmr-summer-rally-cut-short-by-worst-weekly-close-since-january-2026/",
       "https://monero.observer/haveno-v1.13.0-released-security-updates-bug-fixes-ui-improvements/",
       "https://monero.observer/monero-community-workgroup-meeting-28-november-2026/",
-      "https://monero.observer/plowsof-posts-second-progress-report-7th-ccs-coordinator-term/",
-      "https://monero.observer/mexc-to-delist-monero-dash-spot-trading-pairs-13-november-2026/"
+      "https://monero.observer/plowsof-posts-second-progress-report-7th-ccs-coordinator-term/"
     ],
     "monero-commits": [
       "tag:github.com,2008:Grit::Commit/8b370b2ce576d5b933fc3fc125a8f18109525c8d",
@@ -462,6 +470,10 @@
       "tag:github.com,2008:Grit::Commit/c91b2adc0628c94072b23b54f6394f4d160777ec"
     ],
     "monero-observer": [
+      "https://monero.observer/xt-to-delist-xmr-usdt-spot-trading-pair-28-november-2026/",
+      "https://monero.observer/latelunne/",
+      "https://monero.observer/sneedlewoods-ccs-monero-dev-work-q4-2026-fully-funded/",
+      "https://monero.observer/rottenwheel-31/",
       "https://monero.observer/navidr-submits-ccs-proposal-monero-dev-work-3-months/",
       "https://monero.observer/cyphergoat-launches-swapview-charting-project-instant-exchange-market/",
       "https://monero.observer/kucoin-to-delist-monero-trading-pairs-30-november-2026/",
@@ -507,11 +519,7 @@
       "https://monero.observer/monero-community-workgroup-meeting-28-november-2026/",
       "https://monero.observer/thomasbuilds/",
       "https://monero.observer/rucknium-26/",
-      "https://monero.observer/plowsof-posts-second-progress-report-7th-ccs-coordinator-term/",
-      "https://monero.observer/samsunggalaxyplayer-19/",
-      "https://monero.observer/bitpredict/",
-      "https://monero.observer/mexc-to-delist-monero-dash-spot-trading-pairs-13-november-2026/",
-      "https://monero.observer/veilswap/"
+      "https://monero.observer/plowsof-posts-second-progress-report-7th-ccs-coordinator-term/"
     ],
     "monero-releases": [
       "tag:github.com,2008:Repository/19316619/v0.18.5.4",
@@ -691,6 +699,6 @@
       ]
     }
   },
-  "last_run": "2026-11-27T22:38:58.913558+00:00",
-  "run_count": 325
+  "last_run": "2026-11-28T04:19:57.894232+00:00",
+  "run_count": 326
 }
